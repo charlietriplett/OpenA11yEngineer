@@ -16,9 +16,9 @@ layout: default
                         Choose the things you need to make
                     </h2>
 
+                    {% assign categories =  site.checklist-native | map: 'categories' | join: ','  | split: ',' | uniq  %}
+                    {% for category in site.native-categories-order %}
                     <fieldset>
-                        {% assign categories =  site.checklist-web | map: 'categories' | join: ','  | split: ',' | uniq  %}
-                        {% for category in site.native-categories-order %}
                         <legend class="checklist-landmark">
                             {{ category | escape | capitalize }}
                         </legend>
@@ -27,8 +27,8 @@ layout: default
                                 {% include checklist-loop.html %}
                             {% endfor %}
                         </ul>
-                        {% endfor %}
                     </fieldset>
+                    {% endfor %}
                 </div>
 
 

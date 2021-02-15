@@ -16,19 +16,19 @@ layout: default
             Choose the things you need to make
           </h2>
 
-          <fieldset>
             {% assign categories =  site.checklist-web | map: 'categories' | join: ','  | split: ',' | uniq  %}
             {% for category in site.web-categories-order %}
-            <legend class="checklist-landmark"><span aria-hidden="true">
-                <span aria-hidden="true">&lt;</span>{{ category | escape }}<span aria-hidden="true">&gt;</span>
-            </legend>
-            <ul>
-              {% for page in site.checklist-web %}
-                {% include checklist-loop.html %}
-              {% endfor %}
-            </ul>
+              <fieldset>
+                <legend class="checklist-landmark">
+                  <span aria-hidden="true">&lt;</span>{{ category | escape }}<span aria-hidden="true">&gt;</span>
+                </legend>
+                <ul>
+                  {% for page in site.checklist-web %}
+                    {% include checklist-loop.html %}
+                  {% endfor %}
+                </ul>
+              </fieldset>
             {% endfor %}
-          </fieldset>
         </div>
 
 
