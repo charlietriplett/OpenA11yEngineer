@@ -12,14 +12,10 @@ layout: default
     <form>
       <div class="success-criteria-maker">
         <div class="checklist-container">
-          <h2 class="h-charlie">
-            Choose the things you need to make
-          </h2>
-
             {% assign categories =  site.checklist-web | map: 'categories' | join: ','  | split: ',' | uniq  %}
             {% for category in site.web-categories-order %}
               <fieldset>
-                <legend class="checklist-landmark">
+                <legend class="checklist-landmark h-bravo">
                   <span aria-hidden="true">&lt;</span>{{ category | escape }}<span aria-hidden="true">&gt;</span>
                 </legend>
                 <ul>
@@ -30,26 +26,8 @@ layout: default
               </fieldset>
             {% endfor %}
         </div>
+        {% include criteria-textarea.html %}
 
-
-        <div>
-          <div class="textarea-container">
-            <label for="criteria-area" class="h-charlie">
-              Success criteria
-            </label>
-            <textarea id="criteria-area"></textarea>
-            <div class="textarea-controls">
-              <div>
-                <button id="copy" class="button-alpha" type="button">
-                  Copy
-                </button>
-                <!--<input type="checkbox" role="switch" id="markdown">-->
-                <!--<label for="markdown">Show Markdown</label>-->
-
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </form>
   </div>
