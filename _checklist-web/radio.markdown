@@ -2,6 +2,7 @@
 layout: entry
 title:  "Radio button"
 categories: form
+order: 2
 
 name:  |
     Input label and purpose is clear

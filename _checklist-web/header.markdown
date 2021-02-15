@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Header"
+title:  "Header / banner"
 categories: header
 
 keyboard:

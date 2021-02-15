@@ -20,24 +20,6 @@ main {
     max-width: $break-small;
   }
 
-  &.success-criteria-entry {
-    @include break($break-max) {
-      //display: grid;
-      //grid-template-columns: 1fr 1fr;
-      //grid-column-gap: 4rem;
-    }
-    .success-criteria {
-      @include break($break-max) {
-        //display: grid;
-        //grid-template-columns: 1fr 1fr 1fr;
-        //grid-column-gap: 2rem;
-      }
-
-    }
-
-  }
-
-
 }
 
 /*

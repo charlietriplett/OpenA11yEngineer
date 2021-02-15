@@ -16,7 +16,7 @@ layout: default
             <legend>
               Choose the things you need to make
             </legend>
-              {% assign categories =  site.checklist-web | map: 'categories' | join: ','  | split: ',' | uniq | reverse %}
+              {% assign categories =  site.checklist-web | map: 'categories' | join: ','  | split: ',' | uniq  %}
               {% for category in site.categories-order %}
               <h3 class="h-bravo checklist-landmark"><span aria-hidden="true">
                 <span aria-hidden="true">&lt;</span>{{ category | escape }}<span aria-hidden="true">&gt;</span>
@@ -44,10 +44,10 @@ h3. Mobile screenreader test
 {{ top | strip | lstrip }}
 {% endcapture %}
 <li>
-<input type="checkbox" id="{{ page.title | escape }}" data-success-criteria="
+<input type="checkbox" id="{{ category | escape }}-{{ page.title | escape }}" data-success-criteria="
 {{ all | strip | lstrip }}
 ">
-<label for="{{ page.title | escape }}">
+<label for="{{ category | escape }}-{{ page.title | escape }}">
 {{ page.title | escape }}
 </label>
 

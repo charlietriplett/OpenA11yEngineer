@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Navigation"
+title:  "Navigation menu"
 categories: nav
 
 keyboard:

@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Footer"
+title:  "Footer / contentinfo"
 categories: footer
 
 keyboard:

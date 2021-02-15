@@ -1,6 +1,6 @@
 ---
 layout: checklist-web
-title: Web Checklist
+title: Web Accessibility Checklist
 permalink: /web/
 entrytype: checklist-web
 ---
