@@ -15,7 +15,7 @@ focus: |
         Visibly focusable
 keyboard:
     tab: |
-        Visibly focusable
+        Focus moves to the button
     enter: |
         Activate
     spacebar: |
