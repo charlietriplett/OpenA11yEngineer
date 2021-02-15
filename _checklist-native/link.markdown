@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Link"
-categories: web
+categories: navigation
 
 name:  |
     Purpose is clear

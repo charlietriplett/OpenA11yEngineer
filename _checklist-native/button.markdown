@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Button"
-categories: web form input
+categories: controls
 
 name:  |
     Purpose is clear

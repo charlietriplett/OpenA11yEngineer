@@ -12,61 +12,22 @@ layout: default
     <form>
       <div class="success-criteria-maker">
         <div class="checklist-container">
+          <h2 class="h-charlie">
+            Choose the things you need to make
+          </h2>
+
           <fieldset>
-            <legend>
-              Choose the things you need to make
-            </legend>
-              {% assign categories =  site.checklist-web | map: 'categories' | join: ','  | split: ',' | uniq  %}
-              {% for category in site.categories-order %}
-              <h3 class="h-bravo checklist-landmark"><span aria-hidden="true">
+            {% assign categories =  site.checklist-web | map: 'categories' | join: ','  | split: ',' | uniq  %}
+            {% for category in site.web-categories-order %}
+            <legend class="checklist-landmark"><span aria-hidden="true">
                 <span aria-hidden="true">&lt;</span>{{ category | escape }}<span aria-hidden="true">&gt;</span>
-              </h3>
-              <ul>
-{% for page in site.checklist-web %}
-{% if page.categories contains category %}
-{% capture top %}
-h2. {{ page.title | strip_newlines | lstrip }}
-- Full information: {{ page.url | absolute_url }}
-
-h3. Keyboard test
-{% for input in page.keyboard %}- *{{ input[0] | capitalize }}:* {{ input[1] | escape }}{% endfor %}
-h3. Screenreader test
-- *Name:* {{ page.name | strip_newlines }}
-- *Role:* {{ page.role | strip_newlines }}
-- *Group:* {{ page.group | strip_newlines }}
-- *State:* {{ page.state | strip_newlines }}
-
-h3. Mobile screenreader test
-{% for input in page.mobile %}- *{{ input[0] | capitalize }}:* {{ input[1] | escape }}{% endfor %}
-{% endcapture %}
-
-{% capture all %}
-{{ top | strip | lstrip }}
-{% endcapture %}
-<li>
-<input type="checkbox" id="{{ category | escape }}-{{ page.title | escape }}" data-success-criteria="
-{{ all | strip | lstrip }}
-">
-<label for="{{ category | escape }}-{{ page.title | escape }}">
-{{ page.title | escape }}
-</label>
-
-<a class="checklist-link" href="{{ page.url | relative_url }}">
-
-<span class="hidden">
-{{ page.title | escape }}
-</span>
-</a>
-</li>
-
-{% endif %}
-{% endfor %}
-</ul>
-{% endfor %}
-
-
-
-
+            </legend>
+            <ul>
+              {% for page in site.checklist-web %}
+                {% include checklist-loop.html %}
+              {% endfor %}
+            </ul>
+            {% endfor %}
           </fieldset>
         </div>
 
@@ -76,16 +37,16 @@ h3. Mobile screenreader test
             <label for="criteria-area" class="h-charlie">
               Success criteria
             </label>
-              <textarea id="criteria-area"></textarea>
+            <textarea id="criteria-area"></textarea>
             <div class="textarea-controls">
-                <div>
-                    <button id="copy" class="button-alpha" type="button">
-                        Copy
-                    </button>
-                    <!--<input type="checkbox" role="switch" id="markdown">-->
-                    <!--<label for="markdown">Show Markdown</label>-->
+              <div>
+                <button id="copy" class="button-alpha" type="button">
+                  Copy
+                </button>
+                <!--<input type="checkbox" role="switch" id="markdown">-->
+                <!--<label for="markdown">Show Markdown</label>-->
 
-                </div>
+              </div>
             </div>
           </div>
         </div>

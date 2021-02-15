@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "How to use these criteria"
-categories: web form input
+categories: notifications/modals
 
 name:  |
     Purpose is clear

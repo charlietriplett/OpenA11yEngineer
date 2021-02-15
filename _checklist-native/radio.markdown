@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Radio button"
-categories: native form input
+categories: controls
 
 name:  |
     Input label and purpose is clear
