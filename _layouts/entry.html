@@ -1,0 +1,81 @@
+---
+layout: default
+---
+<article>
+  <div class="container narrow">
+    <h1 class="h-alpha">
+      {{ page.title | escape }}
+    </h1>
+  </div>
+  <div class="container success-criteria-entry narrow">
+
+    <div class="success-criteria">
+      <div>
+      <h2 class="h-bravo">Keyboard</h2>
+        <table>
+          <tbody>
+            <tr>
+              <th scope="col">When I use</th>
+              <th scope="col">I see</th>
+            </tr>
+            {% for input in page.keyboard %}
+              <tr>
+                <th scope="row">{{ input[0] | capitalize }}</th>
+                <td>{{ input[1] | escape }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <div>
+        <h2 class="h-bravo">Screenreader</h2>
+        <table>
+            <tbody>
+            <tr>
+              <th scope="col">Requirement</th>
+              <th scope="col">I hear</th>
+            </tr>
+            <tr>
+              <th scope="row">Name</th>
+              <td>{{ page.name | escape }}</td>
+            </tr>
+            <tr>
+              <th scope="row">Role</th>
+              <td>{{ page.role | escape }}</td>
+            </tr>
+            <tr>
+              <th scope="row">Group</th>
+              <td>{{ page.group | escape }}</td>
+            </tr>
+            <tr>
+              <th scope="row">State</th>
+              <td>{{ page.state | escape }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h2 class="h-bravo">Mobile screenreader</h2>
+        <table>
+          <tbody>
+          <tr>
+            <th scope="col">When I use:</th>
+            <th scope="col">I hear:</th>
+          </tr>
+          {% for input in page.mobile %}
+          <tr>
+            <th scope="row">{{ input[0] | capitalize }}</th>
+            <td>{{ input[1] | escape }}</td>
+          </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="post-content container narrow">
+    {{ content }}
+  </div>
+
+</article>

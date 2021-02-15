@@ -1,0 +1,236 @@
+.statistic {
+  @include clearfix;
+  padding-top: 1rem;
+
+  .intro-text {
+    margin: 0px auto;
+    max-width: 768px;
+  }
+
+  .group {
+    width: calc(100%);
+    float: none;
+    clear: both;
+
+    .title {
+      padding: 0 0 1rem 0;
+      display: block;
+      text-align: center;
+    }
+
+    .unit {
+      text-align: center;
+      padding: 0 1rem;
+      line-height: 1.5rem;
+      @include regular;
+
+      @include break($break-small) {
+        float: left;
+        width: calc(50% - 2rem);
+        padding: 1rem;
+
+        &:nth-of-type(2n+1) {
+          clear: left;
+        }
+        &:nth-of-type(2n) {
+        }
+
+      }
+      p {
+        position: relative;
+        font-size: 1.5rem;
+        text-align: center;
+        color: $red;
+
+        span {
+          display: block;
+
+          &.stat {
+            margin: 0rem;
+            background: $red;
+            box-shadow: inset 0 0 50px 1px darken($red,20);
+            border-radius: 2px;
+            text-shadow: 0 -2px 0px darken($red,20);
+            color: #fff;
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+            font-size: 20vw;
+            line-height: 20vw;
+
+            @include bold;
+            text-transform: uppercase;
+            background-image: repeating-linear-gradient(
+                            -45deg,
+                            rgba($red,.2),
+                            rgba($red,.2) 10px,
+                            rgba(darken($red,20),.2) 10px,
+                            rgba(darken($red,20),.2) 20px
+            );
+            @include break($break-small) {
+              font-size: 5rem;
+              line-height: 5rem;
+            }
+
+            @include break($break-mid) {
+              font-size: 6rem;
+              line-height: 6rem;
+            }
+
+          }
+          sup {
+            font-size: 1.5rem;
+            line-height: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.figure-statistic {
+  @include clearfix;
+
+  .single-statistic {
+    max-width: $break-small;
+    margin: 0px auto;
+
+  }
+  figure {
+  }
+
+  &.left {
+    .single-statistic {
+      @include break($break-large) {
+        width: calc(100% - 720px - 1rem);
+        margin-right: 1rem;
+        margin-top: 5rem;
+        float: left;
+      }
+    }
+    figure {
+      @include break($break-large) {
+        display: block;
+        width: calc(720px);
+        float: left;
+      }
+    }
+  }
+  &.right {
+    .single-statistic {
+      @include break($break-large) {
+        float: right;
+        width: calc(100% - 720px - 1rem);
+        margin-right: 1rem;
+        margin-top: 5rem;
+      }
+    }
+    figure {
+      float: left;
+    }
+
+  }
+  &.full {
+    @include break($break-large) {
+      .single-statistic {
+        display: block;
+        width: calc(100%);
+        margin: 0px auto;
+        float: none;
+      }
+      figure {
+        float: none;
+      }
+    }
+  }
+}
+
+.of-2,
+.of-3 {
+  .figure-statistic {
+    &.left,
+    &.right {
+      .single-statistic {
+        display: block;
+        width: calc(100%);
+        margin: 0px auto;
+        float: none;
+      }
+      figure {
+        float: none;
+      }
+    }
+
+  }
+}
+
+.statistic-callout {
+  text-align: center;
+
+  .start,
+  .end {
+    display: block;
+    position: relative;
+    font-size: 1.5rem;
+    text-align: center;
+    color: $red;
+    max-width: 20rem;
+    margin: 0px auto;
+
+    @include break($break-large) {
+      font-size: 1.25rem;
+    }
+    @include break($break-max) {
+      font-size: 1.5rem;
+    }
+  }
+  .emphasis {
+    margin: 0rem;
+    background: $red;
+    box-shadow: inset 0 0 50px 1px darken($red,20);
+    border-radius: 2px;
+    text-shadow: 0 -2px 0px darken($red,20);
+    color: #fff;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: 0 1rem;
+    font-size: 20vw;
+    line-height: 20vw;
+    display: inline-block;
+    text-align: center;
+    @include bold;
+    text-transform: uppercase;
+    background-image: repeating-linear-gradient(
+                    -45deg,
+                    rgba($red,.2),
+                    rgba($red,.2) 10px,
+                    rgba(darken($red,20),.2) 10px,
+                    rgba(darken($red,20),.2) 20px
+    );
+    @include break($break-small) {
+      font-size: 5rem;
+      line-height: 5rem;
+    }
+
+    @include break($break-mid) {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+  }
+  .superscript {
+    font-size: 1.5rem;
+    line-height: 0;
+    position: relative;
+    top: -5vw;
+    color: #fff;
+
+    @include break($break-small) {
+      top: -1.25rem;
+    }
+
+    @include break($break-mid) {
+      top: -.75rem;
+
+    }
+  }
+  
+}

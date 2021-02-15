@@ -1,0 +1,15 @@
+#smartmap-mapcanvas-1 {
+  height: 600px;
+  margin-bottom: 2rem;
+}
+
+.map-info-window {
+  text-align: left;
+  margin-top: .25rem;
+  font-size: 1rem;
+  @include sans;
+
+  .crash-outcome {
+    text-transform: capitalize;
+  }
+}

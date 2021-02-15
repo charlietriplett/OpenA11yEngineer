@@ -1,0 +1,42 @@
+/* Captions */
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+svg {
+	fill: $blue;
+	margin: 0px auto;
+	display: block;
+	padding: .5rem;
+}
+
+
+/* End captions */
+
+/* Begin Images */
+img,
+embed,
+object,
+video {
+	padding:0;
+	margin: 0;
+	max-width: 100%;
+	height: auto;
+}
+
+
+.icon {
+	svg {
+		max-width: 64px;
+		max-height: 64px;
+	}
+}
+
+a.gallery-image {
+	display: block;
+	box-shadow: 0 1px 3px 1px rgba($gray-lite,.4);
+}
