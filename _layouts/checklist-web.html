@@ -16,12 +16,14 @@ layout: default
             <legend>
               Choose the things you need to make
             </legend>
-
-
-
-            <ul class="checklist-container">
-<!--No tabs for output cleanliness-->
-{%- for page in site.checklist-web -%}
+              {% assign categories =  site.checklist-web | map: 'categories' | join: ','  | split: ',' | uniq | reverse %}
+              {% for category in site.categories-order %}
+              <h3 class="h-bravo checklist-landmark"><span aria-hidden="true">
+                <span aria-hidden="true">&lt;</span>{{ category | escape }}<span aria-hidden="true">&gt;</span>
+              </h3>
+              <ul>
+{% for page in site.checklist-web %}
+{% if page.categories contains category %}
 {% capture top %}
 h2. {{ page.title | strip_newlines | lstrip }}
 - Full information: {{ page.url | absolute_url }}
@@ -41,7 +43,6 @@ h3. Mobile screenreader test
 {% capture all %}
 {{ top | strip | lstrip }}
 {% endcapture %}
-
 <li>
 <input type="checkbox" id="{{ page.title | escape }}" data-success-criteria="
 {{ all | strip | lstrip }}
@@ -57,8 +58,15 @@ h3. Mobile screenreader test
 </span>
 </a>
 </li>
+
+{% endif %}
 {% endfor %}
-            </ul>
+</ul>
+{% endfor %}
+
+
+
+
           </fieldset>
         </div>
 
@@ -74,6 +82,8 @@ h3. Mobile screenreader test
                     <button id="copy" class="button-alpha" type="button">
                         Copy
                     </button>
+                    <!--<input type="checkbox" role="switch" id="markdown">-->
+                    <!--<label for="markdown">Show Markdown</label>-->
 
                 </div>
             </div>

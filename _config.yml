@@ -38,6 +38,13 @@ collections:
     output: true
   checklist-native:
     output: true
+categories-order:
+- header
+- nav
+- main
+- form
+- footer
+- help
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "How to use this tool"
-categories: form
+categories: help
 
 keyboard:
     tab: |
