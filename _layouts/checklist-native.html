@@ -19,8 +19,8 @@ layout: default
                     <fieldset>
                         {% assign categories =  site.checklist-web | map: 'categories' | join: ','  | split: ',' | uniq  %}
                         {% for category in site.native-categories-order %}
-                        <legend class="checklist-landmark"><span aria-hidden="true">
-                        {{ category | escape | capitalize }}
+                        <legend class="checklist-landmark">
+                            {{ category | escape | capitalize }}
                         </legend>
                         <ul>
                             {% for page in site.checklist-native %}
