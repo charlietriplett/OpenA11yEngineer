@@ -22,7 +22,7 @@ title: A11yEngineer
 email: arc-support@t-mobile.com
 description: >- # this means to ignore newlines until "baseurl:"
   Accessibility success criteria
-baseurl: "/a11yEngineerBravo" # the subpath of your site, e.g. /blog
+baseurl: "/OpenA11yEngineer" # the subpath of your site, e.g. /blog
 url: "https://charlietriplett.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: a11yengineer
 github_username:  jekyll
