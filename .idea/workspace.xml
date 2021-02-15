@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_includes/criteria-textarea.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/checklist-native.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/checklist-native.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/checklist-web.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/checklist-web.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/criteria-textarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/criteria-textarea.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/modules/_checklist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_checklist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/modules/_table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_table.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/modules/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/modules/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_typography.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,35 +24,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="15" />
+          <entry key="html" value="17" />
           <entry key="markdown" value="29" />
           <entry key="md" value="1" />
-          <entry key="scss" value="34" />
+          <entry key="scss" value="36" />
           <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="15" />
+          <entry key="HTML" value="17" />
           <entry key="Markdown" value="30" />
-          <entry key="SCSS" value="34" />
+          <entry key="SCSS" value="36" />
           <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="667" />
+          <entry key="html" value="668" />
           <entry key="markdown" value="1203" />
           <entry key="md" value="14" />
-          <entry key="scss" value="529" />
+          <entry key="scss" value="615" />
           <entry key="yml" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="667" />
+          <entry key="HTML" value="668" />
           <entry key="Markdown" value="1217" />
-          <entry key="SCSS" value="529" />
+          <entry key="SCSS" value="615" />
           <entry key="YAML" value="117" />
         </counts>
       </usages-collector>
@@ -75,6 +74,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/criteria-textarea.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/checklist-native.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -86,8 +94,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/modules/_checklist.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="60">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/modules/_typography.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="156" selection-start-line="156" selection-end-line="156" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/modules/_layout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/checklist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -104,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/modules/_forms.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="182">
+              <caret line="523" column="16" selection-start-line="523" selection-start-column="4" selection-end-line="523" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -133,6 +168,9 @@
       <find>fieldset</find>
       <find>web</find>
       <find>categories-order</find>
+      <find>ul</find>
+      <find>checklist-container</find>
+      <find>last-of-type</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,11 +207,12 @@
         <option value="$PROJECT_DIR$/_includes/checklist-loop.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_checklist-native/template.markdown" />
-        <option value="$PROJECT_DIR$/_sass/modules/_forms.scss" />
-        <option value="$PROJECT_DIR$/_includes/criteria-textarea.html" />
         <option value="$PROJECT_DIR$/_layouts/checklist-web.html" />
         <option value="$PROJECT_DIR$/_layouts/checklist-native.html" />
         <option value="$PROJECT_DIR$/_sass/modules/_table.scss" />
+        <option value="$PROJECT_DIR$/_includes/criteria-textarea.html" />
+        <option value="$PROJECT_DIR$/_sass/modules/_forms.scss" />
+        <option value="$PROJECT_DIR$/_sass/modules/_typography.scss" />
         <option value="$PROJECT_DIR$/_sass/modules/_checklist.scss" />
       </list>
     </option>
@@ -185,7 +224,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
+    <option name="x" value="196" />
     <option name="y" value="25" />
     <option name="width" value="1459" />
     <option name="height" value="1025" />
@@ -274,12 +313,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613352052839</updated>
-      <workItem from="1613352054010" duration="15740000" />
+      <workItem from="1613352054010" duration="17562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15740000" />
+    <option name="totallyTimeSpent" value="17562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,7 +330,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="25" width="1459" height="1025" extended-state="0" />
+    <frame x="196" y="25" width="1459" height="1025" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -347,13 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/checklist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -591,23 +623,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/modules/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/modules/_all.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/modules/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_checklist-web/headings.markdown">
@@ -630,22 +650,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/modules/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/checklist-criteria-container.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/criteria-textarea.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/checklist-loop.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -705,10 +711,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/checklist-native.html">
+    <entry file="file://$PROJECT_DIR$/_includes/criteria-textarea.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -719,10 +725,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/checklist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/checklist-native.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/modules/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/modules/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="523" column="16" selection-start-line="523" selection-start-column="4" selection-end-line="523" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/modules/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/modules/_checklist.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>

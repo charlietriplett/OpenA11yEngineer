@@ -9,14 +9,14 @@ form {
     list-style-type: none;
   }
   ul {
-    border-bottom: 1px solid $color-border-gray;
+    border-top: 3px solid #000;
 
   }
   li {
     margin: 0rem;
     display: flex;
     border: 1px solid $color-border-gray;
-    border-bottom: none;
+    border-top: none;
   }
 }
 
