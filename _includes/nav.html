@@ -3,21 +3,21 @@
         <li>
             <a
                 {% if page.url == "/"  %} aria-current="page" {% endif %}
-                href="{{ "/" | relative_url }}">{{ site.title | escape }}
+                href="{{ "{{ site.baseurl }}/" | relative_url }}">{{ site.title | escape }}
             </a>
         </li>
         <li>
             <a
                 {% if page.url == "/web/"  %} aria-current="page" {% endif %}
                 {% if page.url contains "web"  %} class="current" {% endif %}
-                href="/web/">Web Checklist
+                href="{{ site.baseurl }}/web/">Web Checklist
             </a>
         </li>
         <li>
             <a
                 {% if page.url == "/native/"  %} aria-current="page" {% endif %}
                 {% if page.url contains "native"  %} class="current" {% endif %}
-                href="/native/">Native Checklist</a>
+                href="{{ site.baseurl }}/native/">Native Checklist</a>
         </li>
     </ul>
 </nav>
