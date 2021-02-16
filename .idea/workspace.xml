@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_checklist-native/checkbox.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-native/checkbox.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +24,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="45" />
-          <entry key="markdown" value="34" />
+          <entry key="markdown" value="35" />
           <entry key="md" value="1" />
           <entry key="scss" value="37" />
           <entry key="svg" value="2" />
@@ -33,7 +34,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="45" />
-          <entry key="Markdown" value="35" />
+          <entry key="Markdown" value="36" />
           <entry key="SCSS" value="37" />
           <entry key="SVG" value="2" />
           <entry key="YAML" value="5" />
@@ -42,7 +43,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="683" />
-          <entry key="markdown" value="1389" />
+          <entry key="markdown" value="1416" />
           <entry key="md" value="14" />
           <entry key="scss" value="627" />
           <entry key="yml" value="117" />
@@ -51,7 +52,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="683" />
-          <entry key="Markdown" value="1403" />
+          <entry key="Markdown" value="1430" />
           <entry key="SCSS" value="627" />
           <entry key="YAML" value="117" />
         </counts>
@@ -60,24 +61,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_checklist-native/radio.markdown">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="171">
-                <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_checklist-native/checkbox.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <first_editor relative-caret-position="300">
+                <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -164,8 +153,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="y" value="25" />
+    <option name="x" value="41" />
+    <option name="y" value="108" />
     <option name="width" value="1459" />
     <option name="height" value="875" />
   </component>
@@ -266,12 +255,12 @@
       <option name="presentableId" value="Default" />
       <updated>1613352052839</updated>
       <workItem from="1613352054010" duration="18984000" />
-      <workItem from="1613506239217" duration="3072000" />
+      <workItem from="1613506239217" duration="3782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22056000" />
+    <option name="totallyTimeSpent" value="22766000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -283,7 +272,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="25" width="1459" height="875" extended-state="0" />
+    <frame x="41" y="108" width="1459" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25335217" />
@@ -613,8 +602,8 @@
     <entry file="file://$PROJECT_DIR$/_checklist-native/checkbox.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
