@@ -13,12 +13,12 @@ state: |
   Expresses its state disabled/dimmed, checked, not checked
 
 keyboard:
-tab: |
-  Focus visibly moves to the checkbox.
-spacebar: |
-  Activates on iOS and Android
-enter: |
-  Activates on Android
+  tab: |
+    Focus visibly moves to the checkbox.
+  spacebar: |
+    Activates on iOS and Android
+  enter: |
+    Activates on Android
 
 mobile:
   swipe: |
