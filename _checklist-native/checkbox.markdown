@@ -14,7 +14,7 @@ state: |
 
 keyboard:
   tab: |
-      Focus visibly moves to the checked radio input in the group. If a radio button is not checked, focus moves to the first radio button in the group.
+      Focus visibly moves to the checkbox.
   spacebar: |
       Activates on iOS and Android
   enter: |
@@ -24,7 +24,7 @@ mobile:
   swipe: |
       Focus moves to the element, expresses its state
   doubletap: |
-      If the radio button with focus is not checked, changes the state to checked. Otherwise, does nothing.
+      The state of the checkbox changes
 
 ---
 
