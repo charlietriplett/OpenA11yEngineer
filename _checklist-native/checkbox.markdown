@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Radio button"
+title:  "Checkbox"
 categories: controls
 
 name:  |

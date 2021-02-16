@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_checklist-native/checkbox.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_checklist-native/button.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-native/button.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_checklist-native/radio.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-native/radio.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_checklist-native/template.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-native/template.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/criteria-textarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/criteria-textarea.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/checklist-native.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/checklist-native.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/checklist-web.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/checklist-web.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_checklist-native/checkbox.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-native/checkbox.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +42,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="683" />
-          <entry key="markdown" value="1381" />
+          <entry key="markdown" value="1389" />
           <entry key="md" value="14" />
           <entry key="scss" value="627" />
           <entry key="yml" value="117" />
@@ -62,7 +51,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="683" />
-          <entry key="Markdown" value="1395" />
+          <entry key="Markdown" value="1403" />
           <entry key="SCSS" value="627" />
           <entry key="YAML" value="117" />
         </counts>
@@ -87,8 +76,8 @@
         <entry file="file://$PROJECT_DIR$/_checklist-native/checkbox.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -164,6 +153,7 @@
         <option value="$PROJECT_DIR$/_checklist-native/template.markdown" />
         <option value="$PROJECT_DIR$/_checklist-native/button.markdown" />
         <option value="$PROJECT_DIR$/_checklist-native/radio.markdown" />
+        <option value="$PROJECT_DIR$/_checklist-native/checkbox.markdown" />
       </list>
     </option>
   </component>
@@ -246,6 +236,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_checklist-native" />
       <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/_sass/modules" />
       <recent name="$PROJECT_DIR$/_checklist-web" />
@@ -275,12 +266,12 @@
       <option name="presentableId" value="Default" />
       <updated>1613352052839</updated>
       <workItem from="1613352054010" duration="18984000" />
-      <workItem from="1613506239217" duration="3024000" />
+      <workItem from="1613506239217" duration="3072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22008000" />
+    <option name="totallyTimeSpent" value="22056000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -622,8 +613,8 @@
     <entry file="file://$PROJECT_DIR$/_checklist-native/checkbox.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
