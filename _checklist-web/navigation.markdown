@@ -3,54 +3,93 @@ layout: entry
 title:  "Navigation menu"
 categories: nav
 
-keyboard:
-    tab: |
-        Focus visibly moves within the dialog, starting with the dialog element itself and doesn't enter the rest of the page.
-    escape: |
-        The dialog closes and returns focus to the button that launched it
-    space: |
-        Any buttons are activated
-    enter: |
-        Any buttons or links are activated
-    
 name:  |
-    The dialog describes its purpose or title
+  Can have a heading if there are multiple navigation elements
 role:  |
-    Identifies itself as a modal or dialog
+  Discoverable by screen reader as navigation landmark
 group: |
-    When closed, focus returns to the launch button
+  n/a
 state: |
-    The modal isn't be perceivable when closed
+  n/a
+
+keyboard:
+  skip-links: |
+    Focus moves directly to the nav element
+  tab: |
+    Focus moves to Links and buttons within the nav
         
 mobile:
-    swipe: |
-        Focus moves within the dialog and doesn't enter the rest of the page.
-    doubletap: |
-        This typically activates most elements.
+  swipe: |
+      Focus moves within the nav
+  doubletap: |
+      This typically activates most elements
 
 ---
+
+## Code examples
+
+### Use semantic HTML
+This semantic HTML contains all accessibility features by default.
+
+{% highlight html %}
+<nav tabindex="-1" id="navigation">
+  <ul>
+    <li><a href="/">Website name</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/contact/">Contact</a></li>
+  <ul/>
+</nav>
+{% endhighlight %}
+
+### Avoid custom elements
+This custom navigation requires extra attributes.
+
+{% highlight html %}
+<div role="navigation" tabindex="-1" id="navigation">
+  <ul>
+    <li><a href="/">Website name</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/contact/">Contact</a></li>
+  <ul/>
+</div>
+{% endhighlight %}
+
+### Multiple navigation elements
+
+{% highlight html %}
+<nav tabindex="-1" id="nav" aria-label="Site menu">
+  <ul>
+    <li><a href="/">Website name</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/contact/">Contact</a></li>
+  <ul/>
+</nav>
+
+<h2 id="cat-heading">Categories</h2>
+<nav id="cat-nav" aria-labelledby="#cat-heading">
+  <ul>
+    <li><a href="/alpha/">Alpha</a></li>
+    <li><a href="/bravo/">Bravo</a></li>
+    <li><a href="/charlie/">Charlie</a></li>
+  <ul/>
+</nav>
+{% endhighlight %}
 
 
 ## Developer notes
 
 ### Name
-- The modal window has a descriptive value from either:
-    - `aria-label="Radio input purpose"` or
-    - `aria-labelledby="heading-id"` pointing to an `<h2>` as a title    
-
+- If there are multiple `<nav>` elements (site menu, pagination, categories) it may be helpful to name them
+  - Use `aria-label="Menu name"` when there is not a visible nav title.
+  - `aria-describedby="menu-name-id"` can be used when the nav title is a visible heading.
+  
 ### Role
-- Use `role="dialog"` or
-- `aria-modal="true"`
 
-### Group
-- Upon closing, focus should return to the element that launched the dialog
-
-### State
-- When the modal is closed, it should be set to `display: none` 
-- `aria-hidden="true"` can be used to reinforce closed modals
+- Identifies itself as navigation
+- **DO NOT** add menu or option roles with arrow key event listeners unless you're building an actual application like Gmail.
 
 ### Focus
-- Focus must be visible
-- Upon closing, focus should return to the element that launched the dialog
+
+- When skip links are used, add `tabindex="-1"` so that focus can move to the `nav` element, (not just bring it into view).
 
 

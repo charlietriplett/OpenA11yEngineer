@@ -4,53 +4,66 @@ title:  "Header / banner"
 categories: header
 
 keyboard:
-    tab: |
-        Focus visibly moves within the dialog, starting with the dialog element itself and doesn't enter the rest of the page.
-    escape: |
-        The dialog closes and returns focus to the button that launched it
-    space: |
-        Any buttons are activated
-    enter: |
-        Any buttons or links are activated
+  skip-links: |
+    Focus moves directly to the header
+  tab: |
+    Links and buttons within the header are focusable
     
 name:  |
-    The dialog describes its purpose or title
+  Discoverable by screen reader as header or banner landmark
 role:  |
-    Identifies itself as a modal or dialog
+  Identifies itself as a header or banner landmark
 group: |
-    When closed, focus returns to the launch button
+  Typically contains site title and primary navigation
 state: |
-    The modal isn't be perceivable when closed
-        
+  n/a
+      
 mobile:
-    swipe: |
-        Focus moves within the dialog and doesn't enter the rest of the page.
-    doubletap: |
-        This typically activates most elements.
+  swipe: |
+    Focus moves within the dialog and doesn't enter the rest of the page.
+  doubletap: |
+    This typically activates most elements.
 
 ---
 
+## Code examples
+
+### Use semantic HTML
+This semantic HTML contains all accessibility features by default.
+
+{% highlight html %}
+<header tabindex="-1" id="header">
+  <a href="/">Website name</a>
+</button>
+{% endhighlight %}
+
+### Avoid custom elements
+This custom header requires extra attributes.
+
+{% highlight html %}
+<div role="banner" tabindex="-1" id="header">
+  <a href="/">Website name</a>
+</div>
+{% endhighlight %}
 
 ## Developer notes
 
 ### Name
-- The modal window has a descriptive value from either:
-    - `aria-label="Radio input purpose"` or
-    - `aria-labelledby="heading-id"` pointing to an `<h2>` as a title    
+- Typically doesn't have a name or description
 
 ### Role
-- Use `role="dialog"` or
-- `aria-modal="true"`
+
+- Identifies itself as a header or banner landmark
+- The native `<header>` element will identify itself as a header
+- If a non-semantic element must be used (like a `<div>`) use `role="banner"` to make the element discoverable.
 
 ### Group
-- Upon closing, focus should return to the element that launched the dialog
 
-### State
-- When the modal is closed, it should be set to `display: none` 
-- `aria-hidden="true"` can be used to reinforce closed modals
+-   Typically contains site title and primary navigation
 
 ### Focus
-- Focus must be visible
-- Upon closing, focus should return to the element that launched the dialog
+
+- Can be targeted with a skip link, but isn't focusable with the tab key
+- Use `tabindex="-1"` to make the header targetable with a skip link.
 
 

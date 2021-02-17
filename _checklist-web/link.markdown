@@ -1,56 +1,72 @@
 ---
 layout: entry
 title:  "Link"
-categories: main nav
+categories: nav
+order: 1
 
 keyboard:
-    tab: |
-        Focus visibly moves within the dialog, starting with the dialog element itself and doesn't enter the rest of the page.
-    escape: |
-        The dialog closes and returns focus to the button that launched it
-    space: |
-        Any buttons are activated
-    enter: |
-        Any buttons or links are activated
-    
-name:  |
-    The dialog describes its purpose or title
-role:  |
-    Identifies itself as a modal or dialog
-group: |
-    When closed, focus returns to the launch button
-state: |
-    The modal isn't be perceivable when closed
-        
-mobile:
-    swipe: |
-        Focus moves within the dialog and doesn't enter the rest of the page.
-    doubletap: |
-        This typically activates most elements.
+  tab: |
+    Focus visibly moves to the link.
+  enter: |
+    Activates the link.
 
+name:  |
+  Purpose is clear
+role:  |
+  Identifies itself as a link
+group: |
+  n/a
+state: |
+  n/a
+            
+mobile:
+  swipe: |
+    Focus moves to the element
+  doubletap: |
+    Activates the link
 ---
+
+## Code examples
+
+### Use semantic HTML
+This semantic HTML contains all accessibility features by default. 
+
+{% highlight html %}
+<a href="/about/">
+  About
+</a>
+{% endhighlight %}
+
+If a link has no definable url, add `tabindex="0"` to make it focusable.
+
+{% highlight html %}
+<a tabindex="0">
+  About
+</a>
+{% endhighlight %}
+
+### Avoid custom elements
+This custom button requires extra attributes and event listeners.
+
+{% highlight html %}
+<custom-element role="link" tabindex="0">
+  About
+</custom-label>
+{% endhighlight %}
+
 
 
 ## Developer notes
 
 ### Name
-- The modal window has a descriptive value from either:
-    - `aria-label="Radio input purpose"` or
-    - `aria-labelledby="heading-id"` pointing to an `<h2>` as a title    
+- Inner text should describe the purpose of the link.
+- **Do not** repeat the name with `aria-label="Link purpose"` 
 
 ### Role
-- Use `role="dialog"` or
-- `aria-modal="true"`
-
-### Group
-- Upon closing, focus should return to the element that launched the dialog
-
-### State
-- When the modal is closed, it should be set to `display: none` 
-- `aria-hidden="true"` can be used to reinforce closed modals
+- Native button identifies as button by default
+- Use `role="link"` for custom elements
 
 ### Focus
 - Focus must be visible
-- Upon closing, focus should return to the element that launched the dialog
-
+- Custom elements need `tabindex="0"` to be focusable
 

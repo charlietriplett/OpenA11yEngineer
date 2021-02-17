@@ -5,27 +5,27 @@ categories: nav
 order: 1
 
 keyboard:
-    tab: |
-        Focus visibly moves to the button.
-    spacebar: |
-        Activates the button.
-    enter: |
-        Activates the button.
+  tab: |
+    Focus visibly moves to the button.
+  spacebar: |
+    Activates the button.
+  enter: |
+    Activates the button.
 
 name:  |
-    Purpose is clear
+  Purpose is clear
 role:  |
-    Identifies itself as a radio option
+  Identifies itself as a button
 group: |
-    Indicates it has popup for modals, listbox, or menus
+  Indicates it has popup for modals, listbox, or menus
 state: |
-    Expresses its state (pressed, expanded, disabled)
-            
+  Expresses its state (pressed, expanded, disabled)
+          
 mobile:
-    swipe: |
-        Focus moves to the element, expresses its state
-    doubletap: |
-        If the radio button with focus is not checked, changes the state to checked. Otherwise, does nothing.
+  swipe: |
+    Focus moves to the element, expresses its state
+  doubletap: |
+    Activates the button
 
 ---
 
