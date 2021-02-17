@@ -56,20 +56,20 @@ This semantic HTML contains all accessibility features by default.
 This custom button requires extra work for roving tabindex and event listeners.
 
 {% highlight html %}
-<custom-label id="groupLabel">
+<custom-label id="labelId">
     Which is your favorite NATO letter:
 </custom-label>
-<custom-wrapper role="radiogroup" aria-labelledby="groupLabel">
-    <custom-element role="radio" tabindex="-1">
-        Alpha
-    </custom-element>
-    <custom-element role="radio" tabindex="-1">
-        Bravo
-    </custom-element>
-    <custom-element role="radio" tabindex="-1">
-        Charlie
-    </custom-element>  
-</custom-wrapper>
+<div role="radiogroup" aria-labelledby="labelId">
+  <custom-element role="radio" tabindex="-1">
+    Alpha
+  </custom-element>
+  <custom-element role="radio" tabindex="-1">
+    Bravo
+  </custom-element>
+  <custom-element role="radio" tabindex="-1">
+    Charlie
+  </custom-element>  
+</div>
 {% endhighlight %}
 
 ## Developer notes

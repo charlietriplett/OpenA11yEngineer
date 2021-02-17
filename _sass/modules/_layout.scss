@@ -19,8 +19,32 @@ main {
   &.narrow {
     max-width: $break-small;
   }
+}
+
+.success-criteria-entry {
+  @include break($break-large) {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 2rem;
+  }
+
+  @include break($break-max) {
+    grid-template-columns: 2fr 3fr;
+    column-gap: 2rem;
+  }
+}
+.test-instructions {
+  background: #fff;
+  border-radius: 2px;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 0 5px 1px rgba(#000,.1);
+  @include break($break-small) {
+    padding: 2rem 2rem 1rem 2rem;
+  }
 
 }
+
 
 /*
 * {

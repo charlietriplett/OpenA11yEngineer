@@ -2,16 +2,18 @@
 layout: default
 ---
 <article>
-  <div class="container narrow">
+  <div class="container">
     <h1 class="h-alpha">
       {{ page.title | escape }}
     </h1>
   </div>
-  <div class="container success-criteria-entry narrow">
+  <div class="container success-criteria-entry">
 
     <div class="success-criteria">
-      <div>
-      <h2 class="h-bravo">Keyboard</h2>
+      <h2 class="h-bravo">Test instructions</h2>
+
+      <div class="test-instructions">
+        <h3 class="h-charlie">Keyboard</h3>
         <table>
           <tbody>
             <tr>
@@ -26,14 +28,11 @@ layout: default
             {% endfor %}
           </tbody>
         </table>
-      </div>
-
-      <div>
-        <h2 class="h-bravo">Screenreader</h2>
+        <h3 class="h-charlie">Screenreader</h3>
         <table>
             <tbody>
             <tr>
-              <th scope="col">Requirement</th>
+              <th scope="col">On focus</th>
               <th scope="col">I hear</th>
             </tr>
             <tr>
@@ -54,9 +53,7 @@ layout: default
             </tr>
           </tbody>
         </table>
-      </div>
-      <div>
-        <h2 class="h-bravo">Mobile screenreader</h2>
+        <h3 class="h-charlie">Mobile screenreader</h3>
         <table>
           <tbody>
           <tr>
@@ -73,9 +70,10 @@ layout: default
         </table>
       </div>
     </div>
-  </div>
-  <div class="post-content container narrow">
-    {{ content }}
+    <div class="post-content">
+      {{ content }}
+    </div>
+
   </div>
 
 </article>

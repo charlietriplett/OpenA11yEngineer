@@ -36,74 +36,41 @@ mobile:
 This semantic HTML contains all accessibility features by default.
 
 {% highlight html %}
-<fieldset>
-  <legend>
-    Which is your favorite NATO letter:
-  </legend>
-  
-  <input type="radio" name="nato" id="alpha">
-  <label for="alpha">Alpha</label>
-
-  <input type="radio" name="nato" id="bravo">
-  <label for="bravo">Bravo</label>
-
-  <input type="radio" name="nato" id="charlie">
-  <label for="charlie">Charlie</label>
-</fieldset>
+<button>
+  Continue
+</button>
 {% endhighlight %}
 
 ### Avoid custom elements
-This custom button requires extra work for roving tabindex and event listeners.
+This custom button requires extra attributes and event listeners.
 
 {% highlight html %}
-<custom-label id="groupLabel">
-    Which is your favorite NATO letter:
+<custom-element role="button" tabindex="0">
+  Continue
 </custom-label>
-<custom-wrapper role="radiogroup" aria-labelledby="groupLabel">
-    <custom-element role="radio" tabindex="-1">
-        Alpha
-    </custom-element>
-    <custom-element role="radio" tabindex="-1">
-        Bravo
-    </custom-element>
-    <custom-element role="radio" tabindex="-1">
-        Charlie
-    </custom-element>  
-</custom-wrapper>
 {% endhighlight %}
 
 ## Developer notes
 
 ### Name
-- `label` text should describe the radio input.
-- Use `aria-describedby="hint-id"` for hints or additional descriptions
-- `aria-label="Radio input purpose"` can also be used (as a last resort)
+- Inner text should describe the purpose of the button.
+- `aria-label="Button purpose"` can also be used (as a last resort)
 
 ### Role
-- **By default**, semantic HTML radio inputs identify as radio button
-- Use `role="radio"` for custom elements
+- Native button identifies as button by default
+- Use `role="button"` for custom elements
 
 ### Group
-- Semantic HTML
-    - `<fieldset>` should wrap the radio group
-    - `<legend>` should describe the group's purpose
-    - Each `<label>` must include `for="input-id"` to be associated with its input
-- Custom elements
-    - Use `role="radiogroup"` to take the palace of fieldset
-    - Use `aria-labelledby="label-id"` to associate an element as a label
-    - `aria-label="Group purpose"` can also be used if there's no label with an ID
+- Use `aria-haspopup="true"` for menu, listbox or modal
+- `aria-controls="popupId"` is not well supported
 
 ### State
-- Semantic HTML
-    - `checked` (will be read as "selected" by screen reader)
-    - Use the `disabled` state for inactive buttons
-- Custom element
-    - Use `aria-checked="true/false"` to express state
-    - Use `aria-disabled="true"` to declare inactive elements
+- Toggle buttons `aria-pressed="true/false"`
+- Menus or expanders use `aria-expanded="true/false"` 
+- Use the `disabled` state for inactive buttons 
+- Use `aria-disabled="true/false"` state for inactive custom elements 
 
 ### Focus
 - Focus must be visible
-- Custom elements will require keyboard event listeners and roving tabindex
-- **DO NOT** put interactive elements inbetween radio inputs.
-
+- Custom elements need `tabindex="0"` to be focusable
 
