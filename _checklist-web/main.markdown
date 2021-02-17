@@ -1,56 +1,68 @@
 ---
 layout: entry
-title:  "Main"
+title:  "Main content"
 categories: main
 
 keyboard:
-    tab: |
-        Focus visibly moves within the dialog, starting with the dialog element itself and doesn't enter the rest of the page.
-    escape: |
-        The dialog closes and returns focus to the button that launched it
-    space: |
-        Any buttons are activated
-    enter: |
-        Any buttons or links are activated
+  skip-links: |
+    Focus moves directly to the main content area
+  tab: |
+    Links and buttons within the main area are focusable
     
 name:  |
-    The dialog describes its purpose or title
+  Discoverable by screen reader as main landmark
 role:  |
-    Identifies itself as a modal or dialog
+  Identifies itself as a main landmark
 group: |
-    When closed, focus returns to the launch button
+  Typically contains the content of the page
 state: |
-    The modal isn't be perceivable when closed
-        
+  n/a
+      
 mobile:
-    swipe: |
-        Focus moves within the dialog and doesn't enter the rest of the page.
-    doubletap: |
-        This typically activates most elements.
+  swipe: |
+    Focus moves within main area
 
 ---
 
+## Code examples
+
+### Use semantic HTML
+This semantic HTML contains all accessibility features by default.
+
+{% highlight html %}
+<main tabindex="-1" id="content"> 
+  <h1>About our company</h1>
+  <p>The main content of the page belongs here.</p>
+</main>
+{% endhighlight %}
+
+### Avoid custom elements
+This custom main element requires extra attributes.
+
+{% highlight html %}
+<div role="main" tabindex="-1" id="content"> 
+  <h1>About our company</h1>
+  <p>The main content of the page belongs here.</p>
+</div>
+{% endhighlight %}
 
 ## Developer notes
 
 ### Name
-- The modal window has a descriptive value from either:
-    - `aria-label="Radio input purpose"` or
-    - `aria-labelledby="heading-id"` pointing to an `<h2>` as a title    
+- Typically doesn't have a name other than its role.
 
 ### Role
-- Use `role="dialog"` or
-- `aria-modal="true"`
+
+- Identifies itself as a main landmark
+- If a non-semantic element must be used (like a `<div>`) use `role="main"`.
 
 ### Group
-- Upon closing, focus should return to the element that launched the dialog
 
-### State
-- When the modal is closed, it should be set to `display: none` 
-- `aria-hidden="true"` can be used to reinforce closed modals
+- Should contain the main content of the page.
 
 ### Focus
-- Focus must be visible
-- Upon closing, focus should return to the element that launched the dialog
+
+- Can be targeted with a skip link, but isn't focusable with the tab key
+- Use `tabindex="-1"` to make the main targetable with a skip link.
 
 

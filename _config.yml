@@ -44,7 +44,6 @@ web-categories-order:
 - main
 - form
 - footer
-- help
 
 native-categories-order:
 - controls

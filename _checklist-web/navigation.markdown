@@ -57,9 +57,9 @@ This custom navigation requires extra attributes.
 ### Multiple navigation elements
 
 {% highlight html %}
-<nav tabindex="-1" id="nav" aria-label="Site menu">
+<nav tabindex="-1" id="nav" aria-label="Main">
   <ul>
-    <li><a href="/">Website name</a></li>
+    <li><a href="/">Home</a></li>
     <li><a href="/about/">About</a></li>
     <li><a href="/contact/">Contact</a></li>
   <ul/>

@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Search"
-categories: nav
+categories: nav header
 
 keyboard:
     tab: |

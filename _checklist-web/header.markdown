@@ -34,7 +34,7 @@ This semantic HTML contains all accessibility features by default.
 {% highlight html %}
 <header tabindex="-1" id="header">
   <a href="/">Website name</a>
-</button>
+</header>
 {% endhighlight %}
 
 ### Avoid custom elements

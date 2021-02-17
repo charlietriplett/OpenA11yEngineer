@@ -4,53 +4,59 @@ title:  "Headings h1, h2, h3"
 categories: main
 
 keyboard:
-    tab: |
-        Focus visibly moves within the dialog, starting with the dialog element itself and doesn't enter the rest of the page.
-    escape: |
-        The dialog closes and returns focus to the button that launched it
-    space: |
-        Any buttons are activated
-    enter: |
-        Any buttons or links are activated
-    
+  tab: |
+    Nothing, headings should not be focusable 
+  
 name:  |
-    The dialog describes its purpose or title
+  The heading's purpose should be clear
 role:  |
-    Identifies itself as a modal or dialog
+  Identifies itself as a heading and its level
 group: |
-    When closed, focus returns to the launch button
+  Headings are logically ordered, starting with a single h1, sections titled by h2, and subsections with h3
 state: |
-    The modal isn't be perceivable when closed
-        
+  n/a
+      
 mobile:
-    swipe: |
-        Focus moves within the dialog and doesn't enter the rest of the page.
-    doubletap: |
-        This typically activates most elements.
-
+  swipe: |
+      The screenreader reads the heading and its level
 ---
 
+## Code examples
+
+### Use semantic HTML
+This semantic HTML contains all accessibility features by default.
+
+{% highlight html %}
+<h1>
+  About our company
+</h1>
+{% endhighlight %}
+
+### Avoid custom elements
+This custom header requires extra attributes.
+
+{% highlight html %}
+<div role="heading" aria-level="1">
+  About our company
+</div>
+{% endhighlight %}
 
 ## Developer notes
 
 ### Name
-- The modal window has a descriptive value from either:
-    - `aria-label="Radio input purpose"` or
-    - `aria-labelledby="heading-id"` pointing to an `<h2>` as a title    
+- Inner text describes the heading
 
 ### Role
-- Use `role="dialog"` or
-- `aria-modal="true"`
+- Semantic headings `<h1>` `<h2>` `<h3>` identify themselves as headings and express the level
+- Use `role="heading" aria-level="1"` to for custom elements
 
 ### Group
-- Upon closing, focus should return to the element that launched the dialog
-
-### State
-- When the modal is closed, it should be set to `display: none` 
-- `aria-hidden="true"` can be used to reinforce closed modals
+- Headings should be logically ordered.
+- Start with a single `<h1>` per page.
+  - Title major sections with `<h2>`
+    - Subsections with `<h3>`
+      - It should be rare that `<h4>` and beyond is required.
 
 ### Focus
-- Focus must be visible
-- Upon closing, focus should return to the element that launched the dialog
-
+- Headings (probably) should not receive focus
 

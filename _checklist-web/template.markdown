@@ -1,7 +1,7 @@
 ---
 layout: entry
-title:  "How to use this tool"
-categories: help
+title:  "Template"
+categories: footer
 
 keyboard:
     tab: |

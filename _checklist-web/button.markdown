@@ -15,7 +15,7 @@ keyboard:
 name:  |
   Purpose is clear
 role:  |
-  Identifies itself as a button
+  Identifies as a button
 group: |
   Indicates it has popup for modals, listbox, or menus
 state: |
