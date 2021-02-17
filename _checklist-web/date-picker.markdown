@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Date picker dialog"
-categories: nav
+categories: form
 order: 1
 
 keyboard:
@@ -30,6 +30,7 @@ mobile:
         Focus moves through elements, expresses its state
     doubletap: |
         Activates the element in focus
-
 ---
+
+
 

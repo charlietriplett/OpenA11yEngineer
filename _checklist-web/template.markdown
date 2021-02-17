@@ -4,27 +4,27 @@ title:  "Template"
 categories: footer
 
 keyboard:
-    tab: |
-        Focus visibly moves to the checked radio input in the group. If a radio button is not checked, focus moves to the first radio button in the group.
-    spacebar: |
-        If the radio button with focus is not checked, changes the state to checked.  Otherwise, does nothing.
-    arrow-keys: |
-        Moves focus to and checks the previous or next radio button in the group
+  tab: |
+    Focus visibly moves to the checked radio input in the group. If a radio button is not checked, focus moves to the first radio button in the group.
+  spacebar: |
+    If the radio button with focus is not checked, changes the state to checked.  Otherwise, does nothing.
+  arrow-keys: |
+    Moves focus to and checks the previous or next radio button in the group
 
 name:  |
-    The purpose should be clear from what you hear
+  The purpose should be clear from what you hear
 role:  |
-    Identifies itself as its intended role or function
+  Identifies itself as its intended role or function
 group: |
-    Some elements will be part of a greater group
+  Some elements will be part of a greater group
 state: |
-    Expresses its state (selected, checked, disabled)
+  Expresses its state (selected, checked, disabled)
         
 mobile:
-    swipe: |
-        With the scren reader activated, swipe left/right on the screen.
-    doubletap: |
-        This typically activates most elements.
+  swipe: |
+    With the scren reader activated, swipe left/right on the screen.
+  doubletap: |
+    This typically activates most elements.
 
 ---
 

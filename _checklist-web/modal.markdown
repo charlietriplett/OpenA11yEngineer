@@ -20,7 +20,7 @@ role:  |
 group: |
   When closed, focus returns to the launch button
 state: |
-  The modal isn't be perceivable when closed
+  When open, other content is inert
       
 mobile:
   swipe: |
@@ -30,24 +30,42 @@ mobile:
 
 ---
 
+## Code examples
+
+### Use semantic HTML where possible
+
+Browser support for `<dialog>` is still incomplete.
+
+{% highlight html %}
+<dialog aria-modal="true" aria-labelledby="title">
+  <button type="reset">
+    <span class="hidden">Close</span>
+  </button>
+  <h2 id="title">
+    Do you accept the terms and conditions?
+  </h2>
+  <p>Acceptance is required</p>
+  <button type="submit">
+    I accept
+  </button>
+</dialog>
+{% endhighlight %}
 
 ## Developer notes
 
 ### Name
 - The modal window has a descriptive value from either:
-  - `aria-label="Radio input purpose"` or
+  - `aria-label="Modal title"` or
   - `aria-labelledby="heading-id"` pointing to an `<h2>` as a title    
 
 ### Role
-- Use `role="dialog"` or
-- `aria-modal="true"`
+- For custom elements, use `role="dialog"`
 
 ### Group
 - Upon closing, focus should return to the element that launched the dialog
 
 ### State
-- When the modal is closed, it should be set to `display: none` 
-- `aria-hidden="true"` can be used to reinforce closed modals
+- Use `aria-modal="true"` to indicate content beneath the modal is inert.
 
 ### Focus
 - Focus must be visible
