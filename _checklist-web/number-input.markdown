@@ -1,16 +1,16 @@
 ---
 layout: entry
-title:  "Text input"
+title:  "Number input"
 categories: form
 
 keyboard:
   tab: |
-    Focus moves visibly to the input
+    Focus moves visibly to the search text input
   
 name:  |
   Purpose is clear
 role:  |
-  Identifies itself as a text input
+  Identifies itself as a input
 group: |
   Label is read with the input
 state: |
@@ -18,23 +18,25 @@ state: |
       
 mobile:
   swipe: |
-    Focus moves to the input
-  keyboard: |
-    Keyboard appears
+    Focus moves to the input, number pad appears
 ---
 
 ## Code examples
 
 ### Use semantic HTML
-This semantic HTML contains all accessibility features by default. 
+This semantic HTML contains all accessibility features by default. Include a search button.
 
 {% highlight html %}
-<label for="email">
-  Your email
+<label for="phone">
+  Your phone number
 </label>
-<input type="text" id="email" aria-describedby="hint">
+<input type="text" 
+       id="phone"
+       aria-describedby="hint" 
+       inputmode="numeric"
+       pattern="[0-9]*">
 <div id="hint">
-   yourname@something.com
+   573-268-9692
 </div>
 {% endhighlight %}
 
