@@ -35,13 +35,13 @@ This semantic HTML contains all accessibility features by default.
 <fieldset>
   <legend>Choose your favorites:</legend>
   <input type="checkbox" id="alpha" checked>
-  <label for="checkboxAlpha">Alpha</label>
+  <label for="alpha">Alpha</label>
 
   <input type="checkbox" id="bravo">
-  <label for="checkboxBravo">Bravo</label>
+  <label for="bravo">Bravo</label>
 
   <input type="checkbox" id="charlie">
-  <label for="checkboxCharlie">Charlie</label>
+  <label for="charlie">Charlie</label>
 </fieldset>
 {% endhighlight %}
 

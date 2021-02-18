@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Headings h1, h2, h3"
+title:  "Heading: h1, h2, h3"
 categories: main
 
 keyboard:

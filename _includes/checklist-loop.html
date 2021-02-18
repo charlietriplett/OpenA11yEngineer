@@ -1,7 +1,7 @@
 {% if page.categories contains category %}
 {% capture top %}
 h2. {{ page.title | strip_newlines | lstrip }}
-- Full information: {{ page.url | absolute_url }}
+- Full information: {{ page.url | absolute_url | replace: '.html', '/' }}
 
 h3. Keyboard test
 {% for input in page.keyboard %}- *{{ input[0] | capitalize }}:* {{ input[1] | escape }}{% endfor %}
@@ -19,18 +19,16 @@ h3. Mobile screenreader test
 {{ top | strip | lstrip }}
 {% endcapture %}
 <li>
-  <input type="checkbox" id="{{ category | escape }}-{{ page.title | escape }}" data-success-criteria="
+  <input type="checkbox" id="{{ category | escape }}-{{ page.url | replace_first: '/', '' | replace: '/', '-'  | replace: '.html', '' }}" data-success-criteria="
 {{ all | strip | lstrip }}
 ">
-  <label for="{{ category | escape }}-{{ page.title | escape }}">
+  <label for="{{ category | escape }}-{{ page.url | replace_first: '/', '' | replace: '/', '-'  | replace: '.html', '' }}">
     {{ page.title | escape }}
   </label>
-
-  <a class="checklist-link" href="{{ page.url | relative_url }}">
-
-<span class="hidden">
-{{ page.title | escape }}
-</span>
+  <a class="checklist-link" href="{{ page.url | relative_url | replace: '.html', '/' }}">
+  <span class="hidden">
+  {{ page.title | escape }}
+  </span>
   </a>
 </li>
 {% endif %}
