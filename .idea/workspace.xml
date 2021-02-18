@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_checklist-web/number-input.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_checklist-web/text-input.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-web/text-input.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/checklist-loop.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/checklist-loop.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +23,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="58" />
+          <entry key="html" value="59" />
           <entry key="markdown" value="89" />
           <entry key="md" value="1" />
           <entry key="scss" value="49" />
@@ -35,7 +33,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="58" />
+          <entry key="HTML" value="59" />
           <entry key="Markdown" value="90" />
           <entry key="SCSS" value="49" />
           <entry key="SVG" value="2" />
@@ -75,14 +73,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_checklist-web/number-input.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="430">
+              <first_editor relative-caret-position="435">
                 <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/checklist-loop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="82" lean-forward="true" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -175,7 +182,6 @@
         <option value="$PROJECT_DIR$/_checklist-web/figures.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/heading.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/tooltip.markdown" />
-        <option value="$PROJECT_DIR$/_includes/checklist-loop.html" />
         <option value="$PROJECT_DIR$/_checklist-web/figure.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/Switch toggle.markdown" />
         <option value="$PROJECT_DIR$/_sass/base/_units.scss" />
@@ -183,6 +189,7 @@
         <option value="$PROJECT_DIR$/_checklist-web/toggle-switch.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/text-input.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/number-input.markdown" />
+        <option value="$PROJECT_DIR$/_includes/checklist-loop.html" />
       </list>
     </option>
   </component>
@@ -295,12 +302,12 @@
       <updated>1613352052839</updated>
       <workItem from="1613352054010" duration="18984000" />
       <workItem from="1613506239217" duration="5522000" />
-      <workItem from="1613526366733" duration="32661000" />
+      <workItem from="1613526366733" duration="32928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57167000" />
+    <option name="totallyTimeSpent" value="57434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/checklist-loop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_checklist-web/video-audio.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -787,10 +787,17 @@
     <entry file="file://$PROJECT_DIR$/_checklist-web/number-input.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="430">
+          <first_editor relative-caret-position="435">
             <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/checklist-loop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="82" lean-forward="true" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
         </state>
       </provider>
     </entry>
