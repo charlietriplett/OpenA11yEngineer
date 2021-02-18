@@ -36,8 +36,10 @@ collections:
     output: true
   checklist-web:
     output: true
+    permalink: /:collection/:name/
   checklist-native:
     output: true
+    permalink: /:collection/:name/
 web-categories-order:
 - header
 - nav
