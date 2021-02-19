@@ -1,32 +1,16 @@
 <footer class="container" id="site-footer">
-  <ul>
-    <li>
-      {%- if site.author -%}
-        {{ site.author | escape }}
-      {%- else -%}
-        {{ site.title | escape }}
-      {%- endif -%}
-    </li>
-    {%- if site.email -%}
+  <nav aria-label="Site map">
+    <ul>
       <li>
-        <a class="u-email" href="mailto:{{ site.email }}">
-          {{ site.email }}
+        <a href="{{ site.baseurl}}/about/">
+          About
         </a>
       </li>
-    <li>
-      <a href="{{ site.baseurl}}/about/">
-        About
-      </a>
-    </li>
-    {%- endif -%}
-  </ul>
+      {%- endif -%}
+    </ul>
+  </nav>
 
-  <div class="social">
-    {%- include social.html -%}
-  </div>
 
-  <div class="description">
-    <p>{{- site.description | escape -}}</p>
-  </div>
+  <p>{{- site.description | escape -}}</p>
 
 </footer>

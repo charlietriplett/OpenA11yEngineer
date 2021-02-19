@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_checklist-web/link.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-web/link.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +24,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="71" />
+          <entry key="html" value="72" />
           <entry key="markdown" value="109" />
           <entry key="md" value="1" />
           <entry key="scss" value="51" />
@@ -34,7 +34,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="71" />
+          <entry key="HTML" value="72" />
           <entry key="Markdown" value="110" />
           <entry key="SCSS" value="51" />
           <entry key="SVG" value="2" />
@@ -43,7 +43,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1060" />
+          <entry key="html" value="1090" />
           <entry key="markdown" value="14422" />
           <entry key="md" value="14" />
           <entry key="scss" value="986" />
@@ -52,7 +52,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1060" />
+          <entry key="HTML" value="1090" />
           <entry key="Markdown" value="14436" />
           <entry key="SCSS" value="986" />
           <entry key="YAML" value="137" />
@@ -62,14 +62,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_checklist-web/link.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="334">
+              <first_editor relative-caret-position="473">
                 <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -153,7 +162,6 @@
         <option value="$PROJECT_DIR$/_checklist-web/toggle-switch.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/search.markdown" />
         <option value="$PROJECT_DIR$/_sass/modules/_forms.scss" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/about.markdown" />
         <option value="$PROJECT_DIR$/_includes/components/input-checkbox.html" />
         <option value="$PROJECT_DIR$/_checklist-web/checkbox.markdown" />
@@ -163,6 +171,7 @@
         <option value="$PROJECT_DIR$/_checklist-web/listbox-dropdown.markdown" />
         <option value="$PROJECT_DIR$/_includes/examples/input-select.html" />
         <option value="$PROJECT_DIR$/_checklist-web/link.markdown" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
       </list>
     </option>
   </component>
@@ -264,12 +273,12 @@
       <workItem from="1613352054010" duration="18984000" />
       <workItem from="1613506239217" duration="5522000" />
       <workItem from="1613526366733" duration="33403000" />
-      <workItem from="1613690687889" duration="11643000" />
+      <workItem from="1613690687889" duration="12285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69552000" />
+    <option name="totallyTimeSpent" value="70194000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -688,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/modules/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -732,10 +734,17 @@
     <entry file="file://$PROJECT_DIR$/_checklist-web/link.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="334">
+          <first_editor relative-caret-position="473">
             <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
