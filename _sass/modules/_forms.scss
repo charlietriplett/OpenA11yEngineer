@@ -24,7 +24,7 @@ fieldset {
   border: none;
   display: block;
   padding: 0;
-  margin: 0 0 1rem 0;
+  margin: 0 0 3rem 0;
 }
 
 legend {
@@ -275,9 +275,8 @@ input[type="checkbox"] {
   }
 }
 
-.switch,
-input[type="checkbox"].switch,
-input[type="radio"].switch {
+
+input[role="switch"] {
   + label {
     padding-left: 6rem;
     &:before {
@@ -324,6 +323,7 @@ input[type="radio"].switch {
   &:focus + label:before {
     background: lighten($color-focus, 30);
     color: darken($color-focus, 0);
+    box-shadow: none;
   }
   &:checked + label {
     &:before {
@@ -334,6 +334,7 @@ input[type="radio"].switch {
       text-shadow: 0 0 3px rgba(#000,.4);
     }
     &:after {
+      content: '';
       left: 3.25rem;
       background: darken($color-brand-primary,0);
     }

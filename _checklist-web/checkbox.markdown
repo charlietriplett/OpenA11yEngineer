@@ -25,25 +25,15 @@ mobile:
     Checkbox toggles between checked and unchecked states.
 ---
 
-
 ## Code examples
 
 ### Use semantic HTML
 This semantic HTML contains all accessibility features by default.
 
 {% highlight html %}
-<fieldset>
-  <legend>Choose your favorites:</legend>
-  <input type="checkbox" id="alpha" checked>
-  <label for="alpha">Alpha</label>
-
-  <input type="checkbox" id="bravo">
-  <label for="bravo">Bravo</label>
-
-  <input type="checkbox" id="charlie">
-  <label for="charlie">Charlie</label>
-</fieldset>
+{% include /examples/input-checkbox.html %}
 {% endhighlight %}
+{% include /examples/input-checkbox.html %}
 
 ### Avoid custom elements
 This custom checkbox requires extra attributes and event listeners.

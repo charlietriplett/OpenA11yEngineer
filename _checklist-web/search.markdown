@@ -44,6 +44,16 @@ This semantic HTML contains all accessibility features by default. Include a sea
 </form>
 {% endhighlight %}
 
+{% raw %}
+<form role="search" action="#">
+
+  <input type="search" id="site-search" name="q" placeholder="Search">
+  <button class="site-search-submit" type="submit">
+    <span class="hidden">Search</hidden></span>
+  </button>
+</form>
+{% endraw %}
+
 ## Developer notes
 
 ### Name

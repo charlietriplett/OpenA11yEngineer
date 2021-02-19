@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Link"
-categories: nav
+categories: nav main
 order: 1
 
 keyboard:
@@ -37,6 +37,12 @@ This semantic HTML contains all accessibility features by default.
 </a>
 {% endhighlight %}
 
+{% raw %}
+<a href="/about/">
+  About
+</a>
+{% endraw %}
+
 If a link has no definable url, add `tabindex="0"` to make it focusable.
 
 {% highlight html %}
@@ -45,16 +51,26 @@ If a link has no definable url, add `tabindex="0"` to make it focusable.
 </a>
 {% endhighlight %}
 
+{% raw %}
+<a tabindex="0">
+  About
+</a>
+{% endraw %}
+
 ### Avoid custom elements
 This custom button requires extra attributes and event listeners.
 
 {% highlight html %}
 <custom-element role="link" tabindex="0">
   About
-</custom-label>
+</custom-element>
 {% endhighlight %}
 
-
+{% raw %}
+<custom-element role="link" tabindex="0">
+  About
+</custom-element>
+{% endraw %}
 
 ## Developer notes
 

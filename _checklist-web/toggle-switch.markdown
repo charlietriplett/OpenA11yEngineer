@@ -41,18 +41,33 @@ This semantic HTML contains all accessibility features by default, and only requ
   <label for="bravo">Bravo</label>
 
   <input type="checkbox" role="switch" id="charlie">
-  <label for="bravo">Charlie</label>
+  <label for="charlie">Charlie</label>
 </fieldset>
 {% endhighlight %}
 
+{% raw %}
+<fieldset>
+  <legend>Activate your options:</legend>
+  <input type="checkbox" role="switch" id="alpha">
+  <label for="alpha">Alpha</label>
+
+  <input type="checkbox" role="switch" id="bravo">
+  <label for="bravo">Bravo</label>
+
+  <input type="checkbox" role="switch" id="charlie">
+  <label for="charlie">Charlie</label>
+</fieldset>
+{% endraw %}
+
 ### You can also use a button
-This `<button>` toggle has focus and keyboard criteria built in. It requires the addition of `role="switch"` and attributes for state.
+This `<button>` toggle has focus and keyboard criteria built in. It requires the addition of `role="switch"` and scripting to toggle `aria-checked="true/false"`.
 
 {% highlight html %}
 <button role="switch" aria-checked="true">
   Alpha
 </div>
 {% endhighlight %}
+
 
 
 ### Avoid custom elements
@@ -63,6 +78,7 @@ This custom switch requires extra attributes and keyboard event listeners.
   Alpha
 </div>
 {% endhighlight %}
+
 
 ## Developer notes
 

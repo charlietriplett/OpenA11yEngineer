@@ -36,21 +36,10 @@ mobile:
 This semantic HTML contains all accessibility features by default.
 
 {% highlight html %}
-<fieldset>
-  <legend>
-    Which is your favorite NATO letter:
-  </legend>
-  
-  <input type="radio" name="nato" id="alpha">
-  <label for="alpha">Alpha</label>
-
-  <input type="radio" name="nato" id="bravo">
-  <label for="bravo">Bravo</label>
-
-  <input type="radio" name="nato" id="charlie">
-  <label for="charlie">Charlie</label>
-</fieldset>
+{% include /examples/input-radio.html %}
 {% endhighlight %}
+{% include /examples/input-radio.html %}
+
 
 ### Avoid custom elements
 This custom button requires extra work for roving tabindex and event listeners.
