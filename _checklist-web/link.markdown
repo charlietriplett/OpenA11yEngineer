@@ -66,12 +66,6 @@ This custom button requires extra attributes and event listeners.
 </custom-element>
 {% endhighlight %}
 
-{% raw %}
-<custom-element role="link" tabindex="0">
-  About
-</custom-element>
-{% endraw %}
-
 ## Developer notes
 
 ### Name
