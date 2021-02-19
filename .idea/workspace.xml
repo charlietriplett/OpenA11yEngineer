@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_checklist-web/radio.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-web/radio.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/examples/input-checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/examples/input-checkbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/examples/input-radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/examples/input-radio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +28,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="72" />
-          <entry key="markdown" value="109" />
+          <entry key="html" value="76" />
+          <entry key="markdown" value="113" />
           <entry key="md" value="1" />
           <entry key="scss" value="51" />
           <entry key="svg" value="2" />
@@ -34,8 +38,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="72" />
-          <entry key="Markdown" value="110" />
+          <entry key="HTML" value="76" />
+          <entry key="Markdown" value="114" />
           <entry key="SCSS" value="51" />
           <entry key="SVG" value="2" />
           <entry key="YAML" value="7" />
@@ -43,8 +47,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1090" />
-          <entry key="markdown" value="14422" />
+          <entry key="html" value="1095" />
+          <entry key="markdown" value="14427" />
           <entry key="md" value="14" />
           <entry key="scss" value="986" />
           <entry key="yml" value="137" />
@@ -52,8 +56,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1090" />
-          <entry key="Markdown" value="14436" />
+          <entry key="HTML" value="1095" />
+          <entry key="Markdown" value="14441" />
           <entry key="SCSS" value="986" />
           <entry key="YAML" value="137" />
         </counts>
@@ -63,11 +67,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_checklist-web/link.markdown">
+        <entry file="file://$PROJECT_DIR$/_checklist-web/figure.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="99">
+                <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_checklist-web/radio.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="473">
-                <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+              <first_editor relative-caret-position="118">
+                <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               </first_editor>
               <second_editor />
             </state>
@@ -77,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -109,6 +125,7 @@
       <find>include</find>
       <find>switch</find>
       <find>fieldset</find>
+      <find>raw</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -158,19 +175,19 @@
         <option value="$PROJECT_DIR$/_checklist-web/password-input.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/template.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/range-slider.markdown" />
-        <option value="$PROJECT_DIR$/_checklist-web/figure.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/toggle-switch.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/search.markdown" />
         <option value="$PROJECT_DIR$/_sass/modules/_forms.scss" />
         <option value="$PROJECT_DIR$/about.markdown" />
         <option value="$PROJECT_DIR$/_includes/components/input-checkbox.html" />
-        <option value="$PROJECT_DIR$/_checklist-web/checkbox.markdown" />
-        <option value="$PROJECT_DIR$/_includes/examples/input-checkbox.html" />
-        <option value="$PROJECT_DIR$/_checklist-web/radio.markdown" />
-        <option value="$PROJECT_DIR$/_includes/examples/input-radio.html" />
         <option value="$PROJECT_DIR$/_checklist-web/listbox-dropdown.markdown" />
         <option value="$PROJECT_DIR$/_includes/examples/input-select.html" />
         <option value="$PROJECT_DIR$/_checklist-web/link.markdown" />
+        <option value="$PROJECT_DIR$/_includes/examples/input-checkbox.html" />
+        <option value="$PROJECT_DIR$/_includes/examples/input-radio.html" />
+        <option value="$PROJECT_DIR$/_checklist-web/figure.markdown" />
+        <option value="$PROJECT_DIR$/_checklist-web/radio.markdown" />
+        <option value="$PROJECT_DIR$/_checklist-web/checkbox.markdown" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
       </list>
     </option>
@@ -273,12 +290,12 @@
       <workItem from="1613352054010" duration="18984000" />
       <workItem from="1613506239217" duration="5522000" />
       <workItem from="1613526366733" duration="33403000" />
-      <workItem from="1613690687889" duration="12285000" />
+      <workItem from="1613690687889" duration="12804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70194000" />
+    <option name="totallyTimeSpent" value="70713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,7 +323,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32901832" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22977346" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22977346" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -605,16 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_checklist-web/figure.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="293">
-            <caret line="81" selection-start-line="81" selection-end-line="81" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/checklist-web.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -643,45 +650,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/examples/input-radio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/examples/input-checkbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_checklist-web/radio.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="318">
-            <caret line="45" selection-start-line="45" selection-end-line="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_checklist-web/date-picker.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="75">
             <caret line="5" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_checklist-web/checkbox.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="234">
-            <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
           </first_editor>
           <second_editor />
         </state>
@@ -724,18 +697,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/examples/input-select.html">
+    <entry file="file://$PROJECT_DIR$/_includes/examples/input-radio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="120">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/examples/input-checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_checklist-web/link.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="473">
-            <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+          <first_editor relative-caret-position="283">
+            <caret line="39" column="6" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_checklist-web/figure.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="99">
+            <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_checklist-web/checkbox.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="296">
+            <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/examples/input-select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_checklist-web/radio.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="118">
+            <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           </first_editor>
           <second_editor />
         </state>
@@ -743,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
