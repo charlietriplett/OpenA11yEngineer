@@ -30,7 +30,7 @@ mobile:
   swipe: |
     Focus moves to the input, traverses list
   double-tap: |
-    Opens listbox, selects option
+    Selects option
 ---
 
 
