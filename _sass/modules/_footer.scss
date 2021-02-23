@@ -1,4 +1,13 @@
 footer {
   @extend .container;
-  @include light;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  nav {
+    a {
+      &:after {
+        display: none !important;
+      }
+    }
+  }
 }
