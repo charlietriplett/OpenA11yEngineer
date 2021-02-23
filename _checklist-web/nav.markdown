@@ -32,20 +32,16 @@ mobile:
 This semantic HTML contains all accessibility features by default.
 
 {% highlight html %}
-<nav tabindex="-1" id="navigation">
-  <ul>
-    <li><a href="/">Website name</a></li>
-    <li><a href="/about/">About</a></li>
-    <li><a href="/contact/">Contact</a></li>
-  <ul/>
-</nav>
+{% include /examples/nav.html %}
 {% endhighlight %}
+{% include /examples/nav.html %}
+
 
 ### Avoid custom elements
 This custom navigation requires extra attributes.
 
 {% highlight html %}
-<div role="navigation" tabindex="-1" id="navigation">
+<div role="navigation" tabindex="-1" id="custom-nav">
   <ul>
     <li><a href="/">Website name</a></li>
     <li><a href="/about/">About</a></li>

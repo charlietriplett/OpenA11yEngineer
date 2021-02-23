@@ -1,18 +1,30 @@
 @import "reset";
 @import "accessibility";
-@import "layout";
 
 @import "typography";
+
+@import "layout";
+@import "forms";
+
 @import "header";
 @import "nav";
+
 @import "checklist";
+
 @import "buttons";
+@import "input-checkbox";
+@import "input-radio";
+@import "input-search";
+@import "input-switch";
+@import "input-password";
+@import "input-select";
+@import "input-range";
+
+@import "details-summary";
+@import "expander";
 
 @import "table";
 
 @import "syntax-highlighting";
-
-@import "forms";
-
 @import "footer";
 

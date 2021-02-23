@@ -31,17 +31,9 @@ mobile:
 This semantic HTML contains all accessibility features by default. 
 
 {% highlight html %}
-<label for="password">Password - Required</label>
-<input type="password" 
-       id="password" 
-       name="password" 
-       minlength="8" 
-       required>
-<input type="checkbox" id="show-password">
-<label for="show-password">
-  Show Password
-</label>
+{% include /examples/input-password.html %}
 {% endhighlight %}
+{% include /examples/input-password.html %}
 
 ## Developer notes
 

@@ -1,0 +1,74 @@
+input[role="switch"] {
+  + label {
+    padding-left: 6rem;
+    &:before {
+      content: 'off';
+      color: $color-gray-dark;
+      text-align: right;
+      font-size: 14px;
+      line-height: 1.25rem;
+      font-weight: normal;
+      display: block;
+      width: 2.5rem;
+      padding: 0 .5rem 0 .5rem;
+      height: 1.25rem;
+      position: absolute;
+      left: 1.5rem;
+      top: 1.4rem;
+      background: $color-gray-light;
+      border-radius: .5rem;
+      transition: .4s;
+      border: none;
+      box-shadow: none;
+      speak: none;
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 2rem;
+      position: absolute;
+      left: 1.25rem;
+      top: 1rem;
+      background: #fff;
+      transition: .4s;
+      box-shadow: 0 1px 5px 1px rgba(#000,.4);
+    }
+  }
+  + label:hover:after,
+  &:focus + label:after {
+    background: #fff;
+    box-shadow: 0 0 0rem .5rem rgba($color-focus,.2);
+  }
+  + label:hover:before,
+  &:focus + label:before {
+    background: lighten($color-focus, 30);
+    color: darken($color-focus, 0);
+    box-shadow: none;
+  }
+  &:checked + label {
+    &:before {
+      background: darken($color-brand-primary,8);
+      content: 'on';
+      color: lighten($color-button-hover,60);
+      text-align: left;
+      text-shadow: 0 0 3px rgba(#000,.4);
+    }
+    &:after {
+      content: '';
+      left: 3.25rem;
+      background: darken($color-brand-primary,0);
+    }
+  }
+  &:active {
+    color: $color-brand-primary;
+    + label {
+      &:after {
+        background: #fff;
+        box-shadow: 0 0 0rem .75rem rgba($color-focus,.4);
+        border: 0;
+      }
+    }
+  }
+}

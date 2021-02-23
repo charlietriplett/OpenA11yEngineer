@@ -35,13 +35,9 @@ mobile:
 This semantic HTML contains all accessibility features by default with no scripting required.
 
 {% highlight html %}
-<details>
-  <summary>
-    See full terms
-  </summary>
-  Content goes here
-</details>
+{% include /examples/details-summary.html %}
 {% endhighlight %}
+{% include /examples/details-summary.html %}
 
 ### Use semantic HTML where possible
 This custom expander requires scripting.

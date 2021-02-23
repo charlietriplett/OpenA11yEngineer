@@ -8,7 +8,7 @@ keyboard:
     Nothing, headings should not be focusable 
   
 name:  |
-  The heading's purpose should be clear
+  The heading's purpose and level should be clear
 role:  |
   Identifies itself as a heading and its level
 group: |

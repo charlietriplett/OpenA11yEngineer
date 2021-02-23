@@ -45,16 +45,9 @@ While there is a native range input, it is difficult to style reliably across br
 This is one of the exceedingly rare instances where a custom element makes a lot of sense.
 
 {% highlight html %}
-<label for="cowbell">How much cowbell</label>
-<input type="range"
-       id="cowbell" 
-       name="cowbell" 
-       min="0" 
-       max="11" 
-       value="10" 
-       step="1">
+{% include /examples/input-range.html %}
 {% endhighlight %}
-
+{% include /examples/input-range.html %}
 
 
 

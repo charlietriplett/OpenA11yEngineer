@@ -33,26 +33,9 @@ mobile:
 This semantic HTML contains all accessibility features by default. Include a search button.
 
 {% highlight html %}
-<form role="search" action="/search/">
-  <label for="search">
-    Search this website:
-  </label>
-  <input type="search" id="search">
-  <button type="submit">
-    Search
-  </button>
-</form>
+{% include /examples/input-search.html %}
 {% endhighlight %}
-
-{% raw %}
-<form role="search" action="#">
-
-  <input type="search" id="site-search" name="q" placeholder="Search">
-  <button class="site-search-submit" type="submit">
-    <span class="hidden">Search</hidden></span>
-  </button>
-</form>
-{% endraw %}
+{% include /examples/input-search.html %}
 
 ## Developer notes
 

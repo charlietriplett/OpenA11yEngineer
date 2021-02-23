@@ -5,7 +5,7 @@ categories: form
 
 keyboard:
   tab: |
-    Focus moves visibly to the search text input
+    Focus moves visibly to the input
   
 name:  |
   Purpose is clear
@@ -27,18 +27,9 @@ mobile:
 This semantic HTML contains all accessibility features by default. Include a search button.
 
 {% highlight html %}
-<label for="phone">
-  Your phone number
-</label>
-<input type="text" 
-       id="phone"
-       aria-describedby="hint" 
-       inputmode="numeric"
-       pattern="[0-9]*">
-<div id="hint">
-   573-268-9692
-</div>
+{% include /examples/input-number.html %}
 {% endhighlight %}
+{% include /examples/input-number.html %}
 
 ## Developer notes
 
