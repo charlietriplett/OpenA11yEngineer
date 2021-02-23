@@ -35,11 +35,12 @@ mobile:
 ### Use semantic HTML
 This semantic HTML contains all accessibility features by default.
 
+
 {% highlight html %}
-<button>
-  Continue
-</button>
+{% include /examples/button.html %}
 {% endhighlight %}
+{% include /examples/button.html %}
+
 
 ### Avoid custom elements
 This custom button requires extra attributes and event listeners.

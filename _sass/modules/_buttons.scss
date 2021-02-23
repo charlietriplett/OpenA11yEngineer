@@ -1,16 +1,12 @@
-button {
-  cursor: pointer;
-}
-
-
 .animate {
   transition: all 0.1s;
   -webkit-transition: all 0.1s;
 }
 
 
-.button-alpha {
+button {
   display: block;
+  cursor: pointer;
   position: relative;
   border: none;
   padding: 1rem 4rem;
