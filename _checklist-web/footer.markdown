@@ -32,18 +32,9 @@ mobile:
 This semantic HTML contains all accessibility features by default.
 
 {% highlight html %}
-<footer tabindex="-1" id="footer"> 
-  <nav aria-label="Site map">
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about/">About</a></li>
-      <li><a href="/contact/">Contact</a></li>
-    <ul/>
-  </nav>
-
-  © 2021
-</footer>
+{% include /examples/footer.html %}
 {% endhighlight %}
+{% include /examples/footer.html %}
 
 ### Avoid custom elements
 This custom footer requires extra attributes.

@@ -31,53 +31,42 @@ mobile:
 ## Code examples
 
 ### Provide alternative ways to consume visual content
-This semantic HTML contains all accessibility features by default.
+
+If there is one primary message for an image chart, describe it in the alt attribute.
 
 {% highlight html %}
-<img src="nato-alphabet.jpg" alt="NATO alphabet">
-<figure>
-  <table>
-    <caption>
-      NATO Phoenetic Alphabet
-    </caption>
-    <thead>
-      <tr>
-        <th scope="row">
-          Letter
-        </th>
-        <th scope="column">
-          A
-        </th>
-        <th scope="column">
-          B
-        </th>
-        <th scope="column">
-          C
-        </th>
-      </tr>
-    </thead>
-    <tbody>       
-      <tr>
-        <th scope="row">
-          NATO
-        </th>
-        <td>
-          Alpha
-        </th>
-        <td>
-          Bravo
-        </td>
-        <td>
-          Charlie
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <figcaption>
-    Source: Charlie, 
-    <cite>Whiskey Tango Foxtrot, 2016</cite>
-  </figcaption>
-</figure>
+<img src="pie-chart.jpg" 
+     alt="Sales forecast show June 34% higher">
+{% endhighlight %}
+
+
+### Provide alternative ways to consume data
+
+If you have a figure that can't be described by alt text, place the content in a different format.
+
+{% highlight html %}
+<img src="nato-alphabet.jpg" 
+     alt="NATO alphabet"
+     aria-describedby="nato-table">
+{% include /examples/table.html %}
+{% endhighlight %}
+
+### Provide alternative interactions with dynamic figures
+
+When building maps, add a search or filtering feature for those who can't use a mouse.
+
+{% highlight html %}
+<map-embed></map-embed>
+
+<form role="search" action="/map/">
+  <label for="search">
+    Search for an location
+  </label>
+  <input type="search" id="search">
+  <button type="submit">
+    Search
+  </button>
+</form>
 {% endhighlight %}
 
 ## Developer notes

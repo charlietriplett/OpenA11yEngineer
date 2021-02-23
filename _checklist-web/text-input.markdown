@@ -29,14 +29,9 @@ mobile:
 This semantic HTML contains all accessibility features by default. 
 
 {% highlight html %}
-<label for="email">
-  Your email
-</label>
-<input type="text" id="email" aria-describedby="hint">
-<div id="hint">
-   yourname@something.com
-</div>
+{% include /examples/input-text.html %}
 {% endhighlight %}
+{% include /examples/input-text.html %}
 
 ## Developer notes
 

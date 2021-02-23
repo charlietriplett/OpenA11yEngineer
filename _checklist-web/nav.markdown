@@ -1,7 +1,8 @@
 ---
 layout: entry
-title:  "Navigation menu"
+title:  "Nav menu"
 categories: nav
+order: 0
 
 name:  |
   Can have a heading if there are multiple navigation elements
