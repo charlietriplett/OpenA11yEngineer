@@ -7,12 +7,12 @@ keyboard:
   tab: |
     Focus moves visibly to the text input
   arrow-keys: |
-    Moves focus to and selects the next option. 
+    Focus moves to and selects the next option. 
     If the textbox is empty and the listbox is not displayed, opens the listbox and moves visual focus to the next option.
     In both cases DOM focus remains on the textbox.
   enter: |
     The textbox value is set to the content of the selected option.
-    Closes the listbox.
+    The listbox closes.
   escape: |
     Clears the textbox. If the listbox is displayed, closes it.
 

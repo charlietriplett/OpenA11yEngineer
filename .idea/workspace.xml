@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_checklist-web/listbox-autocomplete.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/modules/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/modules/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/modules/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_checklist-web/listbox-autocomplete.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-web/listbox-autocomplete.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +44,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1238" />
-          <entry key="markdown" value="14721" />
+          <entry key="markdown" value="14767" />
           <entry key="md" value="14" />
           <entry key="scss" value="1311" />
           <entry key="yml" value="137" />
@@ -59,7 +53,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1238" />
-          <entry key="Markdown" value="14735" />
+          <entry key="Markdown" value="14781" />
           <entry key="SCSS" value="1311" />
           <entry key="YAML" value="137" />
         </counts>
@@ -72,8 +66,8 @@
         <entry file="file://$PROJECT_DIR$/_checklist-web/listbox-autocomplete.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="305">
-                <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <first_editor relative-caret-position="224">
+                <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -284,12 +278,12 @@
       <workItem from="1613506239217" duration="5522000" />
       <workItem from="1613526366733" duration="33403000" />
       <workItem from="1613690687889" duration="15295000" />
-      <workItem from="1614046310348" duration="955000" />
+      <workItem from="1614046310348" duration="1018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74159000" />
+    <option name="totallyTimeSpent" value="74222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -756,8 +750,8 @@
     <entry file="file://$PROJECT_DIR$/_checklist-web/listbox-autocomplete.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="305">
-            <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <first_editor relative-caret-position="224">
+            <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
