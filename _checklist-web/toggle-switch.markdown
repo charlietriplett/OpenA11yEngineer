@@ -32,32 +32,10 @@ mobile:
 This semantic HTML contains all accessibility features by default, and only requires the addition of `role="switch"`. 
 
 {% highlight html %}
-<fieldset>
-  <legend>Activate your options:</legend>
-  <input type="checkbox" role="switch" id="alpha">
-  <label for="alpha">Alpha</label>
-
-  <input type="checkbox" role="switch" id="bravo">
-  <label for="bravo">Bravo</label>
-
-  <input type="checkbox" role="switch" id="charlie">
-  <label for="charlie">Charlie</label>
-</fieldset>
+{% include /examples/input-switch.html %}
 {% endhighlight %}
+{% include /examples/input-switch.html %}
 
-{% raw %}
-<fieldset>
-  <legend>Activate your options:</legend>
-  <input type="checkbox" role="switch" id="alpha">
-  <label for="alpha">Alpha</label>
-
-  <input type="checkbox" role="switch" id="bravo">
-  <label for="bravo">Bravo</label>
-
-  <input type="checkbox" role="switch" id="charlie">
-  <label for="charlie">Charlie</label>
-</fieldset>
-{% endraw %}
 
 ### You can also use a button
 This `<button>` toggle has focus and keyboard criteria built in. It requires the addition of `role="switch"` and scripting to toggle `aria-checked="true/false"`.

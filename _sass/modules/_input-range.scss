@@ -25,7 +25,7 @@ $track-shadow-blur: 0px !default;
 $track-shadow-color: #fff !default;
 $track-border-width: 1px !default;
 
-$track-border-color: $color-border-gray !default;
+$track-border-color: transparent !default;
 
 $track-radius: 2rem !default;
 $contrast: 5% !default;
@@ -70,11 +70,13 @@ $color: #ccc;
   position: relative;
   outline: none !important;
   transition: .8s;
+  background-color: darken($color-gray-xtra-light, 8 );
   background-image:
-          linear-gradient(90deg, darken($color,1) 2px, transparent 2px);
-  background-size: 37px;
-  background-position: 24px top;
-
+          linear-gradient(90deg, darken($color,8) 4px, transparent 4px),
+          linear-gradient(0deg, darken($color,5) 4px, transparent 4px);
+  background-size: calc(8.333333333333333%) 8px, calc(100% - 8.333333333333333%) 16px;
+  background-position:  24px 8px, center 14px;
+  background-repeat: repeat-x, repeat-y;
 
   &::-webkit-slider-runnable-track {
     @include track;
