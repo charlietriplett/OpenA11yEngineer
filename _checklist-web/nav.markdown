@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Nav menu"
-categories: nav
+categories: nav footer
 order: 0
 
 name:  |
@@ -42,7 +42,7 @@ This semantic HTML contains all accessibility features by default.
 This custom navigation requires extra attributes.
 
 {% highlight html %}
-<div role="navigation" tabindex="-1" id="custom-nav">
+<div role="navigation">
   <ul>
     <li><a href="/">Website name</a></li>
     <li><a href="/about/">About</a></li>
