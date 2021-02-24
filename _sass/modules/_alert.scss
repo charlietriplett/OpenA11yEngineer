@@ -1,0 +1,13 @@
+[role="alert"] {
+  background: $color-alert;
+  padding: 1rem;
+  border-radius: .25rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  display: none;
+
+
+  &.visible {
+    display: block;
+  }
+}

@@ -57,7 +57,7 @@ This is a rare instance where custom elements are easier to style reliably acros
 
 {% highlight html %}
 <div id="range-label">
-  How much cowbell
+  How much cowbell?
 </div>
 <div class="track">
   <div id="thumb"
@@ -67,6 +67,7 @@ This is a rare instance where custom elements are easier to style reliably acros
        aria-valuenow="10"
        aria-valuemax="11"
        aria-labelledby="range-label">
+  </div>
 </div>
 {% endhighlight %}
 

@@ -8,33 +8,32 @@
     {%- include header.html -%}
 
     <main>
-        {{ content }}
+    {{ content }}
     </main>
 
     {%- include footer.html -%}
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/OpenA11yEngineer/assets/scripts/index.js"></script>
     <script>
 
-        $("input[type='checkbox']").change(function() {
-            var arr = [];
-            arr.push([ 'h1. #a11yEngineer - Native App Acceptance Criteria' ]);
-            $("input[type='checkbox']:checked").each(function(){
-                var $this = $(this);
-                // arr.push([ $this.data('title'), $this.data('success-criteria'), $this.data('keyboard-support'), ]);
-                arr.push([ $this.data('success-criteria') ]);
-            });
-            var textarea = document.getElementById("criteria-area");
-            textarea.value = arr.join("\n");
-            console.log(arr);
-        });
+      $("input[type='checkbox']").change(function() {
+          var arr = [];
+          arr.push([ 'h1. #a11yEngineer - Native App Acceptance Criteria' ]);
+          $("input[type='checkbox']:checked").each(function(){
+              var $this = $(this);
+              // arr.push([ $this.data('title'), $this.data('success-criteria'), $this.data('keyboard-support'), ]);
+              arr.push([ $this.data('success-criteria') ]);
+          });
+          var textarea = document.getElementById("criteria-area");
+          textarea.value = arr.join("\n");
+          console.log(arr);
+      });
 
-        $("#copy").click(function(){
-            $("#criteria-area").select();
-            document.execCommand('copy');
-        });
+      $("#copy").click(function(){
+          $("#criteria-area").select();
+          document.execCommand('copy');
+      });
     </script>
-
   </body>
-
 </html>

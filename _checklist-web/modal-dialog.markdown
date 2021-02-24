@@ -34,22 +34,12 @@ mobile:
 
 ### Use semantic HTML where possible
 
-Browser support for `<dialog>` is still incomplete.
+Browser support for `<dialog>` is still incomplete. Some browsers require additional scripting.
 
 {% highlight html %}
-<dialog aria-modal="true" aria-labelledby="title">
-  <button type="reset">
-    <span class="hidden">Close</span>
-  </button>
-  <h2 id="title">
-    Do you accept the terms and conditions?
-  </h2>
-  <p>Acceptance is required</p>
-  <button type="submit">
-    I accept
-  </button>
-</dialog>
+{% include /examples/modal-dialog.html %}
 {% endhighlight %}
+{% include /examples/modal-dialog.html %}
 
 ## Developer notes
 
