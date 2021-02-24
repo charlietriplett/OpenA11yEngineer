@@ -34,7 +34,7 @@ This semantic HTML contains all accessibility features by default.
 Optional: The table is wrapped in a `<figure>` to indicate author and source.
 
 {% highlight html %}
-{% include /examples/figure.html %}
+{% include /examples/figure.html%}
 {% endhighlight %}
 {% include /examples/figure.html %}
 
