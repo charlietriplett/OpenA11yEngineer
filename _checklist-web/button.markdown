@@ -39,17 +39,28 @@ This semantic HTML contains all accessibility features by default.
 {% highlight html %}
 {% include /examples/button.html %}
 {% endhighlight %}
-{% include /examples/button.html %}
 
+{::nomarkdown}
+{% include /examples/button.html %}
+{:/}
 
 ### Avoid custom elements
 This custom button requires extra attributes and event listeners.
 
 {% highlight html %}
-<custom-element role="button" tabindex="0">
+<div role="button" tabindex="0">
   Continue
-</custom-label>
+</div>
 {% endhighlight %}
+
+As a last resort, `aria-label` can be used.
+
+{% highlight html %}
+<div role="button" tabindex="0" aria-label="Continue">
+  <!-- icon or whatever -->
+</div>
+{% endhighlight %}
+
 
 ## Developer notes
 

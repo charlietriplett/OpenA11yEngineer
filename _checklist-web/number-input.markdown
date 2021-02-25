@@ -29,7 +29,10 @@ This semantic HTML contains all accessibility features by default. Include a sea
 {% highlight html %}
 {% include /examples/input-number.html %}
 {% endhighlight %}
+
+{::nomarkdown}
 {% include /examples/input-number.html %}
+{:/}
 
 ## Developer notes
 

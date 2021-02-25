@@ -35,7 +35,10 @@ This semantic HTML contains all accessibility features by default.
 {% highlight html %}
 {% include /examples/nav.html %}
 {% endhighlight %}
+
+{::nomarkdown}
 {% include /examples/nav.html %}
+{:/}
 
 
 ### Avoid custom elements

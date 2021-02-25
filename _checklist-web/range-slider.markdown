@@ -47,8 +47,10 @@ This is one of the exceedingly rare instances where a custom element makes a lot
 {% highlight html %}
 {% include /examples/input-range.html %}
 {% endhighlight %}
-{% include /examples/input-range.html %}
 
+{::nomarkdown}
+{% include /examples/input-range.html %}
+{:/}
 
 
 ### Custom elements

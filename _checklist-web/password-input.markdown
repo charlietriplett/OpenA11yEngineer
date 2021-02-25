@@ -33,7 +33,10 @@ This semantic HTML contains all accessibility features by default.
 {% highlight html %}
 {% include /examples/input-password.html %}
 {% endhighlight %}
+
+{::nomarkdown}
 {% include /examples/input-password.html %}
+{:/}
 
 ## Developer notes
 

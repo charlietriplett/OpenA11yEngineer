@@ -39,7 +39,10 @@ Browser support for `<dialog>` is still incomplete. Some browsers require additi
 {% highlight html %}
 {% include /examples/modal-dialog.html %}
 {% endhighlight %}
+
+{::nomarkdown}
 {% include /examples/modal-dialog.html %}
+{:/}
 
 ## Developer notes
 

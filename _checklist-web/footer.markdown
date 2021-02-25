@@ -34,7 +34,10 @@ This semantic HTML contains all accessibility features by default.
 {% highlight html %}
 {% include /examples/footer.html %}
 {% endhighlight %}
+
+{::nomarkdown}
 {% include /examples/footer.html %}
+{:/}
 
 ### Avoid custom elements
 This custom footer requires extra attributes.

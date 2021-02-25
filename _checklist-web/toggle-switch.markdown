@@ -34,8 +34,10 @@ This semantic HTML contains all accessibility features by default, and only requ
 {% highlight html %}
 {% include /examples/input-switch.html %}
 {% endhighlight %}
-{% include /examples/input-switch.html %}
 
+{::nomarkdown}
+{% include /examples/input-switch.html %}
+{:/}
 
 ### You can also use a button
 This `<button>` toggle has focus and keyboard criteria built in. It requires the addition of `role="switch"` and scripting to toggle `aria-checked="true/false"`.

@@ -39,8 +39,9 @@ This semantic HTML contains all accessibility features by default.
 {% include /examples/input-radio.html %}
 {% endhighlight %}
 
+{::nomarkdown}
 {% include /examples/input-radio.html %}
-
+{:/}
 
 ### Avoid custom elements
 This custom button requires extra work for roving tabindex and event listeners.

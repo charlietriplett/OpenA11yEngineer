@@ -35,7 +35,10 @@ This semantic HTML contains all accessibility features by default. Include a sea
 {% highlight html %}
 {% include /examples/input-search.html %}
 {% endhighlight %}
+
+{::nomarkdown}
 {% include /examples/input-search.html %}
+{:/}
 
 ## Developer notes
 

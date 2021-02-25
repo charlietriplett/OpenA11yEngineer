@@ -38,14 +38,11 @@ mobile:
 <h2>The Princess Bride</h2>
 <video-embed>
 </video-embed>
-
 {% endhighlight %}
 
 ### An `aria-label="Media title"` can also be used
 {% highlight html %}
-
 <video-embed aria-label="The Princess Bride"></video-embed>
-
 {% endhighlight %}
 
 ## Developer notes

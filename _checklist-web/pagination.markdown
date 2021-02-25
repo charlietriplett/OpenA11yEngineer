@@ -32,7 +32,11 @@ This semantic HTML contains all accessibility features by default.
 {% highlight html %}
 {% include /examples/pagination.html %}
 {% endhighlight %}
+
+{::nomarkdown}
 {% include /examples/pagination.html %}
+{:/}
+
 
 ## Developer notes
 

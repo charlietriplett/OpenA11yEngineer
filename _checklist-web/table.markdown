@@ -36,7 +36,11 @@ Optional: The table is wrapped in a `<figure>` to indicate author and source.
 {% highlight html %}
 {% include /examples/figure.html %}
 {% endhighlight %}
-{%- include /examples/figure.html -%}
+
+{::nomarkdown}
+{% include /examples/figure.html %}
+{:/}
+
 
 ### Don't use custom elements
 

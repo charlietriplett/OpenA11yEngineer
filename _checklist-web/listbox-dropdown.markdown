@@ -45,7 +45,10 @@ This native select contains all the accessibility criteria for free and is style
 {% highlight html %}
 {% include /examples/input-select.html %}
 {% endhighlight %}
+
+{::nomarkdown}
 {% include /examples/input-select.html %}
+{:/}
 
 ### Custom elements
 

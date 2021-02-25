@@ -37,19 +37,22 @@ This semantic HTML contains all accessibility features by default with no script
 {% highlight html %}
 {% include /examples/details-summary.html %}
 {% endhighlight %}
+
+{::nomarkdown}
 {% include /examples/details-summary.html %}
+{:/}
 
 ### Use semantic HTML where possible
-This custom expander requires scripting.
+This custom expander uses a semantic button with `aria-expanded` with additional scripting to toggle content and states.
 
 {% highlight html %}
-<button aria-expanded="false">
-  See full terms
-</button>
-<div class="hidden">
-  Content goes here
-</div>
+{% include /examples/expander.html %}
 {% endhighlight %}
+
+{::nomarkdown}
+{% include /examples/expander.html %}
+{:/}
+
 
 ## Developer notes
 

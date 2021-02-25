@@ -29,7 +29,11 @@ Use alerts sparingly. The alert will be read by the screen reader when it become
 {% highlight html %}
 {% include /examples/alert.html %}
 {% endhighlight %}
+
+{::nomarkdown}
 {% include /examples/alert.html %}
+{:/}
+
 
 ## Developer notes
 
