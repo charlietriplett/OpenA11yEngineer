@@ -79,14 +79,20 @@
 .focused {
   outline: .125rem dotted $color-focus;
   outline-offset: .125rem;
+  transition: .2s;
 }
+.active {
+  outline-offset: -.125rem;
+  transition: .2s;
+}
+
 
 @mixin focus {
   &:focus {
     @extend .focused;
   }
   &:active {
-    outline-offset: -.125rem;
+    @extend .active;
   }
   &:hover {
     outline: none;

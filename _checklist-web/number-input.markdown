@@ -23,8 +23,12 @@ mobile:
 
 ## Code examples
 
-### Use semantic HTML
-This semantic HTML contains all accessibility features by default. Include a search button.
+### Use `type="text"` 
+Use `type=text` with `inputmode="numeric"` with a input pattern.
+
+### Don't use `type="number"` 
+
+The `type="number"` input is intended for integers and includes features we don't want like stepper functionality that is a nuisance to everyone. Phone, credit card, pin etc. are not integers.
 
 {% highlight html %}
 {% include /examples/input-number.html %}

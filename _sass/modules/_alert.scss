@@ -1,13 +1,15 @@
 [role="alert"] {
   background: $color-alert;
   padding: 1rem;
-  border-radius: .25rem;
+  border-radius: 2px;
   font-weight: bold;
   margin-bottom: 3rem;
-  display: none;
 
+  &.inert {
+    display: none;
+  }
 
   &.visible {
-    display: block;
+    display: inline-block;
   }
 }

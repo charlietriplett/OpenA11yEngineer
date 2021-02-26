@@ -50,8 +50,10 @@ input[type="checkbox"] {
   &:focus + label:before {
     background: none;
     box-shadow: 0 0 0rem .5rem rgba($color-focus,.2);
+    border-color: $color-brand-primary;
   }
   &:active + label:before {
     box-shadow: 0 0 0rem .75rem rgba($color-focus,.4);
+    border-color: $color-brand-primary;
   }
 }
