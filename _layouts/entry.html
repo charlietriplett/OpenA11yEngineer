@@ -62,8 +62,8 @@ layout: default
           </tr>
           {% for input in page.mobile %}
           <tr>
-            <th scope="row">{{ input[0] | capitalize }}</th>
-            <td>{{ input[1] | escape }}</td>
+            <th scope="row">{{ page.mobile.input[0] }}</th>
+            <td>{{ page.mobile.input[1] | escape }}</td>
           </tr>
           {% endfor %}
           </tbody>
@@ -72,6 +72,19 @@ layout: default
       </div>
     </div>
     <div class="post-content">
+      {% if page.media %}
+        <h2 class="h-bravo">
+          Video examples
+        </h2>
+        <media-gallery>
+          {% for input in page.media %}
+            {% assign filename =  input[0] %}
+            {% assign title =  input[1] %}
+            {% include video-player.html filename = filename title = title %}
+          {% endfor %}
+        </media-gallery>
+      {% endif %}
+
       {{ content }}
     </div>
 

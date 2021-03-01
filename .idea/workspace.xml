@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_checklist-web/hint-helper.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_checklist-web/sticky-content.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/examples/hint-help-error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/examples/sticky-content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_sass/modules/_sticky-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/video-player.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_sass/modules/_video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/ScreenFlow.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/radio-buttons.mov" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_checklist-web/number-input.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-web/number-input.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/examples/alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/examples/alert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/examples/input-number.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/examples/input-number.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/base/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/base/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/modules/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_checklist-web/radio.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-web/radio.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_entries/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_entries/button.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_entries/link.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_entries/radio.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_entries/template.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/entry.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/modules/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/modules/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/modules/_checklist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_checklist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/modules/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/modules/_input-checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_input-checkbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/modules/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_reset.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,54 +26,54 @@
     <session id="-1636341975">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="142" />
+          <entry key="html" value="147" />
           <entry key="js" value="7" />
-          <entry key="markdown" value="191" />
+          <entry key="markdown" value="192" />
           <entry key="md" value="1" />
           <entry key="rnc" value="1" />
-          <entry key="scss" value="121" />
+          <entry key="scss" value="124" />
           <entry key="svg" value="2" />
           <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="142" />
+          <entry key="HTML" value="147" />
           <entry key="JavaScript" value="7" />
-          <entry key="Markdown" value="192" />
+          <entry key="Markdown" value="193" />
           <entry key="RNG Compact" value="1" />
-          <entry key="SCSS" value="121" />
+          <entry key="SCSS" value="124" />
           <entry key="SVG" value="2" />
           <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3461" />
+          <entry key="html" value="4105" />
           <entry key="js" value="471" />
-          <entry key="markdown" value="21088" />
+          <entry key="markdown" value="21372" />
           <entry key="md" value="14" />
-          <entry key="scss" value="4350" />
+          <entry key="scss" value="4625" />
           <entry key="yml" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3461" />
+          <entry key="HTML" value="4105" />
           <entry key="JavaScript" value="471" />
-          <entry key="Markdown" value="21102" />
-          <entry key="SCSS" value="4350" />
+          <entry key="Markdown" value="21386" />
+          <entry key="SCSS" value="4625" />
           <entry key="YAML" value="137" />
         </counts>
       </usages-collector>
@@ -86,38 +81,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/assets/scripts/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/modules/_alert.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_includes/examples/alert.html">
+        <entry file="file://$PROJECT_DIR$/_includes/video-player.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/examples/hint-help-error.html">
+        <entry file="file://$PROJECT_DIR$/_sass/modules/_video.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_checklist-web/radio.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="490">
+                <caret line="46" selection-start-line="46" selection-end-line="46" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/entry.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -168,9 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_sass/modules/_modal-dialog.scss" />
-        <option value="$PROJECT_DIR$/_includes/examples/pagination.html" />
-        <option value="$PROJECT_DIR$/_sass/modules/_input-range.scss" />
         <option value="$PROJECT_DIR$/_includes/figure.html" />
         <option value="$PROJECT_DIR$/_includes/examples/figure.html" />
         <option value="$PROJECT_DIR$/_includes/examples/button.html" />
@@ -182,7 +177,6 @@
         <option value="$PROJECT_DIR$/_checklist-web/listbox-dropdown.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/modal-dialog.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/password-input.markdown" />
-        <option value="$PROJECT_DIR$/_checklist-web/radio.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/range-slider.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/search.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/table.markdown" />
@@ -201,7 +195,6 @@
         <option value="$PROJECT_DIR$/_sass/modules/_animation.scss" />
         <option value="$PROJECT_DIR$/_checklist-web/animation.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/nav.markdown" />
-        <option value="$PROJECT_DIR$/_sass/modules/_all.scss" />
         <option value="$PROJECT_DIR$/_includes/examples/sticky-content.html" />
         <option value="$PROJECT_DIR$/_checklist-web/sticky-content.markdown" />
         <option value="$PROJECT_DIR$/_sass/base/_colors.scss" />
@@ -219,6 +212,11 @@
         <option value="$PROJECT_DIR$/_site/assets/scripts/index.js" />
         <option value="$PROJECT_DIR$/_sass/modules/_alert.scss" />
         <option value="$PROJECT_DIR$/_includes/examples/alert.html" />
+        <option value="$PROJECT_DIR$/_sass/modules/_all.scss" />
+        <option value="$PROJECT_DIR$/_includes/video-player.html" />
+        <option value="$PROJECT_DIR$/_layouts/entry.html" />
+        <option value="$PROJECT_DIR$/_checklist-web/radio.markdown" />
+        <option value="$PROJECT_DIR$/_sass/modules/_video.scss" />
       </list>
     </option>
   </component>
@@ -229,7 +227,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1954" />
+    <option name="x" value="1840" />
     <option name="y" value="-515" />
     <option name="width" value="1753" />
     <option name="height" value="1415" />
@@ -242,7 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,12 +260,6 @@
             <path>
               <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
               <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,41 +271,31 @@
               <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
               <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
               <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
               <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
               <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
               <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,16 +305,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Markdown" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_sass/modules" />
+      <recent name="$PROJECT_DIR$/assets/media/video" />
+      <recent name="$PROJECT_DIR$/_includes" />
+      <recent name="$PROJECT_DIR$/_includes/examples" />
+      <recent name="$PROJECT_DIR$/_checklist-web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_includes/components" />
       <recent name="$PROJECT_DIR$/_includes" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_includes/examples" />
-      <recent name="$PROJECT_DIR$/_checklist-web" />
-      <recent name="$PROJECT_DIR$/_sass/modules" />
-      <recent name="$PROJECT_DIR$/_includes" />
-      <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -368,12 +349,14 @@
       <workItem from="1614188606922" duration="3042000" />
       <workItem from="1614194459885" duration="11057000" />
       <workItem from="1614270967373" duration="12296000" />
-      <workItem from="1614358128198" duration="7609000" />
+      <workItem from="1614358128198" duration="8155000" />
+      <workItem from="1614523703260" duration="30000" />
+      <workItem from="1614622141924" duration="3778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121424000" />
+    <option name="totallyTimeSpent" value="125778000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,9 +368,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1954" y="-515" width="1753" height="1415" extended-state="0" />
+    <frame x="1840" y="-515" width="1753" height="1415" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20046756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2051432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -400,7 +383,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32901832" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3788914" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23690204" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -436,50 +419,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_checklist-web/image.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="450">
-            <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_checklist-web/link.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_checklist-web/listbox-autocomplete.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-53" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_checklist-web/main.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_checklist-web/modal-dialog.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="386">
-            <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_checklist-web/listbox-dropdown.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -525,16 +464,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="309">
             <caret line="50" selection-start-line="50" selection-end-line="52" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_checklist-web/radio.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="555">
-            <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="43" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
@@ -602,9 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="708">
           <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-          <folding>
-            <element signature="e#1033#1425#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,20 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/modules/_all.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/modules/_sticky-content.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-end-line="16" />
-          <folding>
-            <element signature="e#112#247#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
-          <folding>
-            <element signature="e#1156#1616#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,6 +743,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/video-playe.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/examples/hint-help-error.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -839,8 +762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/assets/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="58">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -853,8 +776,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/examples/alert.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/modules/_all.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_checklist-web/radio.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="490">
+            <caret line="46" selection-start-line="46" selection-end-line="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/modules/_video.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/video-player.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
