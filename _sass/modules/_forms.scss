@@ -94,7 +94,7 @@ input[type=radio] {
   &:checked + label {
     color: #000;
   }
-  &:focus + label {
+  &:focus-visible + label {
     color: $color-brand-primary;
     z-index: 9;
     @extend .focused;

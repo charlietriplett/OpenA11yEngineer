@@ -62,8 +62,8 @@ layout: default
           </tr>
           {% for input in page.mobile %}
           <tr>
-            <th scope="row">{{ page.mobile.input[0] }}</th>
-            <td>{{ page.mobile.input[1] | escape }}</td>
+            <th scope="row">{{ input[0] }}</th>
+            <td>{{ input[1] | escape }}</td>
           </tr>
           {% endfor %}
           </tbody>
