@@ -28,18 +28,6 @@ mobile:
       If the radio button with focus is not checked, changes the state to checked. Otherwise, does nothing.
 
 
-media:
-  Screenflow0.mp4: |
-    iOS Voiceover Safari
-  Screenflow1.mp4: |
-    Android Talkback Chrome
-  Screenflow2.mp4: |
-    Windows JAWS Chrome
-  Screenflow3.mp4: |
-    OSX Voiceover Safari
-  Screenflow4.mp4: |
-    Windows NVDA Firefox
-
 ---
 
 

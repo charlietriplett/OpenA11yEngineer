@@ -23,6 +23,17 @@ mobile:
     Focus moves to the element, expresses its state
   doubletap: |
     Checkbox toggles between checked and unchecked states.
+    
+    
+media:
+  ios/checkbox.mp4: |
+    iOS Voiceover Safari
+  android/checkbox.mp4: |
+    Android Talkback Chrome
+  jaws/checkbox.mp4: |
+    JAWS Chrome
+  nvda/checkbox.mp4: |
+    Windows NVDA Firefox
 ---
 
 ## Code examples

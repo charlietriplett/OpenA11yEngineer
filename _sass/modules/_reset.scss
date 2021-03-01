@@ -111,11 +111,11 @@ a {
 }
 
 a:hover,
-a:focus {
+a:focus-visible {
   color: #000;
   text-decoration: none;
 }
 
-a:focus {
+a:focus-visible {
   outline-color: $color-focus;
 }

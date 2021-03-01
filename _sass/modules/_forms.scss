@@ -163,7 +163,7 @@ input[type="file"] {
       background-color: $color-button-hover;
     }
   }
-  &:focus {
+  &:focus-visible {
     + label {
       background-color: $color-button-hover;
     }
@@ -171,8 +171,8 @@ input[type="file"] {
 }
 
 .hint {
-  margin: .5rem 0 3rem 0;
-  padding: 1rem;
+  margin: 0 0 3rem 0;
+  padding: .5rem 1rem;
   color: $color-gray-xtra-dark;
   border: 1px solid $color-border-gray;
   background: #eee;
