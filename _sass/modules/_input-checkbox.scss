@@ -57,3 +57,20 @@ input[type="checkbox"] {
     border-color: $color-brand-primary;
   }
 }
+
+
+
+        input[type="checkbox"] {
+          + label {
+            // Style the label
+          }
+          &:checked + label {
+            // Style the label in the checked state
+          }
+          &:focus + label {
+            // Style the label in the focused state
+          }
+          &:active + label {
+            // Style the label in the active state
+          }
+        }

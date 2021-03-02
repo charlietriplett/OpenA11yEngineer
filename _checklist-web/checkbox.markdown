@@ -24,7 +24,6 @@ mobile:
   doubletap: |
     Checkbox toggles between checked and unchecked states.
     
-    
 media:
   ios/checkbox.mp4: |
     iOS Voiceover Safari
@@ -47,8 +46,6 @@ This semantic HTML contains all accessibility features by default.
 {::nomarkdown}
 {% include /examples/input-checkbox.html %}
 {:/}
-
-
 
 ### Avoid custom elements
 This custom checkbox requires extra attributes and event listeners.
