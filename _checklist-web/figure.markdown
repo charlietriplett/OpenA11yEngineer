@@ -44,11 +44,12 @@ If there is one primary message for an image chart, describe it in the alt attri
 
 If you have a figure that can't be described by alt text, place the content in a different format.
 {% highlight html %}
-<img src="nato-alphabet.jpg" 
-     alt="NATO alphabet"
-     aria-describedby="nato-table">
-{% include /examples/table.html %}
+{% include /examples/pie-chart-image.html %}
 {% endhighlight %}
+
+{::nomarkdown}
+{% include /examples/pie-chart-image.html %}
+{:/}
 
 ### Provide alternative interactions with dynamic figures
 
