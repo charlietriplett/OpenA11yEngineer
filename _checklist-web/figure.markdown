@@ -43,7 +43,6 @@ If there is one primary message for an image chart, describe it in the alt attri
 ### Provide alternative ways to consume data
 
 If you have a figure that can't be described by alt text, place the content in a different format.
-
 {% highlight html %}
 <img src="nato-alphabet.jpg" 
      alt="NATO alphabet"
@@ -68,6 +67,15 @@ When building maps, add a search or filtering feature for those who can't use a 
   </button>
 </form>
 {% endhighlight %}
+
+### SVG bar chart
+
+{% highlight html %}
+<map-embed></map-embed>
+{% include /examples/figure-bar-chart.html %}
+{% endhighlight %}
+{% include /examples/figure-bar-chart.html %}
+
 
 ## Developer notes
 
