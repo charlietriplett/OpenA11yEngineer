@@ -32,7 +32,9 @@ media:
   jaws/checkbox.mp4: |
     JAWS Chrome
   nvda/checkbox.mp4: |
-    Windows NVDA Firefox
+    Windows NVDA Chrome
+  macos/checkbox.mp4: |
+    macOS Voiceover Safari 
 ---
 
 ## Code examples
