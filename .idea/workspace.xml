@@ -2,10 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_includes/examples/pie-chart-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/examples/pie-chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/android/checkbox.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/android/heading.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/android/landmark.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/android/radio.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/android/sticky-content.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/android/text.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/ios/checkbox.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/ios/heading.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/ios/landmark.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/ios/radio.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/jaws/checkbox.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/jaws/heading.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/jaws/image.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/macos/checkbox.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/macos/heading.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/media/video/macos/radio.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_checklist-web/figure.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-web/figure.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/android/accordion-radiogroup.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/android/checkboes.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/android/checkbox.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/android/headings.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/android/heading.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/android/radio-buttons.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/android/radio.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/android/stickycontent.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/android/sticky-content.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/android/text-inputs.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/android/text.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/ios/checkboxes.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/ios/checkbox.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/ios/headings.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/ios/heading.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/ios/landmarks.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/ios/landmark.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/ios/radio-buttons.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/ios/radio.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/jaws/accordion-radio-buttons.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/jaws/image.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/jaws/checkboxes.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/jaws/checkbox.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/jaws/headings.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/jaws/heading.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/macos/accordion-radio-button.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/macos/checkboxes.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/macos/checkbox.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/macos/headings.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/macos/heading.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/media/video/macos/radio-buttons.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/video/macos/radio.mp4" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +48,14 @@
     <session id="-1636341975">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,8 +112,8 @@
         <entry file="file://$PROJECT_DIR$/_checklist-web/figure.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="341">
-                <caret line="51" selection-start-line="51" selection-end-line="51" />
+              <first_editor relative-caret-position="583">
+                <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -105,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/_includes/examples/figure-bar-chart.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -217,9 +248,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2004" />
+    <option name="x" value="1837" />
     <option name="y" value="-515" />
-    <option name="width" value="1557" />
+    <option name="width" value="1875" />
     <option name="height" value="1415" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -230,6 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,18 +277,12 @@
             <path>
               <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
               <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
               <item name="_sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
+              <item name="_site" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
@@ -269,11 +295,62 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="jaws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="macos" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,17 +360,17 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Markdown" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_includes/examples" />
-      <recent name="$PROJECT_DIR$/assets/media/video" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/assets/media/video/android" />
-      <recent name="$PROJECT_DIR$/assets/media/video/nvda" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/examples" />
       <recent name="$PROJECT_DIR$/_includes/components" />
       <recent name="$PROJECT_DIR$/_includes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/media/video/android" />
+      <recent name="$PROJECT_DIR$/assets/media/video/jaws" />
+      <recent name="$PROJECT_DIR$/assets/media/video/ios" />
+      <recent name="$PROJECT_DIR$/assets/media/video/macos" />
+      <recent name="$PROJECT_DIR$/_includes/examples" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,12 +410,13 @@
       <workItem from="1614622141924" duration="14866000" />
       <workItem from="1614714933517" duration="297000" />
       <workItem from="1614788834756" duration="2112000" />
-      <workItem from="1614884041332" duration="2854000" />
+      <workItem from="1614884041332" duration="4606000" />
+      <workItem from="1614958210338" duration="270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142129000" />
+    <option name="totallyTimeSpent" value="144151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,10 +428,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1886" y="-515" width="1557" height="1415" extended-state="0" />
-    <editor active="true" />
+    <frame x="1837" y="-515" width="1875" height="1415" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2349835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19694489" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -709,13 +786,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/examples/pie-chart-image.hmtl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/examples/pie-chart-image.hmtl" />
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -730,17 +801,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/examples/figure-bar-chart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/examples/button.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_checklist-web/figure.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="583">
+            <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -754,13 +828,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_checklist-web/figure.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="341">
-            <caret line="51" selection-start-line="51" selection-end-line="51" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/_includes/examples/figure-bar-chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
