@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Listbox Select Dropdown"
+title:  "Listbox select dropdown"
 categories: form
 
 keyboard:

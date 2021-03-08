@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Listbox with Inline Autocomplete"
+title:  "Listbox with inline autocomplete"
 categories: form
 
 keyboard:

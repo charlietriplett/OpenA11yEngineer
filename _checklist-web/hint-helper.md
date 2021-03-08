@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Hint help error"
+title:  "Hint, help, or error"
 categories: form
 
 keyboard:

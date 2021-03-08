@@ -1,11 +1,11 @@
 ---
 layout: entry
-title:  "Nav menu"
-categories: nav footer
+title:  "Navigation"
+categories: header nav footer
 order: 0
 
 name:  |
-  Can have a heading if there are multiple navigation elements
+  Can have a heading or label if there are multiple navigation elements
 role:  |
   Discoverable by screen reader as navigation landmark
 group: |
