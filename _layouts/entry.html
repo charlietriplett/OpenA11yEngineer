@@ -26,21 +26,26 @@ layout: default
         <div id="step1" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
           <link itemprop="url" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}#step1" />
           <h3 class="h-charlie" itemprop="name">
-            <step-number>1</step-number> Keyboard</h3>
-          <table itemprop="itemListElement" itemscope itemtype="http://schema.org/HowToDirection">
-            <tbody itemprop="text">
-              <tr>
-                <th scope="col">When I use</th>
-                <th scope="col">I see</th>
-              </tr>
-              {% for input in page.keyboard %}
+            <step-number>1</step-number> Keyboard
+          </h3>
+          <div itemprop="itemListElement" itemscope itemtype="http://schema.org/HowToDirection">
+            <table itemprop="text">
+              <thead>
                 <tr>
-                  <th scope="row">{{ input[0] | capitalize }}</th>
-                  <td>{{ input[1] | escape }}</td>
+                  <th scope="col">When I use</th>
+                  <th scope="col">I see</th>
                 </tr>
-              {% endfor %}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {% for input in page.keyboard %}
+                  <tr>
+                    <th scope="row">{{ input[0] | capitalize }}</th>
+                    <td>{{ input[1] | escape }}</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <div id="step2" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
@@ -48,30 +53,34 @@ layout: default
           <h3 class="h-charlie" itemprop="name">
             <step-number>2</step-number> Screenreader
           </h3>
-          <table itemprop="itemListElement" itemscope itemtype="http://schema.org/HowToDirection">
+          <div itemprop="itemListElement" itemscope itemtype="http://schema.org/HowToDirection">
+            <table itemprop="text">
+              <thead>
+                <tr>
+                  <th scope="col">Requirement</th>
+                  <th scope="col">I hear</th>
+                </tr>
+              </thead>
               <tbody itemprop="text">
-              <tr>
-                <th scope="col">Requirement</th>
-                <th scope="col">I hear</th>
-              </tr>
-              <tr>
-                <th scope="row">Name</th>
-                <td>{{ page.name | escape }}</td>
-              </tr>
-              <tr>
-                <th scope="row">Role</th>
-                <td>{{ page.role | escape }}</td>
-              </tr>
-              <tr>
-                <th scope="row">Group</th>
-                <td>{{ page.group | escape }}</td>
-              </tr>
-              <tr>
-                <th scope="row">State</th>
-                <td>{{ page.state | escape }}</td>
-              </tr>
-            </tbody>
-          </table>
+                <tr>
+                  <th scope="row">Name</th>
+                  <td>{{ page.name | escape }}</td>
+                </tr>
+                <tr>
+                  <th scope="row">Role</th>
+                  <td>{{ page.role | escape }}</td>
+                </tr>
+                <tr>
+                  <th scope="row">Group</th>
+                  <td>{{ page.group | escape }}</td>
+                </tr>
+                <tr>
+                  <th scope="row">State</th>
+                  <td>{{ page.state | escape }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <div id="step3" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
@@ -79,20 +88,24 @@ layout: default
           <h3 class="h-charlie" itemprop="name">
             <step-number>3</step-number> Mobile screenreader
           </h3>
-          <table itemprop="itemListElement" itemscope itemtype="http://schema.org/HowToDirection">
-            <tbody itemprop="text">
-            <tr>
-              <th scope="col">When I use:</th>
-              <th scope="col">I hear:</th>
-            </tr>
-            {% for input in page.mobile %}
-            <tr>
-              <th scope="row">{{ input[0] }}</th>
-              <td>{{ input[1] | escape }}</td>
-            </tr>
-            {% endfor %}
-            </tbody>
-          </table>
+          <div itemprop="itemListElement" itemscope itemtype="http://schema.org/HowToDirection">
+            <table itemprop="text">
+              <thead>
+                <tr>
+                  <th scope="col">When I use:</th>
+                  <th scope="col">I hear:</th>
+                </tr>
+              </thead>
+              <tbody>
+              {% for input in page.mobile %}
+                <tr>
+                  <th scope="row">{{ input[0] }}</th>
+                  <td>{{ input[1] | escape }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
         </div>
 
       </div>
