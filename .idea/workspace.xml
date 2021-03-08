@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_checklist-web/hint-helper.md" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-web/hint-helper.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_checklist-web/listbox-autocomplete.md" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-web/listbox-autocomplete.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_checklist-web/listbox-dropdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-web/listbox-dropdown.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_checklist-web/nav.md" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-web/nav.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/examples/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/examples/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/video-player.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/video-player.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/entry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/modules/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/modules/_input-password.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_input-password.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/modules/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_layout.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +57,7 @@
           <entry key="js" value="471" />
           <entry key="markdown" value="21645" />
           <entry key="md" value="893" />
-          <entry key="scss" value="5187" />
+          <entry key="scss" value="5341" />
           <entry key="yml" value="137" />
         </counts>
       </usages-collector>
@@ -78,7 +67,7 @@
           <entry key="JavaScript" value="471" />
           <entry key="Markdown" value="22538" />
           <entry key="PLAIN_TEXT" value="116" />
-          <entry key="SCSS" value="5187" />
+          <entry key="SCSS" value="5341" />
           <entry key="YAML" value="137" />
         </counts>
       </usages-collector>
@@ -103,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/modules/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="179">
+              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -364,12 +353,12 @@
       <workItem from="1614958210338" duration="3405000" />
       <workItem from="1614978928271" duration="1842000" />
       <workItem from="1615132963349" duration="13000" />
-      <workItem from="1615225901245" duration="2715000" />
+      <workItem from="1615225901245" duration="3730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151856000" />
+    <option name="totallyTimeSpent" value="152871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -838,8 +827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/modules/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="179">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
         </state>
       </provider>
     </entry>
