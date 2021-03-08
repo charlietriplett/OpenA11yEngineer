@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/entry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/modules/_details-summary.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/modules/_details-summary.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,7 @@
           <entry key="markdown" value="197" />
           <entry key="md" value="53" />
           <entry key="rnc" value="1" />
-          <entry key="scss" value="136" />
+          <entry key="scss" value="137" />
           <entry key="svg" value="2" />
           <entry key="yml" value="7" />
         </counts>
@@ -46,7 +46,7 @@
           <entry key="Markdown" value="250" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RNG Compact" value="1" />
-          <entry key="SCSS" value="136" />
+          <entry key="SCSS" value="137" />
           <entry key="SVG" value="2" />
           <entry key="YAML" value="7" />
         </counts>
@@ -58,7 +58,7 @@
           <entry key="js" value="471" />
           <entry key="markdown" value="21645" />
           <entry key="md" value="893" />
-          <entry key="scss" value="5341" />
+          <entry key="scss" value="5465" />
           <entry key="yml" value="137" />
         </counts>
       </usages-collector>
@@ -68,7 +68,7 @@
           <entry key="JavaScript" value="473" />
           <entry key="Markdown" value="22538" />
           <entry key="PLAIN_TEXT" value="116" />
-          <entry key="SCSS" value="5341" />
+          <entry key="SCSS" value="5465" />
           <entry key="YAML" value="137" />
         </counts>
       </usages-collector>
@@ -76,11 +76,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/entry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="90" column="96" selection-start-line="90" selection-start-column="96" selection-end-line="90" selection-end-column="96" />
+            <state relative-caret-position="773">
+              <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_sass/modules/_details-summary.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <element signature="e#526#917#2" expanded="true" />
+                <element signature="e#1156#1548#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_sass/modules/_animation.scss" />
         <option value="$PROJECT_DIR$/_checklist-web/animation.markdown" />
         <option value="$PROJECT_DIR$/_checklist-web/nav.markdown" />
         <option value="$PROJECT_DIR$/_includes/examples/sticky-content.html" />
@@ -214,6 +226,7 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_sass/modules/_layout.scss" />
         <option value="$PROJECT_DIR$/_layouts/entry.html" />
+        <option value="$PROJECT_DIR$/_sass/modules/_details-summary.scss" />
       </list>
     </option>
   </component>
@@ -270,22 +283,6 @@
               <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
               <item name="_sass" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,12 +353,12 @@
       <workItem from="1614978928271" duration="1842000" />
       <workItem from="1615132963349" duration="13000" />
       <workItem from="1615225901245" duration="4115000" />
-      <workItem from="1615240829905" duration="1231000" />
+      <workItem from="1615240829905" duration="1980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154487000" />
+    <option name="totallyTimeSpent" value="155236000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,7 +373,7 @@
     <frame x="2538" y="-515" width="1440" height="1401" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27181688" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27181688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -389,7 +386,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32901832" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.1373753" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.1373753" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -425,14 +422,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_checklist-web/alert.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_checklist-web/animation.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -830,8 +819,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/entry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="90" column="96" selection-start-line="90" selection-start-column="96" selection-end-line="90" selection-end-column="96" />
+        <state relative-caret-position="773">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/modules/_details-summary.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="e#526#917#2" expanded="true" />
+            <element signature="e#1156#1548#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
