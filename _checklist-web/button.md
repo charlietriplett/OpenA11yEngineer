@@ -19,7 +19,7 @@ role:  |
 group: |
   Indicates it has popup for modals, listbox, or menus
 state: |
-  Expresses its state (pressed, expanded, disabled)
+  Expresses its state if applicable (pressed, expanded, disabled)
           
 mobile:
   swipe: |
@@ -45,13 +45,25 @@ media:
 ### Use semantic HTML
 This semantic HTML contains all accessibility features by default.
 
-
 {% highlight html %}
 {% include /examples/button.html %}
 {% endhighlight %}
 
 {::nomarkdown}
 {% include /examples/button.html %}
+{:/}
+
+### Disabled button
+A button that uses the disabled attribute will not be focusable, but it is still discoverable by the screen reader.
+
+The preferred method is to use `aria-disabled="true"` so screen reader users can find the button, click submit and be notified of errors in the form.
+
+{% highlight html %}
+{% include /examples/button-disabled.html %}
+{% endhighlight %}
+
+{::nomarkdown}
+{% include /examples/button-disabled.html %}
 {:/}
 
 ### Avoid custom elements

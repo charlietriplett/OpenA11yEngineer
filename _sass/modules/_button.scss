@@ -36,7 +36,6 @@ button {
       right: 2.5rem;
     }
   }
-
   &:active {
     &:before {
       opacity: 1;
@@ -45,6 +44,7 @@ button {
   }
   &:disabled,
   &[aria-disabled="true"]{
+    color: $color-button-primary;
     background: $color-border-gray;
   }
 }

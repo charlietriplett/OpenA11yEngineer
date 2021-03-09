@@ -2,7 +2,6 @@
 layout: entry
 title:  "Date picker dialog"
 categories: form
-order: 1
 
 keyboard:
   tab: |
@@ -32,5 +31,17 @@ mobile:
         Activates the element in focus
 ---
 
+## Developer notes
 
-
+An accessible date picker will have the following components:
+- Launch button
+  - Opens the date picker
+  - Focus returns to this button on closing the popup dialog
+- Date picker popup dialog
+  - The dialog itself should be labelled by the month and year with `aria-labelledby="month-year-heading-id"`
+  - Use `aria-live="polite"` for the `<dialog>`, `aria-live="polite"` for month/year heading
+- Calendar navigation buttons
+- Date grid table
+  - Use `aria-labelledby="month-year-heading-id"` to label the table
+- Date picker buttons
+  - Use `aria-selected="true"` to indicate state
