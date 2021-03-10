@@ -1,9 +1,3 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
 # About T-a11y
 
 T-a11y (or Tally) is a tool built to simplify the process of accessibility testing. 
