@@ -12,12 +12,13 @@ Product owners, designers, developers or testers can use the checklist builder t
 
 These testing criteria are displayed in markdown format for easy copying/pasting into project management tools like Jira.
 
-### In addition to testing instructions that includes
+### Testing instructions includes:
 - How to test with keyboard
 - How to test with screeen reader
 - How to test with a screen reader on a mobile device
+- Link to the full entry
 
-### Each entry contains expanded information about components including:
+### Each entry contains:
 - Video demos with recommended screen reader browser pairings
 - Code examples
 - Developer notes
