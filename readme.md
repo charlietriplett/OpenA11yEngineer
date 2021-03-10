@@ -27,7 +27,7 @@ These testing criteria are displayed in markdown format for easy copying/pasting
 ## Contribute 
 Here are some ways to contribute:
 - Add a concise video using a screen reader that's not yet have covered.
-- Add an entry for a component that is not included.
+- Add an entry for a component that's not included.
 - Fix a typo or edit for consistent language.
 
 ## License
