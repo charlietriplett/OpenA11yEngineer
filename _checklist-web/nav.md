@@ -40,6 +40,18 @@ This semantic HTML contains all accessibility features by default.
 {% include /examples/nav.html %}
 {:/}
 
+## Keep custom menus as simple as possible
+Use semantic elements where possible.
+
+{% highlight html %}
+{% include /examples/nav-menu.html %}
+{% endhighlight %}
+
+{::nomarkdown}
+{% include /examples/nav-menu.html %}
+{:/}
+
+
 
 ### Avoid custom elements
 This custom navigation requires extra attributes.
