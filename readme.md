@@ -1,4 +1,10 @@
-# T-a11y (Tally)
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+# About T-a11y
 
 T-a11y (or Tally) is a tool built to simplify the process of accessibility testing. 
 
@@ -24,6 +30,12 @@ These testing criteria are displayed in markdown format for easy copying/pasting
 - Developer notes
 - Links to official [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) and [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) documentation
 
+## Contribute 
+Here are some ways to contribute:
+- Add a concise video using a screen reader that's not yet have covered.
+- Add an entry for a component that's not included.
+- Fix a typo or edit for consistent language.
+
 ## License
-T-ally [open sourced by T-Mobile](https://opensource.t-mobile.com/) and released under the Apache 2.0 License.
+T-ally is [open sourced by T-Mobile](https://opensource.t-mobile.com/) and released under the Apache 2.0 License.
 

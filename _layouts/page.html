@@ -3,7 +3,10 @@ layout: default
 ---
 <article>
   <div class="container post-content narrow">
-    <h1 class="h-alpha">{{ page.title | escape }}</h1>
+    {% if page.title == 'about' %}
+      <h1 class="h-alpha">{{ page.title | escape }}</h1>
+    {% endif %}
+
     {{ content }}
   </div>
 </article>

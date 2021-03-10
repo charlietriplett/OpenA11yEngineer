@@ -79,7 +79,8 @@ html {
   @include light;
 
 }
-.h-alpha {
+.h-alpha,
+.post-content h1 {
   margin: 0 0 2rem 0;
   font-size: 2rem;
   @include break($break-small) {
