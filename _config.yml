@@ -47,6 +47,18 @@ web-categories-order:
 - form
 - footer
 
+video-demos:
+- title: iOS Voiceover Safari
+  directory: /assets/media/video/ios/
+- title: Android Talkback Chrome
+  directory: /assets/media/video/android/
+- title: Windows Jaws Chrome
+  directory: /assets/media/video/jaws/
+- title: Windows NVDA Chrome
+  directory: /assets/media/video/nvda/
+- title: MacOS Voiceover Safari
+  directory: /assets/media/video/macos/
+
 native-categories-order:
 - controls
 - notifications/modals

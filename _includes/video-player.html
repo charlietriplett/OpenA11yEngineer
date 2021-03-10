@@ -3,7 +3,7 @@
       <h3>{{ include.title }}</h3>
       {% endif %}
       <video width="100%" controls tabindex="0" aria-label="{{ include.title }}" >
-        <source src="{{ site.baseurl }}/assets/media/video/{{ include.filename }}" type="video/mp4">
+        <source src="{{ site.baseurl }}{{ include.filename }}" type="video/mp4">
         Your browser does not support HTML video.
       </video>
   </video-container>

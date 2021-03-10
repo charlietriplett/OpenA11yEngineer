@@ -111,18 +111,27 @@ layout: default
       </div>
     </div>
     <div class="post-content">
-      {% if page.media %}
-        <h2 class="h-bravo">
-          Video examples
-        </h2>
-        <media-gallery>
-          {% for input in page.media %}
-            {% assign filename =  input[0] %}
-            {% assign title =  input[1] %}
-            {% include video-player.html filename = filename title = title %}
-          {% endfor %}
-        </media-gallery>
-      {% endif %}
+
+      <h2 class="h-bravo">
+        Video examples
+      </h2>
+
+      <media-gallery>
+        {% for video in site.video-demos %}
+          {% assign filename = page.title | replace: ' ', ''  | replace: '/', '-'  | replace: '.html', '' | downcase | append: ".mp4"   %}
+          {% assign path = video.directory | append: filename %}
+          {% assign file = site.static_files | where: "path", path  %}
+
+          {% if file.size != 0 %}
+            {% include video-player.html filename = path title = video.title %}
+          {% endif %}
+        {% endfor %}
+      </media-gallery>
+
+
+
+
+
 
       {{ content }}
     </div>
