@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="hmtl" value="1" />
-          <entry key="html" value="185" />
+          <entry key="html" value="186" />
           <entry key="js" value="7" />
           <entry key="markdown" value="198" />
           <entry key="md" value="62" />
@@ -40,7 +41,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="185" />
+          <entry key="HTML" value="186" />
           <entry key="JavaScript" value="7" />
           <entry key="Markdown" value="260" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -53,22 +54,22 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="hmtl" value="116" />
-          <entry key="html" value="5115" />
+          <entry key="html" value="5138" />
           <entry key="js" value="471" />
           <entry key="markdown" value="21645" />
           <entry key="md" value="2295" />
           <entry key="scss" value="5576" />
-          <entry key="yml" value="141" />
+          <entry key="yml" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="5113" />
+          <entry key="HTML" value="5136" />
           <entry key="JavaScript" value="473" />
           <entry key="Markdown" value="23940" />
           <entry key="PLAIN_TEXT" value="116" />
           <entry key="SCSS" value="5576" />
-          <entry key="YAML" value="141" />
+          <entry key="YAML" value="181" />
         </counts>
       </usages-collector>
     </session>
@@ -134,8 +135,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="336">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -213,7 +214,6 @@
         <option value="$PROJECT_DIR$/_checklist-web/checkbox.markdown" />
         <option value="$PROJECT_DIR$/_sass/modules/_video.scss" />
         <option value="$PROJECT_DIR$/assets/accessible-examples.md" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/about.markdown" />
         <option value="$PROJECT_DIR$/assets/about.md" />
         <option value="$PROJECT_DIR$/_layouts/page.html" />
@@ -248,6 +248,7 @@
         <option value="$PROJECT_DIR$/_checklist-web/date-picker.md" />
         <option value="$PROJECT_DIR$/_sass/modules/_button.scss" />
         <option value="$PROJECT_DIR$/_checklist-web/button.md" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
@@ -282,18 +283,7 @@
             <path>
               <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
               <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
-              <item name="_checklist-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
               <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
@@ -386,12 +376,12 @@
       <workItem from="1614978928271" duration="1842000" />
       <workItem from="1615132963349" duration="13000" />
       <workItem from="1615225901245" duration="4115000" />
-      <workItem from="1615240829905" duration="8952000" />
+      <workItem from="1615240829905" duration="9299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162208000" />
+    <option name="totallyTimeSpent" value="162555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -406,7 +396,7 @@
     <frame x="2537" y="-515" width="1463" height="1415" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2674173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2674173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -419,7 +409,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32901832" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.13515566" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.13515566" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -455,14 +445,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_checklist-web/search.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_checklist-web/sticky-content.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -846,10 +828,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="336">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>
