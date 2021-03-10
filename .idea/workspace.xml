@@ -88,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="356">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -204,9 +204,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2582" />
+    <option name="x" value="2890" />
     <option name="y" value="-515" />
-    <option name="width" value="1413" />
+    <option name="width" value="1105" />
     <option name="height" value="1415" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -304,12 +304,12 @@
       <workItem from="1614978928271" duration="1842000" />
       <workItem from="1615132963349" duration="13000" />
       <workItem from="1615225901245" duration="4115000" />
-      <workItem from="1615240829905" duration="16510000" />
+      <workItem from="1615240829905" duration="16923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169766000" />
+    <option name="totallyTimeSpent" value="170179000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,7 +322,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2582" y="-515" width="1413" height="1415" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22246535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -789,8 +788,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="356">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
