@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be688a2-72df-403d-90ac-314eb3623e4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_checklist-web/listbox-dropdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/_checklist-web/listbox-dropdown.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +31,7 @@
           <entry key="html" value="188" />
           <entry key="js" value="7" />
           <entry key="markdown" value="198" />
-          <entry key="md" value="67" />
+          <entry key="md" value="68" />
           <entry key="rnc" value="1" />
           <entry key="scss" value="142" />
           <entry key="svg" value="2" />
@@ -47,7 +43,7 @@
         <counts>
           <entry key="HTML" value="188" />
           <entry key="JavaScript" value="7" />
-          <entry key="Markdown" value="265" />
+          <entry key="Markdown" value="266" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="RNG Compact" value="1" />
           <entry key="SCSS" value="142" />
@@ -61,7 +57,7 @@
           <entry key="html" value="5157" />
           <entry key="js" value="471" />
           <entry key="markdown" value="21645" />
-          <entry key="md" value="3945" />
+          <entry key="md" value="5038" />
           <entry key="scss" value="5582" />
           <entry key="yml" value="191" />
         </counts>
@@ -70,7 +66,7 @@
         <counts>
           <entry key="HTML" value="5155" />
           <entry key="JavaScript" value="473" />
-          <entry key="Markdown" value="25590" />
+          <entry key="Markdown" value="26683" />
           <entry key="PLAIN_TEXT" value="116" />
           <entry key="SCSS" value="5582" />
           <entry key="YAML" value="191" />
@@ -109,18 +105,30 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="105">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_checklist-web/listbox-dropdown.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="639">
+                <caret line="89" column="198" selection-start-line="89" selection-start-column="198" selection-end-line="89" selection-end-column="198" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -232,7 +240,6 @@
         <option value="$PROJECT_DIR$/_checklist-web/nav.md" />
         <option value="$PROJECT_DIR$/_sass/modules/_input-password.scss" />
         <option value="$PROJECT_DIR$/_sass/modules/_forms.scss" />
-        <option value="$PROJECT_DIR$/_checklist-web/listbox-dropdown.md" />
         <option value="$PROJECT_DIR$/_checklist-web/hint-helper.md" />
         <option value="$PROJECT_DIR$/_checklist-web/listbox-autocomplete.md" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
@@ -255,6 +262,7 @@
         <option value="$PROJECT_DIR$/_layouts/page.html" />
         <option value="$PROJECT_DIR$/about.md" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/_checklist-web/listbox-dropdown.md" />
       </list>
     </option>
   </component>
@@ -265,7 +273,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2458" />
+    <option name="x" value="2587" />
     <option name="y" value="-515" />
     <option name="width" value="1413" />
     <option name="height" value="1415" />
@@ -288,7 +296,18 @@
             <path>
               <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
               <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
+              <item name="_checklist-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
               <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a11yEngineerBravo" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenA11yEngineer" type="b2602c69:ProjectViewProjectNode" />
@@ -370,12 +389,12 @@
       <workItem from="1614978928271" duration="1842000" />
       <workItem from="1615132963349" duration="13000" />
       <workItem from="1615225901245" duration="4115000" />
-      <workItem from="1615240829905" duration="12646000" />
+      <workItem from="1615240829905" duration="13595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165902000" />
+    <option name="totallyTimeSpent" value="166851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,7 +406,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2458" y="-515" width="1413" height="1415" extended-state="0" />
+    <frame x="2587" y="-515" width="1413" height="1415" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18161926" />
@@ -548,16 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_checklist-web/listbox-dropdown.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -859,7 +868,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="105">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
@@ -867,8 +876,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_checklist-web/listbox-dropdown.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="639">
+            <caret line="89" column="198" selection-start-line="89" selection-start-column="198" selection-end-line="89" selection-end-column="198" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
