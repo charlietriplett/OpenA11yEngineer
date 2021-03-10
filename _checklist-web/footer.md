@@ -43,8 +43,8 @@ This semantic HTML contains all accessibility features by default.
 This custom footer requires extra attributes.
 
 {% highlight html %}
-<div role="contentinfo" tabindex="-1" id="footer">
-  © 2021 Site Name
+<div role="contentinfo" tabindex="-1" id="example-footer">
+  &copy; 2021 Site Name
 </div>
 {% endhighlight %}
 
