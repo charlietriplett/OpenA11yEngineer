@@ -7,6 +7,10 @@ footer {
 
   nav {
     a {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      text-decoration-color: $color-gray-dark;
+
       &:after {
         display: none !important;
       }
