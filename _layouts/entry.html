@@ -115,7 +115,7 @@ layout: default
       {% for video in site.video-demos limit:1 %}
         {% assign path = video.directory | append: page.slug | append: ".mp4"  %}
         {% assign file_exists = site.static_files | where: "path", path  %}
-        {% if file_exists %}
+        {% if file_exists.size != 0 %}
           <h2 class="h-bravo">
             Video examples
           </h2>
@@ -126,8 +126,7 @@ layout: default
         {% for video in site.video-demos %}
           {% assign path = video.directory | append: page.slug | append: ".mp4"  %}
           {% assign file_exists = site.static_files | where: "path", path  %}
-
-          {% if file_exists != 0 %}
+          {% if file_exists.size != 0 %}
             {% include video-player.html filename = path title = video.title %}
           {% endif %}
         {% endfor %}
