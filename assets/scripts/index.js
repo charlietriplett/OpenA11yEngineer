@@ -14,7 +14,6 @@ $( ".expander-toggle" ).click(function() {
 
 // Trigger alert
 $("#show-alert").click(function() {
-    console.log('TEST');
     $('[role="alert"]').toggleClass('visible')
 });
 
