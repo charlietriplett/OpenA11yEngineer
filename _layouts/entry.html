@@ -112,27 +112,26 @@ layout: default
     </div>
     <div class="post-content">
 
-      <h2 class="h-bravo">
-        Video examples
-      </h2>
+      {% for video in site.video-demos limit:1 %}
+        {% assign path = video.directory | append: page.slug | append: ".mp4"  %}
+        {% assign file_exists = site.static_files | where: "path", path  %}
+        {% if file_exists %}
+          <h2 class="h-bravo">
+            Video examples
+          </h2>
+        {% endif %}
+      {% endfor %}
 
       <media-gallery>
         {% for video in site.video-demos %}
-          {% assign filename = page.url | append: ".mp4" %}
+          {% assign path = video.directory | append: page.slug | append: ".mp4"  %}
+          {% assign file_exists = site.static_files | where: "path", path  %}
 
-        {% assign path = video.directory | append: page.slug | append: ".mp4"  %}
-          {% assign file = site.static_files | where: "path", path  %}
-
-          {% if file.size != 0 %}
+          {% if file_exists != 0 %}
             {% include video-player.html filename = path title = video.title %}
           {% endif %}
         {% endfor %}
       </media-gallery>
-
-
-
-
-
 
       {{ content }}
     </div>
