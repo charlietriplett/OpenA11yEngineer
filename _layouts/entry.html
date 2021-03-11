@@ -118,8 +118,9 @@ layout: default
 
       <media-gallery>
         {% for video in site.video-demos %}
-          {% assign filename = page.title | replace: ' ', ''  | replace: '/', '-'  | replace: '.html', '' | downcase | append: ".mp4"   %}
-          {% assign path = video.directory | append: filename %}
+          {% assign filename = page.url | append: ".mp4" %}
+
+        {% assign path = video.directory | append: page.slug | append: ".mp4"  %}
           {% assign file = site.static_files | where: "path", path  %}
 
           {% if file.size != 0 %}
