@@ -24,17 +24,6 @@ mobile:
   doubletap: |
     Checkbox toggles between checked and unchecked states.
     
-media:
-  ios/checkbox.mp4: |
-    iOS Voiceover Safari
-  android/checkbox.mp4: |
-    Android Talkback Chrome
-  jaws/checkbox.mp4: |
-    JAWS Chrome
-  nvda/checkbox.mp4: |
-    Windows NVDA Chrome
-  macos/checkbox.mp4: |
-    macOS Voiceover Safari 
 ---
 
 ## Code examples
