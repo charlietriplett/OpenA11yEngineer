@@ -32,6 +32,3 @@ Here are some ways to contribute:
 
 ## License
 T-ally is [open sourced by T-Mobile](https://opensource.t-mobile.com/) and released under the Apache 2.0 License.
-
-## History
-T-a11y was created as a collaboration between [User1st](https://www.user1st.com) and [T-Mobile](https://www.t-mobile.com)
