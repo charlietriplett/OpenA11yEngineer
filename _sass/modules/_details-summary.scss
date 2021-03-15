@@ -7,6 +7,20 @@ details {
   border-radius: 2px;
   margin-bottom: 4rem;
   cursor: pointer;
+
+  &.checklist-details {
+    border: none;
+    font-size: auto;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 5px 1px rgba(#000, .1);
+
+    summary {
+      margin: 0 !important;
+      border: none !important;
+    }
+  }
+
 }
 
 summary {

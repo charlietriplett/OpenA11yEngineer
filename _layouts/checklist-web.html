@@ -17,14 +17,18 @@ layout: default
           {% assign categories =  site.checklist-web | map: 'categories' | join: ','  | split: ',' | uniq  %}
           {% for category in site.web-categories-order %}
             <fieldset>
-              <legend class="checklist-landmark h-bravo">
-                <span aria-hidden="true">&lt;</span>{{ category | escape }}<span aria-hidden="true">&gt;</span>
-              </legend>
-              <ul>
-                {% for page in site.checklist-web %}
-                  {% include checklist-loop.html %}
-                {% endfor %}
-              </ul>
+              <details class="checklist-details" open>
+                <summary>
+                  <legend class="checklist-landmark">
+                    <span aria-hidden="true">&lt;</span>{{ category | escape }}<span aria-hidden="true">&gt;</span>
+                  </legend>
+                </summary>
+                <ul>
+                  {% for page in site.checklist-web %}
+                    {% include checklist-loop.html %}
+                  {% endfor %}
+                </ul>
+              </details>
             </fieldset>
           {% endfor %}
         </div>

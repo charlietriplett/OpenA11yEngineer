@@ -8,7 +8,7 @@ name:  |
 role:  |
   Identifies itself as a checkbox
 group: |
-  Each option has an associated label
+  Each option has an associated label, related checkboxes should include a group name
 state: |
   Expresses its state (checked/unchecked, disabled)
 
