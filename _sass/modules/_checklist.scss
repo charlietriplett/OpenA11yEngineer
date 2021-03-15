@@ -74,6 +74,10 @@
   }
 }
 
+label[for="criteria-area"] {
+  margin: .875rem 0;
+}
+
 .textarea-controls {
   display: grid;
   grid-template-columns: auto 1fr;
