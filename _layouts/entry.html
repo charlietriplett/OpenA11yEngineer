@@ -15,9 +15,9 @@ layout: default
         How to test
         {% assign firstLetter = page.title | downcase | slice: 0 %}
         {% if firstLetter == 'a' or firstLetter== 'e' or firstLetter== 'i' or firstLetter== 'i' or firstLetter== 'u'  %}
-          an
+        an
         {% else %}
-          a
+        a
         {% endif %}
         {{ page.title | escape | downcase }}
       </h2>
@@ -31,18 +31,18 @@ layout: default
           <div itemprop="itemListElement" itemscope itemtype="http://schema.org/HowToDirection">
             <table itemprop="text">
               <thead>
-                <tr>
-                  <th scope="col">When I use</th>
-                  <th scope="col">I see</th>
-                </tr>
+              <tr>
+                <th scope="col">When I use</th>
+                <th scope="col">I see</th>
+              </tr>
               </thead>
               <tbody>
-                {% for input in page.keyboard %}
-                  <tr>
-                    <th scope="row">{{ input[0] | capitalize }}</th>
-                    <td>{{ input[1] | escape }}</td>
-                  </tr>
-                {% endfor %}
+              {% for input in page.keyboard %}
+              <tr>
+                <th scope="row">{{ input[0] | capitalize }}</th>
+                <td>{{ input[1] | escape }}</td>
+              </tr>
+              {% endfor %}
               </tbody>
             </table>
           </div>
@@ -56,28 +56,28 @@ layout: default
           <div itemprop="itemListElement" itemscope itemtype="http://schema.org/HowToDirection">
             <table itemprop="text">
               <thead>
-                <tr>
-                  <th scope="col">Requirement</th>
-                  <th scope="col">I hear</th>
-                </tr>
+              <tr>
+                <th scope="col">Requirement</th>
+                <th scope="col">I hear</th>
+              </tr>
               </thead>
               <tbody itemprop="text">
-                <tr>
-                  <th scope="row">Name</th>
-                  <td>{{ page.name | escape }}</td>
-                </tr>
-                <tr>
-                  <th scope="row">Role</th>
-                  <td>{{ page.role | escape }}</td>
-                </tr>
-                <tr>
-                  <th scope="row">Group</th>
-                  <td>{{ page.group | escape }}</td>
-                </tr>
-                <tr>
-                  <th scope="row">State</th>
-                  <td>{{ page.state | escape }}</td>
-                </tr>
+              <tr>
+                <th scope="row">Name</th>
+                <td>{{ page.name | escape }}</td>
+              </tr>
+              <tr>
+                <th scope="row">Role</th>
+                <td>{{ page.role | escape }}</td>
+              </tr>
+              <tr>
+                <th scope="row">Group</th>
+                <td>{{ page.group | escape }}</td>
+              </tr>
+              <tr>
+                <th scope="row">State</th>
+                <td>{{ page.state | escape }}</td>
+              </tr>
               </tbody>
             </table>
           </div>
@@ -91,18 +91,18 @@ layout: default
           <div itemprop="itemListElement" itemscope itemtype="http://schema.org/HowToDirection">
             <table itemprop="text">
               <thead>
-                <tr>
-                  <th scope="col">When I use:</th>
-                  <th scope="col">I hear:</th>
-                </tr>
+              <tr>
+                <th scope="col">When I use:</th>
+                <th scope="col">I hear:</th>
+              </tr>
               </thead>
               <tbody>
               {% for input in page.mobile %}
-                <tr>
-                  <th scope="row">{{ input[0] }}</th>
-                  <td>{{ input[1] | escape }}</td>
-                </tr>
-                {% endfor %}
+              <tr>
+                <th scope="row">{{ input[0] }}</th>
+                <td>{{ input[1] | escape }}</td>
+              </tr>
+              {% endfor %}
               </tbody>
             </table>
           </div>
@@ -111,24 +111,23 @@ layout: default
       </div>
     </div>
     <div class="post-content">
-
       {% for video in site.video-demos limit:1 %}
-        {% assign path = video.directory | append: page.slug | append: ".mp4"  %}
-        {% assign file_exists = site.static_files | where: "path", path  %}
-        {% if file_exists.size != 0 %}
-          <h2 class="h-bravo">
-            Video examples
-          </h2>
-        {% endif %}
+      {% assign path = page.id | replace: page.slug , ""  | prepend: '/assets/media/video' | append: video.directory | append: page.slug | append: ".mp4"  %}
+      {% assign file_exists = site.static_files | where: "path", path  %}
+      {% if file_exists.size != 0 %}
+      <h2 class="h-bravo">
+        Video examples
+      </h2>
+      {% endif %}
       {% endfor %}
 
       <media-gallery>
         {% for video in site.video-demos %}
-          {% assign path = video.directory | append: page.slug | append: ".mp4"  %}
-          {% assign file_exists = site.static_files | where: "path", path  %}
-          {% if file_exists.size != 0 %}
-            {% include video-player.html filename = path title = video.title %}
-          {% endif %}
+        {% assign path = page.id | replace: page.slug , ""  | prepend: '/assets/media/video' | append: video.directory | append: page.slug | append: ".mp4"  %}
+        {% assign file_exists = site.static_files | where: "path", path  %}
+        {% if file_exists.size != 0 %}
+        {% include video-player.html filename = path title = video.title %}
+        {% endif %}
         {% endfor %}
       </media-gallery>
 

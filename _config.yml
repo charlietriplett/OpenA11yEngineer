@@ -49,15 +49,15 @@ web-categories-order:
 
 video-demos:
 - title: iOS Voiceover Safari
-  directory: /assets/media/video/ios/
+  directory: ios/
 - title: Android Talkback Chrome
-  directory: /assets/media/video/android/
+  directory: android/
 - title: Windows Jaws Chrome
-  directory: /assets/media/video/jaws/
+  directory: jaws/
 - title: Windows NVDA Chrome
-  directory: /assets/media/video/nvda/
+  directory: nvda/
 - title: MacOS Voiceover Safari
-  directory: /assets/media/video/macos/
+  directory: macos/
 
 native-categories-order:
 - controls
