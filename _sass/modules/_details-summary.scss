@@ -18,6 +18,11 @@ details {
     summary {
       margin: 0 !important;
       border: none !important;
+      padding: 1.5rem 1rem !important;
+      &:before {
+        top: 1.5rem;
+      }
+
       legend {
         line-height: 1rem;
       }
