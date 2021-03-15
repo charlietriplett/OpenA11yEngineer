@@ -6,7 +6,6 @@
 
   @include break($break-mid) {
     grid-template-columns: minmax(320px, 2fr) 3fr;
-
   }
 
   .checklist-container {
@@ -19,12 +18,14 @@
     position: -webkit-sticky;
     top: 2rem;
     border-top: 3px solid #000;
+    box-shadow: 0 0 5px 1px rgba(#000, .1);
 
     textarea {
       height: calc(100vh - 20rem);
       padding: 1rem;
       border-top: none;
       border-radius: 0;
+      margin-bottom: 0;
     }
   }
 }
@@ -75,12 +76,20 @@
 }
 
 label[for="criteria-area"] {
-  margin: .875rem 0;
+  margin: 0;
+  background: #fff;
+  padding: 1rem;
+  line-height: 1rem;
+  box-shadow: 0 0 5px 1px rgba(#000, .1);
+  border-radius: 2px 2px 0 0;
 }
 
 .textarea-controls {
   display: grid;
   grid-template-columns: auto 1fr;
+  padding: 1rem;
+  border-top: 1px solid $color-border-gray;
+  background: #fff;
 }
 
 
