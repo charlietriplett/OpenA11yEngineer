@@ -10,7 +10,9 @@
 
   .checklist-container {
     position: relative;
-
+  }
+  .criteria-container {
+    margin-bottom: 3rem;
   }
 
   .textarea-container {
@@ -90,6 +92,8 @@ label[for="criteria-area"] {
   padding: 1rem;
   border-top: 1px solid $color-border-gray;
   background: #fff;
+  margin-bottom: 3rem;
+
 }
 
 
