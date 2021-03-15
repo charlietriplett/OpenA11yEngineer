@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Video Audio Media"
+title:  "Video/Audio Player"
 categories: main
 
 keyboard:

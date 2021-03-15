@@ -33,6 +33,13 @@ mobile:
     Selects option
 ---
 
+## Code example
+
+{% highlight html %}
+{% include /examples/input-listbox-autocomplete.html %}
+{% endhighlight %}
+
+
 
 ## Developer notes
 
@@ -50,7 +57,8 @@ mobile:
 ### Group
 - Use `aria-haspopup="true"` on the text input to indicate there is a popup
 
-
-
 ### Focus
 - Focus must be visible
+
+## Documentation
+- [WAI-ARIA examples](https://www.w3.org/TR/wai-aria-practices/examples/combobox/aria1.1pattern/listbox-combo.html)
