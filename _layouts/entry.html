@@ -123,11 +123,11 @@ layout: default
 
       <media-gallery>
         {% for video in site.video-demos %}
-        {% assign path = page.id | replace: page.slug , ""  | prepend: '/assets/media/video' | append: video.directory | append: page.slug | append: ".mp4"  %}
-        {% assign file_exists = site.static_files | where: "path", path  %}
-        {% if file_exists.size != 0 %}
-        {% include video-player.html filename = path title = video.title %}
-        {% endif %}
+          {% assign path = page.id | replace: page.slug , ""  | prepend: '/assets/media/video' | append: video.directory | append: page.slug | append: ".mp4"  %}
+          {% assign file_exists = site.static_files | where: "path", path  %}
+          {% if file_exists.size != 0 %}
+            {% include video-player.html filename = path title = video.title %}
+          {% endif %}
         {% endfor %}
       </media-gallery>
 
