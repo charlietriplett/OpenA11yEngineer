@@ -18,12 +18,12 @@
   .textarea-container {
     position: sticky;
     position: -webkit-sticky;
-    top: 2rem;
+    top: 0rem;
     border-top: 3px solid #000;
     box-shadow: 0 0 5px 1px rgba(#000, .1);
 
     textarea {
-      height: calc(100vh - 20rem);
+      height: calc(100vh - 7rem);
       padding: 1rem;
       border-top: none;
       border-radius: 0;
