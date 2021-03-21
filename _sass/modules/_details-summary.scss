@@ -5,7 +5,7 @@ details {
   padding: 1rem;
   font-size: 1rem;
   border-radius: 2px;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   cursor: pointer;
 
   summary {
@@ -62,22 +62,20 @@ details {
       background-position: center -2px;
     }
   }
-  &:not([open]) {
-    max-height: 4rem;
-    .details-content {
-    }
-  }
+  //&:not([open]) {
+  //  max-height: 4rem;
+  //}
 
   &.checklist-details {
     border: none;
     font-size: auto;
     padding: 0;
-    margin: 0;
     box-shadow: 0 0 5px 1px rgba(#000, .1);
-
+    margin-bottom: calc(2rem + 2px);
     summary {
       margin: 0;
       border: none;
+      font-size: 1.25rem;
       legend {
         line-height: 1rem;
       }
