@@ -20,11 +20,13 @@ layout: default
                 <summary id="{{ category | escape }}-category-title">
                   <span aria-hidden="true">&lt;</span>{{ category | escape }}<span aria-hidden="true">&gt;</span>
                 </summary>
-                <ul role="group" aria-labelledby="{{ category | escape }}-category-title">
-                  {% for page in site.checklist-web %}
+                <div role="group" aria-labelledby="{{ category | escape }}-category-title">
+                  <ul>
+                    {% for page in site.checklist-web %}
                     {% include checklist-loop.html %}
-                  {% endfor %}
-                </ul>
+                    {% endfor %}
+                  </ul>
+                </div>
               </details>
           {% endfor %}
         </div>
