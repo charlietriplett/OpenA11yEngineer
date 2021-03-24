@@ -13,8 +13,6 @@
   }
   .criteria-container {
     margin-bottom: calc(2rem + 3px);
-    box-shadow: 0 0 5px 1px rgba(#000, .1);
-
   }
 
   .textarea-container {
@@ -23,6 +21,7 @@
     top: 0rem;
     border-top: 1px solid $color-border-gray;
     z-index: 0;
+    box-shadow: 0 0 5px 1px rgba(#000, .1);
 
     textarea {
       height: calc(100vh - 7rem);
@@ -84,7 +83,7 @@ label[for="criteria-area"] {
   background: #fff;
   padding: 1.5rem 1rem;
   line-height: 1rem;
-  box-shadow: 0 0 5px 1px rgba(#000, .05);
+  box-shadow: 0 -1px 3px 1px rgba(#000, .0625);
   border-radius: 2px 2px 0 0;
   position: relative;
   z-index: 99;
