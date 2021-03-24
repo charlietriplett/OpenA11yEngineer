@@ -19,7 +19,7 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0rem;
-    border-top: 1px solid $color-border-gray;
+    border-top: 1px solid lighten($color-border-gray,3);
     z-index: 0;
     box-shadow: 0 0 5px 1px rgba(#000, .1);
 
@@ -29,6 +29,7 @@
       border-top: none;
       border-radius: 0;
       margin-bottom: 0;
+      color: $color-text-color;
     }
   }
 }
@@ -83,7 +84,7 @@ label[for="criteria-area"] {
   background: #fff;
   padding: 1.5rem 1rem;
   line-height: 1rem;
-  box-shadow: 0 -1px 3px 1px rgba(#000, .0625);
+  box-shadow: 0 0 5px 1px rgba(#000, .0625);
   border-radius: 2px 2px 0 0;
   position: relative;
   z-index: 99;
