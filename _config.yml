@@ -21,7 +21,7 @@
 title: T-a11y
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Accessibility acceptance testing success criteria checklist
+  Accessibility acceptance success criteria testing checklist.
 baseurl: "/OpenA11yEngineer" # the subpath of your site, e.g. /blog
 url: "https://charlietriplett.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
@@ -46,7 +46,10 @@ web-categories-order:
 - main
 - form
 - footer
-
+native-categories-order:
+- controls
+- notifications/modals
+- navigation
 video-demos:
 - title: iOS Voiceover Safari
   directory: ios/
@@ -59,10 +62,6 @@ video-demos:
 - title: MacOS Voiceover Safari
   directory: macos/
 
-native-categories-order:
-- controls
-- notifications/modals
-- navigation
 
 # Exclude from processing.
 # The following items will not be processed, by default.
