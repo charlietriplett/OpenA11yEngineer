@@ -3,9 +3,9 @@ layout: checklist-native
 title: Native App Accessibility Checklist
 permalink: /native/
 ---
-#**Button**
+# **Button**
 
-| ##**Button** |                                                              |
+|## **Button** |                                                              |
 | :----------- | :----------------------------------------------------------- |
 | **Name**     | Purpose is clear and matches any visible label               |
 | **Role**     | Identifies itself as a button and "double tap to activate" in Android |
@@ -18,16 +18,16 @@ permalink: /native/
 
 ##                               
 
-#**Expanded criteria**
+## **Expanded criteria**
 
-##**Description:**
+### **Description:**
 
 * A button is a control that executes an action or navigates within the app.
 
 * You should use a native button when at all possible vs a custom element, as it will automatically announce correctly without additional development effort.
 
 
-* ##**Name** 
+* ### **Name** 
 
   * Names describes purpose while focus is in/on the control
 
@@ -61,7 +61,7 @@ permalink: /native/
 
         
 
-* ##**Role**
+* ### **Role**
 
   * Role is automatically announced if a native button is used.  
 
@@ -76,5 +76,21 @@ permalink: /native/
 
       * Use Standard button or ImageButton
 
+
+
+* ### Grouping**
+
+  * Group visible label with button (if applicable)
+
+     * iOS Tips
+       * `accessibilityFrame`
+       * `accessibilityFrameInContainerSpace`
+       * GroupView
+       * Only the container class is an accessible element
+ 
+
+     * Android Tips
+         * ViewGroup
+         * Set the container object's `android:screenReaderFocusable attribute=true`, and each inner object's `android:focusable attribute=false`. In doing so, accessibility services can present the inner elements' `contentDescriptions` or names, one after the other, in a single announcement. 
 
 
