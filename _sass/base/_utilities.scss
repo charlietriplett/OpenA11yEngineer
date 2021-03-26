@@ -103,7 +103,7 @@
 }
 
 
-@mixin ripple($background: #fff, $ripple: #eee, $position-x: 10%, $position-y: center,) {
+@mixin ripple($background: #fff, $ripple: #eee, $position-x: 10%, $position-y: center) {
   background-position: $position-x $position-y;
   transition: background 1s;
   &:hover {
