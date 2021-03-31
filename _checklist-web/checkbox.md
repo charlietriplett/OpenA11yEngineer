@@ -23,7 +23,7 @@ mobile:
     Focus moves to the element, expresses its state
   doubletap: |
     Checkbox toggles between checked and unchecked states.
-    
+
 ---
 
 ## Code examples
