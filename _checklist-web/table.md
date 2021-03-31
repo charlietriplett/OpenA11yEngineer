@@ -4,8 +4,6 @@ title:  "Table"
 categories: main
 
 keyboard:
-  tab: |
-    Focus visibly moves to the expander.
   arrow-keys: |
     Move from cell to cell
 
