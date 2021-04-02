@@ -15,16 +15,18 @@ layout: default
         <div class="checklist-container">
           {% assign categories = site.checklist-native | map: 'categories' | join: ',' | split: ',' | uniq %}
           {% for category in site.native-categories-order %}
-          <fieldset>
-            <legend class="checklist-landmark h-bravo">
-              {{ category | escape | capitalize }}
-            </legend>
-            <ul>
-              {% for page in site.checklist-native %}
-              {% include checklist-loop.html %}
-              {% endfor %}
-            </ul>
-          </fieldset>
+          <details class="checklist-details" open>
+            <summary id="{{ category | escape }}-category-title">
+              {{ category | capitalize }}
+            </summary>
+            <div role="group" aria-labelledby="{{ category | escape }}-category-title">
+              <ul>
+                {% for page in site.checklist-native %}
+                {% include checklist-loop.html %}
+                {% endfor %}
+              </ul>
+            </div>
+          </details>
           {% endfor %}
         </div>
         {% include criteria-textarea.html %}
