@@ -34,7 +34,9 @@ mobile:
 
 ### Use semantic HTML where possible
 
-Browser support for `<dialog>` is still incomplete. Some browsers require additional scripting.
+Browser support for `<dialog>` is still incomplete. 
+
+Some browsers require additional scripting. This simple example [may not work correctly in all browsers](https://caniuse.com/?search=dialog).
 
 {% highlight html %}
 {% include /examples/modal-dialog.html %}
@@ -63,5 +65,8 @@ Browser support for `<dialog>` is still incomplete. Some browsers require additi
 ### Focus
 - Focus must be visible
 - Upon closing, focus should return to the element that launched the dialog
+
+### Documentation
+- [Browser Support](https://caniuse.com/?search=dialog)
 
 
