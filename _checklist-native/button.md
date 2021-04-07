@@ -35,7 +35,7 @@ state: |
 
 ### Name 
 
-- Names describes purpose while focus is in/on the control
+- Name describes purpose while focus is in/on the control
 - iOS Tips
   - Set a label in Interface builder in the Identity Inspector
   - Group visible text label and the control in the same view container: `accessibilityFrameInContainerSpace`
