@@ -1,20 +1,18 @@
 {% if page.categories contains category %}
 {% capture top %}
-h2. {{ page.title | strip_newlines | lstrip }}
+h2. How to test: {{ page.title | strip_newlines | lstrip }}
 - Full information: {{ page.url | absolute_url | replace: '.html', '/' }}
 
-h3. Keyboard test
+h3. Keyboard actions
 {% for input in page.keyboard %}- *{{ input[0] | capitalize }}:* {{ input[1] | escape }}{% endfor %}
-h3. Screenreader test
+h3. Mobile screenreader gestures
+{% for input in page.mobile %}- *{{ input[0] | capitalize }}:* {{ input[1] | escape }}{% endfor %}
+h3. Screenreader output
 - *Name:* {{ page.name | strip_newlines }}
 - *Role:* {{ page.role | strip_newlines }}
 - *Group:* {{ page.group | strip_newlines }}
 - *State:* {{ page.state | strip_newlines }}
-
-h3. Mobile screenreader test
-{% for input in page.mobile %}- *{{ input[0] | capitalize }}:* {{ input[1] | escape }}{% endfor %}
 {% endcapture %}
-
 {% capture all %}
 {{ top | strip | lstrip }}
 {% endcapture %}
