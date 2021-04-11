@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Search"
+title:  "Search input"
 categories: nav header
 
 keyboard:

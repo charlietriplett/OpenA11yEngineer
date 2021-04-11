@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Navigation"
+title:  "Navigation menu"
 categories: header nav footer
 order: 0
 
