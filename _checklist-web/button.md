@@ -11,15 +11,16 @@ keyboard:
     Activates the button.
   enter: |
     Activates the button.
-
-name:  |
-  Purpose is clear
-role:  |
-  Identifies as a button
-group: |
-  Indicates it has popup for modals, listbox, or menus
-state: |
-  Expresses its state if applicable (pressed, expanded, disabled)
+    
+screenreader:
+  name:  |
+    Purpose is clear
+  role:  |
+    Identifies as a button
+  group: |
+    Indicates it has popup for modals, listbox, or menus
+  state: |
+    Expresses its state if applicable (pressed, expanded, disabled)
           
 mobile:
   swipe: |

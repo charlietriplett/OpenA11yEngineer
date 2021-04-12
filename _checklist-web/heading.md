@@ -6,19 +6,21 @@ categories: main
 keyboard:
   tab: |
     Nothing, headings should not be focusable 
-  
-name:  |
-  The heading's purpose and level should be clear
-role:  |
-  Identifies itself as a heading and its level
-group: |
-  Headings are logically ordered, starting with a single h1, sections titled by h2, and subsections with h3
-state: |
-  n/a
       
 mobile:
   swipe: |
       The screenreader reads the heading and its level
+
+screenreader:
+  name:  |
+    The heading's purpose and level should be clear
+  role:  |
+    Identifies itself as a heading and its level
+  group: |
+    Headings are logically ordered, starting with a single h1, sections titled by h2, and subsections with h3
+  state: |
+    n/a
+
 ---
 
 ## Code examples

@@ -9,21 +9,22 @@ keyboard:
     Focus visibly moves to the link.
   enter: |
     Activates the link.
-
-name:  |
-  Purpose is clear
-role:  |
-  Identifies itself as a link
-group: |
-  n/a
-state: |
-  n/a
-            
+          
 mobile:
   swipe: |
     Focus moves to the element
   doubletap: |
     Activates the link
+
+screenreader:
+  name:  |
+    Purpose is clear
+  role:  |
+    Identifies itself as a link
+  group: |
+    n/a
+  state: |
+    n/a
 ---
 
 ## Code examples

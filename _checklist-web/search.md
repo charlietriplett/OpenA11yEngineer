@@ -10,21 +10,22 @@ keyboard:
     Search button is activated
   enter: |
     Search is activated
-  
-name:  |
-  Label describes input
-role:  |
-  Identifies itself as a search input
-group: |
-  Form identifies itself as search group
-state: |
-  n/a
       
 mobile:
   swipe: |
     Focus moves to the search text input and search button
   doubletap: |
     Search button is activated
+
+screenreader:
+  name:  |
+    Label describes input
+  role:  |
+    Identifies itself as a search input
+  group: |
+    Form identifies itself as search group
+  state: |
+    n/a
 ---
 
 ## Code examples

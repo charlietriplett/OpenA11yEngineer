@@ -10,56 +10,36 @@ keyboard:
     Any buttons inside are activated
   enter: |
     Any links inside are activated
-  
-name:  |
-  The element announces its purpose or title
-role:  |
-  Identifies itself as an alert or status
-group: |
-  When closed, focus returns to a logical place in the page
-state: |
-  Toast remains open until closed by user
-      
+
 mobile:
   swipe: |
     Focus moves within the toast and doesn't enter the rest of the page.
   doubletap: |
     This typically activates most elements.
 
+screenreader:
+  name:  |
+    The element announces its purpose or title
+  role:  |
+    Identifies itself as an alert or status
+  group: |
+    When closed, focus returns to a logical place in the page
+  state: |
+    Toast remains open until closed by user
+        
+
 ---
 
-## Code examples
+## Only use toast to reinforce updates
 
-### Use semantic HTML where possible
+Toast snackbars should only be used for non-critical messaging, and the status described should be discernable on the page.
 
-Browser support for `<dialog>` is still incomplete. Some browsers require additional scripting.
+For example, upon changing state of a toggle to unsubscribe from a list, the toast can reinforce the change has been saved, but the user can also confirm this from the toggle itself.
 
-{% highlight html %}
-{% include /examples/modal-dialog.html %}
-{% endhighlight %}
+## Do not use toast for critical functionality
 
-{::nomarkdown}
-{% include /examples/modal-dialog.html %}
-{:/}
+Never use toast for critical tasks (Ex: undo/unsend or confirmation of choices).
 
-## Developer notes
+## Timing
 
-### Name
-- The modal window has a descriptive value from either:
-  - `aria-label="Modal title"` or
-  - `aria-labelledby="heading-id"` pointing to an `<h2>` as a title    
-
-### Role
-- For custom elements, use `role="dialog"`
-
-### Group
-- Upon closing, focus should return to the element that launched the dialog
-
-### State
-- Use `aria-modal="true"` to indicate content beneath the modal is inert.
-
-### Focus
-- Focus must be visible
-- Upon closing, focus should return to the element that launched the dialog
-
-
+It is preferable to not let a toast snackbar time out. 

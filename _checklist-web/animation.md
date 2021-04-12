@@ -10,24 +10,27 @@ keyboard:
     Activates the control
   enter:
     Activates the control
-    
-name:  |
-  Purpose is clear
-role:  |
-  Identifies itself as an image or figure
-group: |
-  n/a
-state: |
-  Can be disabled by reduced motion settings
-      
+
+screenreader:   
+  name:  |
+    The content  of the animation may be described
+  role:  |
+    Identifies itself as an image or figure
+  group: |
+    n/a
+  state: |
+    n/a
+
+        
 mobile:
   swipe: |
     Description of the animation
+    
 ---
 
 ## Code examples
 
-### Use CSS to disable animations
+## Allow animations to be disabled with CSS
 
 People with vestibular disorders can be made ill by sweeping animations on screen.
 

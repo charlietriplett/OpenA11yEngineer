@@ -8,20 +8,20 @@ keyboard:
     Focus moves directly to the main content area
   tab: |
     Links and buttons within the main area are focusable
-    
-name:  |
-  Discoverable by screen reader as main landmark
-role:  |
-  Identifies itself as a main landmark
-group: |
-  Typically contains the content of the page
-state: |
-  n/a
       
 mobile:
   swipe: |
     Focus moves within main area
 
+screenreader:
+  name:  |
+    Discoverable by screen reader as main landmark
+  role:  |
+    Identifies itself as a main landmark
+  group: |
+    Typically contains the content of the page
+  state: |
+    n/a
 ---
 
 ## Code examples

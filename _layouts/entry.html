@@ -37,10 +37,10 @@ layout: default
               </tr>
               </thead>
               <tbody>
-              {% for input in page.keyboard %}
+              {% for action in page.keyboard %}
               <tr>
-                <th scope="row">{{ input[0] | capitalize }}</th>
-                <td>{{ input[1] | escape }}</td>
+                <th scope="row">{{ action[0] | capitalize }}</th>
+                <td>{{ action[1] | escape }}</td>
               </tr>
               {% endfor %}
               </tbody>
@@ -62,10 +62,10 @@ layout: default
               </tr>
               </thead>
               <tbody>
-              {% for input in page.mobile %}
+              {% for gesture in page.mobile %}
               <tr>
-                <th scope="row">{{ input[0] }}</th>
-                <td>{{ input[1] | escape }}</td>
+                <th scope="row">{{ gesture[0] | capitalize  }}</th>
+                <td>{{ gesture[1] | escape }}</td>
               </tr>
               {% endfor %}
               </tbody>
@@ -87,22 +87,12 @@ layout: default
               </tr>
               </thead>
               <tbody>
-              <tr>
-                <th scope="row">Name</th>
-                <td>{{ page.name | escape }}</td>
-              </tr>
-              <tr>
-                <th scope="row">Role</th>
-                <td>{{ page.role | escape }}</td>
-              </tr>
-              <tr>
-                <th scope="row">Group</th>
-                <td>{{ page.group | escape }}</td>
-              </tr>
-              <tr>
-                <th scope="row">State</th>
-                <td>{{ page.state | escape }}</td>
-              </tr>
+              {% for requirement in page.screenreader %}
+                <tr>
+                  <th scope="row">{{ requirement[0] | capitalize  }}</th>
+                  <td>{{ requirement[1] | escape }}</td>
+                </tr>
+              {% endfor %}
               </tbody>
             </table>
           </div>

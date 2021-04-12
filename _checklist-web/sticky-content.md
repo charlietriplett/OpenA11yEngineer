@@ -6,20 +6,20 @@ categories: main
 keyboard:
   tab: |
     Controls are focusable in a logical order within the page
-    
-name:  |
-  Discoverable by screen reader
-role:  |
-  n/a
-group: |
-  Appears in logical page order within the page
-state: |
-  n/a
       
 mobile:
   swipe: |
     Content and controls within the sticky element appear in a logical order within the page
 
+screenreader:
+  name:  |
+    Discoverable by screen reader
+  role:  |
+    n/a
+  group: |
+    Appears in logical page order within the page
+  state: |
+    n/a
 ---
 
 ## Code examples

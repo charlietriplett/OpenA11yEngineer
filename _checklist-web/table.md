@@ -6,19 +6,20 @@ categories: main
 keyboard:
   arrow-keys: |
     Move from cell to cell
-
-name:  |
-  Table has a caption or a heading to describe its purpose
-role:  |
-  Identifies as a table
-group: |
-  Columns and rows are identified
-state: |
-  n/a
-          
+         
 mobile:
   swipe: |
     Moves from cell to cell
+
+screenreader:
+  name:  |
+    Table has a caption or a heading to describe its purpose
+  role:  |
+    Identifies as a table
+  group: |
+    Columns and rows are identified
+  state: |
+    n/a
 ---
 ## Code examples
 

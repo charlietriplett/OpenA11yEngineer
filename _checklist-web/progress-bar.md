@@ -7,20 +7,20 @@ order: 0
 keyboard:
   tab: |
     Nothing happens, progress bar is not typically focusable
-
-name:  |
-  Purpose is clear
-role:  |
-  Identifies itself as a progress bar or progress indicator
-group: |
-  n/a
-state: |
-  The current value is expressed live as it changes
         
 mobile:
   swipe: |
     Reads the progress bar
-
+    
+screenreader:
+  name:  |
+    Purpose is clear
+  role:  |
+    Identifies itself as a progress bar or progress indicator
+  group: |
+    n/a
+  state: |
+    The current value is expressed live as it changes
 ---
 
 ## Code examples

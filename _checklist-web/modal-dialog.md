@@ -12,22 +12,22 @@ keyboard:
     Any buttons are activated
   enter: |
     Any buttons or links are activated
-  
-name:  |
-  The dialog describes its purpose or title
-role:  |
-  Identifies itself as a modal or dialog
-group: |
-  When closed, focus returns to the launch button
-state: |
-  When open, other content is inert
       
 mobile:
   swipe: |
     Focus moves within the dialog and doesn't enter the rest of the page.
   doubletap: |
     This typically activates most elements.
-
+    
+screenreader:
+  name:  |
+    The dialog describes its purpose or title
+  role:  |
+    Identifies itself as a modal or dialog
+  group: |
+    When closed, focus returns to the launch button
+  state: |
+    When open, other content is inert
 ---
 
 ## Code examples

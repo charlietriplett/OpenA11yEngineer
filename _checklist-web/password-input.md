@@ -8,21 +8,22 @@ keyboard:
     Focus moves visibly to the input or show password checkbox
   spacebar: |
     Toggles the show password checkbox
-  
-name:  |
-  Purpose is clear
-role:  |
-  Identifies itself as an input
-group: |
-  Label is read with the input
-state: |
-  The input can be required, disabled
       
 mobile:
   swipe: |
     Focus moves to the input
   keyboard: |
     Keyboard appears
+
+screenreader:
+  name:  |
+    Purpose is clear
+  role:  |
+    Identifies itself as an input
+  group: |
+    Label is read with the input
+  state: |
+    The input can be required, disabled
 ---
 
 ## Code examples

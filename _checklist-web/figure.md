@@ -10,15 +10,6 @@ keyboard:
     Activates controls
   spacebar: |
     Activates controls
-  
-name:  |
-  Content is described by a heading, alt text or named on focus; control purpose is clear
-role:  |
-  Element indicates it is a map, table, or image
-group: |
-  Alternative method interaction is available.
-state: |
-  n/a
       
 mobile:
   swipe: |
@@ -26,6 +17,15 @@ mobile:
   doubletap: |
     Activates the control
 
+screenreader:
+  name:  |
+    Content is described by a heading, alt text or named on focus; control purpose is clear
+  role:  |
+    Element indicates it is a map, table, or image
+  group: |
+    Alternative method interaction is available.
+  state: |
+    n/a
 ---
 
 ## Code examples

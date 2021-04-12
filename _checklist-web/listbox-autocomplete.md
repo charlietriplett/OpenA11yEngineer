@@ -15,22 +15,22 @@ keyboard:
     The listbox closes.
   escape: |
     Clears the textbox. If the listbox is displayed, closes it.
-
-
-name:  |
-  Purpose is clear
-role:  |
-  Identifies itself as a listbox
-group: |
-  Label is read with the input
-state: |
-  Indicates when the list is expanded/collapsed
       
 mobile:
   swipe: |
     Focus moves to the input, traverses list
   double-tap: |
     Selects option
+
+screenreader:
+  name:  |
+    Purpose is clear
+  role:  |
+    Identifies itself as a listbox
+  group: |
+    Label is read with the input
+  state: |
+    Indicates when the list is expanded/collapsed
 ---
 
 ## Code example

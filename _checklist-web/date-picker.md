@@ -20,25 +20,24 @@ keyboard:
     Changes the grid of dates to the previous/next year.
   home/end: |
     Moves focus to the first/last day of the current week.   
-
-
-
-name:  |
-    The purpose of each control is clear
-role:  |
-    Buttons identify as buttons, 
-    dialog identifies itself dialog or modal, 
-    date grid table may identify itself as table or grid
-group: |
-    Launch button indicates it has a popup, days are announced with month and year
-state: |
-    Date buttons express state (pressed, disabled/dimmed)
-            
+           
 mobile:
     swipe: |
         Focus moves through elements, expresses its state
     doubletap: |
         Activates the element in focus
+
+screenreader:
+  name:  |
+      The purpose of each control is clear
+  role:  |
+      Buttons identify as buttons, 
+      dialog identifies itself dialog or modal, 
+      date grid table may identify itself as table or grid
+  group: |
+      Launch button indicates it has a popup, days are announced with month and year
+  state: |
+      Date buttons express state (pressed, disabled/dimmed)
 ---
 
 ## Developer notes

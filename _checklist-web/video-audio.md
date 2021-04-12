@@ -12,15 +12,6 @@ keyboard:
     Activates the control button
   arrow-keys: |
     Fast forward/reverse media or operate some controls
-    
-name:  |
-  Content is described by a heading or named on focus; button purpose is clear
-role:  |
-  Controls identify as buttons, switches, etc.
-group: |
-  Includes captions and a HTML based transcript
-state: |
-  Media should not autoplay
           
 mobile:
   swipe: |
@@ -28,6 +19,15 @@ mobile:
   doubletap: |
     Activates the control
 
+screenreader:
+  name:  |
+    Content is described by a heading or named on focus; button purpose is clear
+  role:  |
+    Controls identify as buttons, switches, etc.
+  group: |
+    Includes captions and a HTML based transcript
+  state: |
+    Media should not autoplay
 ---
 
 

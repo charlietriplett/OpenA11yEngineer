@@ -2,16 +2,6 @@
 layout: entry
 title:  "Navigation menu"
 categories: header nav footer
-order: 0
-
-name:  |
-  Can have a heading or label if there are multiple navigation elements
-role:  |
-  Discoverable by screen reader as navigation landmark
-group: |
-  n/a
-state: |
-  n/a
 
 keyboard:
   skip-links: |
@@ -25,6 +15,15 @@ mobile:
   doubletap: |
       This typically activates most elements
 
+screenreader:
+  name:  |
+    Can have a heading or label if there are multiple navigation elements
+  role:  |
+    Discoverable by screen reader as navigation landmark
+  group: |
+    n/a
+  state: |
+    n/a
 ---
 
 ## Code examples

@@ -18,21 +18,22 @@ keyboard:
     If the listbox is displayed, moves focus to and selects the first option.
   end: |
     If the listbox is displayed, moves focus to and selects the last option.e.
-
-name:  |
-  Purpose is clear
-role:  |
-  Identifies itself as a listbox
-group: |
-  Label is read with the input
-state: |
-  Indicates when the button is expanded/collapsed, indicates which option is selected
-      
+     
 mobile:
   swipe: |
     Focus moves to the input, traverses list
   double-tap: |
     Opens listbox, selects option
+
+screenreader:
+  name:  |
+    Purpose is clear
+  role:  |
+    Identifies itself as a listbox
+  group: |
+    Label is read with the input
+  state: |
+    Indicates when the button is expanded/collapsed, indicates which option is selected    
 ---
 
 ## Code examples

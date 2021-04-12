@@ -6,22 +6,20 @@ categories: main form
 keyboard:
   any key	: |
     Nothing. Should be ignored by the screenreader.
-
-    
-name:  |
-  None. Should be ignored by the screenreader.
-role:  |
-  n/a
-group: |
-  n/a
-state: |
-  n/a
-      
+  
 mobile:
   swipe: |
     Nothing. Should be ignored by the screenreader.
   
-
+screenreader:
+  name:  |
+    None. Should be ignored by the screenreader.
+  role:  |
+    n/a
+  group: |
+    n/a
+  state: |
+    n/a
 ---
 
 ## Developer notes

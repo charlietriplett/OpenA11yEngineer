@@ -6,20 +6,20 @@ categories: form
 keyboard:
   tab: |
     The input comes into focus
-  
-name:  |
-  The input's name is read, then the hint text
-role:  |
-  n/a
-group: |
-  The hint should be read after the primary name
-state: |
-  n/a
       
 mobile:
   swipe: |
     The input's name is read, then the hint text
-
+    
+screenreader:
+  name:  |
+    The input's name is read, then the hint text
+  role:  |
+    n/a
+  group: |
+    The hint should be read after the primary name
+  state: |
+    n/a
 ---
 
 ## Code examples
