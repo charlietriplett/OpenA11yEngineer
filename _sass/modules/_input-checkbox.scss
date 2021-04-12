@@ -13,7 +13,7 @@ input[type="checkbox"] {
       left: 1.125rem;
       top: 1rem;
       background: #f2f2f2;
-      transition: .4s;
+      transition: .2s;
     }
 
     &:after {
@@ -30,7 +30,7 @@ input[type="checkbox"] {
       line-height: 1.5rem;
       font-weight: normal;
       background: $color-gray-light;
-      transition: .4s;
+      transition: .2s;
     }
   }
   &:checked {
@@ -47,7 +47,7 @@ input[type="checkbox"] {
     }
   }
   + label:hover:before,
-  &:focus + label:before {
+  &:focus-visible + label:before {
     background: none;
     box-shadow: 0 0 0rem .5rem rgba($color-focus,.2);
     border-color: $color-brand-primary;

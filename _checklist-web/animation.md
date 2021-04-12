@@ -6,10 +6,12 @@ categories: main
 keyboard:
   tab: |
     Where applicable, focus moves directly to pause / play / hide controls
-  spacebar:
+  spacebar: |
     Activates the control
-  enter:
+  enter: |
     Activates the control
+  reduced motion settings: |
+    Animation is disabled or reduced
 
 screenreader:   
   name:  |
@@ -25,6 +27,8 @@ screenreader:
 mobile:
   swipe: |
     Description of the animation
+  reduced motion settings: |
+    Animation is disabled or reduced
     
 ---
 

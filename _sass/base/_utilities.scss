@@ -77,15 +77,15 @@
 
 
 .focused {
-  outline: .125rem dotted $color-focus;
-  outline-offset: .125rem;
+  outline: .25rem solid rgba($color-focus, .5);
+  outline-offset: 0rem;
   transition: .2s;
+
   &:hover {
     outline: none;
   }
 }
 .active {
-  outline-offset: -.125rem;
   transition: .2s;
 }
 
@@ -94,7 +94,7 @@
   &:active {
     @extend .active;
   }
-  &:focus {
+  &:focus-visible {
     @extend .focused;
   }
   &:hover {

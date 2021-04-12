@@ -17,17 +17,19 @@ table {
     padding: .6rem 1rem .4rem 1px;
     text-align: left;
     vertical-align: top;
+    width: 6rem !important;
+    @include break($break-small) {
+      width: 6rem !important;
+    }
 
     &[scope='row'] {
       border-top: 1px solid $color-border-gray;
-      min-width: 8rem;
       font-weight: bold;
     }
 
     &[scope='col'] {
       border-top: none;
       border-bottom: 2px solid #000;
-      min-width: 8rem;
       font-weight: bold;
     }
   }

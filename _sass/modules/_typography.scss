@@ -112,6 +112,9 @@ a {
   &:hover {
     text-decoration: none;
   }
+  &:focus {
+    @include focus;
+  }
 }
 
 
