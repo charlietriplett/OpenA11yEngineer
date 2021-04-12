@@ -5,14 +5,11 @@ h2. How to test {% assign firstLetter = page.title | downcase | slice: 0 %}{% if
 - Full information: {{ page.url | absolute_url | replace: '.html', '/' }}
 
 - Keyboard actions
-{% for input in page.keyboard %}  -- {{ input[0] | capitalize }}: {{ input[1] | escape }}{% endfor %}
+{% for action in page.keyboard %}  -- {{ action[0] | capitalize }}: {{ action[1] | escape }}{% endfor %}
 - Mobile screenreader gestures
-{% for input in page.mobile %}  -- {{ input[0] | capitalize }}: {{ input[1] | escape }}{% endfor %}
+{% for gesture in page.mobile %}  -- {{ gesture[0] | capitalize }}: {{ gesture[1] | escape }}{% endfor %}
 - Screenreader output
-  -- Name: {{ page.name | strip_newlines }}
-  -- Role: {{ page.role | strip_newlines }}
-  -- Group: {{ page.group | strip_newlines }}
-  -- State: {{ page.state | strip_newlines }}
+{% for output in page.screenreader %}  -- {{ output[0] | capitalize }}: {{ output[1] | escape }}{% endfor %}
 {% endcapture %}
 {% capture all %}
 {{ top | strip | lstrip }}
