@@ -108,14 +108,6 @@ ol li ol li ol li {
 
 a {
   color: #000;
+  @include focus;
 }
 
-a:hover,
-a:focus-visible {
-  color: #000;
-  text-decoration: none;
-}
-
-a:focus-visible {
-  outline-color: $color-focus;
-}
