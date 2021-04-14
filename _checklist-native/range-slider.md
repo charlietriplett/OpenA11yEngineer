@@ -17,15 +17,6 @@ keyboard:
   end: |
     Sets slider to its maximum value.
 
-name:  |
-  Purpose is clear
-role:  |
-  Identifies itself as a range
-group: |
-  Label is read with the input
-state: |
-  Expresses minimum value, maximum value, and current value
-      
 mobile:
   swipe: |
     Focus moves to the input
@@ -34,6 +25,16 @@ mobile:
   android-volume: |
     Increase/decrease slider value one step
 
+screenreader:
+  name:  |
+    Purpose is clear
+  role:  |
+    Identifies itself as a range
+  group: |
+    Label is read with the input
+  state: |
+    Expresses minimum value, maximum value, and current value
+      
 ---
 
 ## Code examples

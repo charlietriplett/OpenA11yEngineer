@@ -5,36 +5,36 @@ categories: main
 
 keyboard:
   tab: |
-    Focus visibly moves within the dialog, starting with the dialog element itself and doesn't enter the rest of the page.
+    Focus visibly moves only within the dialog, starting with the dialog element itself on launch
   escape: |
     The dialog closes and returns focus to the button that launched it
   space: |
     Any buttons are activated
   enter: |
     Any buttons or links are activated
-  
-name:  |
-  The dialog describes its purpose or title
-role:  |
-  Identifies itself as a modal or dialog
-group: |
-  When closed, focus returns to the launch button
-state: |
-  When open, other content is inert
-      
 mobile:
   swipe: |
     Focus moves within the dialog and doesn't enter the rest of the page.
   doubletap: |
     This typically activates most elements.
-
+screenreader:
+  name:  |
+    The dialog describes its purpose or title on launch
+  role:  |
+    Identifies itself as a modal or dialog
+  group: |
+    When closed, focus returns to the launch button
+  state: |
+    When open, other content is inert
 ---
 
 ## Code examples
 
 ### Use semantic HTML where possible
 
-Browser support for `<dialog>` is still incomplete. Some browsers require additional scripting.
+Browser support for `<dialog>` is still incomplete. 
+
+Some browsers require additional scripting. This simple example [may not work correctly in all browsers](https://caniuse.com/?search=dialog).
 
 {% highlight html %}
 {% include /examples/modal-dialog.html %}
@@ -63,5 +63,8 @@ Browser support for `<dialog>` is still incomplete. Some browsers require additi
 ### Focus
 - Focus must be visible
 - Upon closing, focus should return to the element that launched the dialog
+
+### Documentation
+- [Browser Support](https://caniuse.com/?search=dialog)
 
 

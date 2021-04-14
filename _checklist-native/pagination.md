@@ -7,21 +7,22 @@ order: 0
 keyboard:
   tab: |
     Focus moves to links and buttons within the nav
-
-name:  |
-  Describes itself as pagination navigation
-role:  |
-  Discoverable by screen reader as navigation landmark
-group: |
-  n/a
-state: |
-  Current page is indicated on focus
         
 mobile:
   swipe: |
       Focus moves within the nav
   doubletap: |
       Activates links
+
+screenreader:
+  name:  |
+    Describes itself as pagination navigation
+  role:  |
+    Discoverable by screen reader as navigation landmark
+  group: |
+    n/a
+  state: |
+    Current page is indicated on focus
 ---
 
 ## Code examples

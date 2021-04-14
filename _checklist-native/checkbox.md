@@ -3,14 +3,6 @@ layout: entry
 title:  "Checkbox"
 categories: form
 
-name:  |
-  Input label and purpose is clear
-role:  |
-  Identifies itself as a checkbox
-group: |
-  Each option has an associated label
-state: |
-  Expresses its state (checked/unchecked, disabled)
 
 keyboard:
   tab: |
@@ -23,16 +15,17 @@ mobile:
     Focus moves to the element, expresses its state
   doubletap: |
     Checkbox toggles between checked and unchecked states.
-    
-media:
-  ios/checkbox.mp4: |
-    iOS Voiceover Safari
-  android/checkbox.mp4: |
-    Android Talkback Chrome
-  jaws/checkbox.mp4: |
-    JAWS Chrome
-  nvda/checkbox.mp4: |
-    Windows NVDA Firefox
+
+screenreader:
+  name:  |
+    Input label and purpose is clear
+  role:  |
+    Identifies itself as a checkbox
+  group: |
+    Each option has an associated label, related checkboxes should include a group name
+  state: |
+    Expresses its state (checked/unchecked, disabled)
+
 ---
 
 ## Code examples

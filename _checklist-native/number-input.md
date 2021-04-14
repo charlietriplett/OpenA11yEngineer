@@ -7,18 +7,19 @@ keyboard:
   tab: |
     Focus moves visibly to the input
   
-name:  |
-  Purpose is clear
-role:  |
-  Identifies itself as a input
-group: |
-  Label is read with the input
-state: |
-  The input can be required, disabled
-      
 mobile:
   swipe: |
     Focus moves to the input, number pad appears
+
+screenreader:
+  name:  |
+    Purpose is clear
+  role:  |
+    Identifies itself as a input
+  group: |
+    Label is read with the input
+  state: |
+    The input can be required, disabled
 ---
 
 ## Code examples

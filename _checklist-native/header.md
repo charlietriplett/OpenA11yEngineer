@@ -9,21 +9,22 @@ keyboard:
   tab: |
     Links and buttons within the header are focusable
     
-name:  |
-  Discoverable by screen reader as header or banner landmark
-role:  |
-  Identifies itself as a header or banner landmark
-group: |
-  Typically contains site title and primary navigation
-state: |
-  n/a
-      
+     
 mobile:
   swipe: |
     Focus moves within the dialog and doesn't enter the rest of the page.
   doubletap: |
     This typically activates most elements.
 
+screenreader:
+  name:  |
+    Discoverable by screen reader as header or banner landmark
+  role:  |
+    Identifies itself as a header or banner landmark
+  group: |
+    Typically contains site title and primary navigation
+  state: |
+    n/a
 ---
 
 ## Code examples

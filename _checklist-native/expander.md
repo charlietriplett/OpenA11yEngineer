@@ -10,15 +10,6 @@ keyboard:
     Toggles the expander.
   enter: |
     Toggles the expander.
-
-name:  |
-  Purpose is clear
-role:  |
-  Identifies as a button or details
-group: |
-  n/a
-state: |
-  Expresses its state (expanded/collapsed)
           
 mobile:
   swipe: |
@@ -26,6 +17,15 @@ mobile:
   doubletap: |
     Toggles the expander
 
+screenreader:
+  name:  |
+    Purpose is clear
+  role:  |
+    Identifies as a button or details
+  group: |
+    n/a
+  state: |
+    Expresses its state (expanded/collapsed)
 ---
 
 

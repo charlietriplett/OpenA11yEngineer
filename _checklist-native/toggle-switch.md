@@ -3,15 +3,6 @@ layout: entry
 title:  "Toggle switch"
 categories: form
 
-name:  |
-  Input label and purpose is clear
-role:  |
-  Identifies itself as a switch, toggle button or checkbox
-group: |
-  Each switch has an associated label
-state: |
-  Expresses its state (on/off, checked/unchecked, disabled/dimmed)
-
 keyboard:
   tab: |
     Focus visibly moves to the switch
@@ -23,6 +14,17 @@ mobile:
     Focus moves to the element, expresses its state
   doubletap: |
     Element toggles between states.
+
+screenreader:
+  name:  |
+    Input label and purpose is clear
+  role:  |
+    Identifies itself as a switch, toggle button or checkbox
+  group: |
+    Each switch has an associated label
+  state: |
+    Expresses its state (on/off, checked/unchecked, disabled/dimmed)
+
 ---
 
 
