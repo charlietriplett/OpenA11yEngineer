@@ -9,21 +9,22 @@ keyboard:
   tab: |
     Links and buttons within the footer are focusable
     
-name:  |
-  Discoverable by screen reader as footer or contentinfo landmark
-role:  |
-  Identifies itself as a footer or contentinfo landmark
-group: |
-  Typically contains copyright information, navigation links, and privacy statements.
-state: |
-  n/a
-      
 mobile:
   swipe: |
     Focus moves within footer.
   doubletap: |
     This typically activates most elements.
-
+    
+screenreader:
+  name:  |
+    Discoverable by screen reader as footer or contentinfo landmark
+  role:  |
+    Identifies itself as a footer or contentinfo landmark
+  group: |
+    Typically contains copyright information, navigation links, and privacy statements.
+  state: |
+    n/a
+      
 ---
 
 ## Code examples
@@ -43,8 +44,8 @@ This semantic HTML contains all accessibility features by default.
 This custom footer requires extra attributes.
 
 {% highlight html %}
-<div role="contentinfo" tabindex="-1" id="footer">
-  © 2021 Site Name
+<div role="contentinfo" tabindex="-1" id="example-footer">
+  &copy; 2021 Site Name
 </div>
 {% endhighlight %}
 

@@ -6,28 +6,35 @@ categories: main
 keyboard:
   tab: |
     Where applicable, focus moves directly to pause / play / hide controls
-  spacebar:
+  spacebar: |
     Activates the control
-  enter:
+  enter: |
     Activates the control
-    
-name:  |
-  Purpose is clear
-role:  |
-  Identifies itself as an image or figure
-group: |
-  n/a
-state: |
-  Can be disabled by reduced motion settings
-      
+  reduced motion settings: |
+    Animation is disabled or reduced
+
+screenreader:   
+  name:  |
+    The content  of the animation may be described
+  role:  |
+    Identifies itself as an image or figure
+  group: |
+    n/a
+  state: |
+    n/a
+
+        
 mobile:
   swipe: |
     Description of the animation
+  reduced motion settings: |
+    Animation is disabled or reduced
+    
 ---
 
 ## Code examples
 
-### Use CSS to disable animations
+## Allow animations to be disabled with CSS
 
 People with vestibular disorders can be made ill by sweeping animations on screen.
 

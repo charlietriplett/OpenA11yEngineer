@@ -6,20 +6,21 @@ categories: main
 keyboard:
   Any-key: |
     Nothing, because we don't use tooltips
-    
-name:  |
-  Nothing, because we don't use tooltips
-role:  |
-  n/a
-group: |
-  n/a
-state: |
-  n/a
-      
+
 mobile:
   Any-gesture: |
     Nothing, because we don't use tooltips
-
+    
+screenreader:
+  name:  |
+    Nothing, because we don't use tooltips
+  role:  |
+    n/a
+  group: |
+    n/a
+  state: |
+    n/a
+      
 ---
 
 ## Code examples

@@ -2,16 +2,6 @@
 layout: entry
 title:  "Radio button"
 categories: form
-order: 2
-
-name:  |
-    Input label and purpose is clear
-role:  |
-    Identifies itself as a radio option
-group: |
-    Each option has a label and all options are part of a named group.
-state: |
-    Expresses its state (selected, checked, disabled)
 
 keyboard:
   tab: |
@@ -27,7 +17,15 @@ mobile:
   doubletap: |
       If the radio button with focus is not checked, changes the state to checked. Otherwise, does nothing.
 
-
+screenreader:
+  name:  |
+      Input label and purpose is clear
+  role:  |
+      Identifies itself as a radio option
+  group: |
+      Each option has a label and all options are part of a named group.
+  state: |
+      Expresses its state (selected, checked, disabled)
 ---
 
 

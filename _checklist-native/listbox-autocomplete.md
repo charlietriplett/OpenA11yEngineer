@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Listbox with Inline Autocomplete"
+title:  "Listbox with inline autocomplete"
 categories: form
 
 keyboard:
@@ -15,23 +15,30 @@ keyboard:
     The listbox closes.
   escape: |
     Clears the textbox. If the listbox is displayed, closes it.
-
-
-name:  |
-  Purpose is clear
-role:  |
-  Identifies itself as a listbox
-group: |
-  Label is read with the input
-state: |
-  Indicates when the list is expanded/collapsed
       
 mobile:
   swipe: |
     Focus moves to the input, traverses list
   double-tap: |
     Selects option
+
+screenreader:
+  name:  |
+    Purpose is clear
+  role:  |
+    Identifies itself as a listbox
+  group: |
+    Label is read with the input
+  state: |
+    Indicates when the list is expanded/collapsed
 ---
+
+## Code example
+
+{% highlight html %}
+{% include /examples/input-listbox-autocomplete.html %}
+{% endhighlight %}
+
 
 
 ## Developer notes
@@ -50,7 +57,8 @@ mobile:
 ### Group
 - Use `aria-haspopup="true"` on the text input to indicate there is a popup
 
-
-
 ### Focus
 - Focus must be visible
+
+## Documentation
+- [WAI-ARIA examples](https://www.w3.org/TR/wai-aria-practices/examples/combobox/aria1.1pattern/listbox-combo.html)

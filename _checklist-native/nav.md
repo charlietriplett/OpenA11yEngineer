@@ -1,17 +1,7 @@
 ---
 layout: entry
-title:  "Nav menu"
-categories: nav footer
-order: 0
-
-name:  |
-  Can have a heading if there are multiple navigation elements
-role:  |
-  Discoverable by screen reader as navigation landmark
-group: |
-  n/a
-state: |
-  n/a
+title:  "Navigation menu"
+categories: header nav footer
 
 keyboard:
   skip-links: |
@@ -25,6 +15,15 @@ mobile:
   doubletap: |
       This typically activates most elements
 
+screenreader:
+  name:  |
+    Can have a heading or label if there are multiple navigation elements
+  role:  |
+    Discoverable by screen reader as navigation landmark
+  group: |
+    n/a
+  state: |
+    n/a
 ---
 
 ## Code examples
@@ -39,6 +38,18 @@ This semantic HTML contains all accessibility features by default.
 {::nomarkdown}
 {% include /examples/nav.html %}
 {:/}
+
+## Keep custom menus as simple as possible
+Use semantic elements where possible.
+
+{% highlight html %}
+{% include /examples/nav-menu.html %}
+{% endhighlight %}
+
+{::nomarkdown}
+{% include /examples/nav-menu.html %}
+{:/}
+
 
 
 ### Avoid custom elements
