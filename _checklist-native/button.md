@@ -4,12 +4,12 @@ title:  "Button"
 categories: controls
 
 keyboard:
-  tab: |
-    Focus visibly moves to the button.
+  tab and arrow keys: |
+    Focus visibly moves to the button
   spacebar: |
-    Activates the button.
+    Activates the button on iOS and Android
   enter: |
-    Activates the button
+    Activates the button on Android
           
 mobile:
   swipe: |
