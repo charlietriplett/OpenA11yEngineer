@@ -10,17 +10,7 @@ keyboard:
   spacebar: |
     Activates the button.
   enter: |
-    Activates the button.
-    
-screenreader:
-  name:  |
-    Purpose is clear
-  role:  |
-    Identifies as a button
-  group: |
-    Indicates it has popup for modals, listbox, or menus
-  state: |
-    Expresses its state if applicable (pressed, expanded, disabled)
+    Activates the button
           
 mobile:
   swipe: |
