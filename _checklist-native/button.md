@@ -16,15 +16,16 @@ mobile:
     Focus moves to the element, expresses its state
   doubletap: |
     Activates the button
-
-name:  |
-  Purpose is clear and matches visible label
-role:  |
-  Identifies as a button in iOS and "double tap to activate" in Android
-group: |
-  Visible label (if any) is read with the button
-state: |
-  Expresses its state (disabled/dimmed)
+    
+screenreader: 
+  name:  |
+    Purpose is clear and matches visible label
+  role:  |
+    Identifies as a button in iOS and "double tap to activate" in Android
+  group: |
+    Visible label (if any) is read with the button
+  state: |
+    Expresses its state (disabled/dimmed)
 
 ---
 
