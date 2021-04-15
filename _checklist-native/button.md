@@ -31,84 +31,89 @@ screenreader:
 ---
 
 
-## Code examples
-
-### Use semantic HTML
-This semantic HTML contains all accessibility features by default.
-
-{% highlight html %}
-{% include /examples/button.html %}
-{% endhighlight %}
-
-{::nomarkdown}
-{% include /examples/button.html %}
-{:/}
-
-## Focusable disabled button
-
-The preferred method is to use `aria-disabled="true"` so screen reader users can find the button, click submit and be notified of errors in the form.
-
-{% highlight html %}
-{% include /examples/button-focusable-disabled.html %}
-{% endhighlight %}
-
-{::nomarkdown}
-{% include /examples/button-focusable-disabled.html %}
-{:/}
-
-## Fully disabled button
-
-A button that uses the disabled attribute will not be focusable, but it is still discoverable by the screen reader while browsing.
-
-
-{% highlight html %}
-{% include /examples/button-disabled.html %}
-{% endhighlight %}
-
-{::nomarkdown}
-{% include /examples/button-disabled.html %}
-{:/}
-
-
-### Avoid custom elements
-This custom button requires extra attributes and event listeners.
-
-{% highlight html %}
-<div role="button" tabindex="0">
-  Continue
-</div>
-{% endhighlight %}
-
-As a last resort, `aria-label` can be used.
-
-{% highlight html %}
-<div role="button" tabindex="0" aria-label="Continue">
-  <!-- icon or whatever -->
-</div>
-{% endhighlight %}
-
-
 ## Developer notes
+-   A button is a control that executes an action or navigates within the app.
+-   You should use a native button element rather than a custom element because it will announce the correct built-in screen reader announcements without additional development effort.
 
 ### Name
-- Inner text should describe the purpose of the button.
-- `aria-label="Button purpose"` can also be used (as a last resort)
+
+-   Name describes the purpose of the control
+-   **iOS Options**
+    -   Set a label in Interface Builder in the Identity Inspector
+    -   Group visible text label and the control in the same view container: accessibilityFrameInContainerSpace
+    -   setTitle( ) method
+    -   If no visible label, use accessibilityLabel on control
+    -   Hint is used only if the results of interacting with it are not obvious from the control's label.
+    -   Match visible label, if any
+    -   To hide labels from VoiceOver announcements, uncheck the Accessibility Enabled checkbox in the Identity Inspector
+    -   If hiding visible label, use accessibilityLabel on control
+-   **Android Options**  
+    -   android:text XML attribute
+    -   Optional: use contentDescription for a more descriptive name, depending on type of view and for elements without a visible label.
+    -   contentDescription overrides android:text  
+        
+    -   Use labelFor attribute to connect the visible label to the control  
+        
 
 ### Role
-- Native button identifies as button by default
-- Use `role="button"` for custom elements
 
-### Group
-- Use `aria-haspopup="true"` for menu, listbox or modal
-- `aria-controls="popupId"` is not well supported
+-   **iOS**
+    -   Standard UIButton
+-   **Android**
+    -   Standard button or ImageButton  
+        
+
+### Groupings
+
+-   Group visible label with button (if applicable)
+-   **iOS**
+    -   accessibilityFrame
+    -   accessibilityFrameInContainerSpace
+    -   GroupView
+    -   Only the container class is an accessible element
+-   **Android**
+    -   ViewGroup
+    -   Set the container object's android:screenReaderFocusable attribute to true, and each inner object's android:focusable attribute to false. In doing so, accessibility services can present the inner elements' content descriptions/names, one after the other, in a single announcement.
 
 ### State
-- Toggle buttons `aria-pressed="true/false"`
-- Menus or expanders use `aria-expanded="true/false"` 
-- Use the `disabled` state for inactive buttons 
-- Use `aria-disabled="true/false"` state for inactive custom elements 
+
+-   **iOS**
+    -   Active: isEnabled property
+    -   Disabled: UIAccessibilityTraitNotEnabled
+    -   Announcement: dimmed
+-   **Android**
+    -   Active: android:enabled=true
+    -   Disabled" android:enabled=false
+    -   Announcement: disabled
 
 ### Focus
-- Focus must be visible
-- Custom elements need `tabindex="0"` to be focusable
+
+-   Only manage focus when needed. Primarily, let the device manage default focus.  
+    
+-   Consider how focus should be managed between child elements and their parent views.
+-   **iOS Options**
+    -   accessibilityElementIsFocused  
+        
+    -   isAccessibilityElement - Yes, if the element can respond to user input
+    -   To move screen reader focus to newly revealed content: UIAccessibilityLayoutChangedNotification
+    -   To NOT move focus, but announce new content: UIAccessibilityAnnouncementNotification
+-   **Android Options**
+    -   android:focusable=true
+    -   android=clickable=true
+    -   Implement an onClick( ) event handler for keyboard, not onTouch( )
+    -   nextFocusDown
+    -   nextFocusUp
+    -   nextFocusRight
+    -   nextFocusLeft
+    -   accessibilityTraversalBefore (or after)
+    -   To move screen reader focus to newly revealed content: Type_View_Focused
+    -   To NOT move focus, but announce new content: accessibilityLiveRegion
+    -   To hide controls: Important_For _Accessibility_NO
+
+### Actions
+
+-   **iOS**
+    -   To activate: double tap
+-   **Android**
+    -   To activate: double tap
 
