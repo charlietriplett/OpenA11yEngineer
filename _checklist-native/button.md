@@ -1,8 +1,7 @@
 ---
 layout: entry
 title:  "Button"
-categories: nav form
-order: 1
+categories: control
 
 keyboard:
   tab: |
