@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Button"
-categories: control
+categories: controls
 
 keyboard:
   tab: |
