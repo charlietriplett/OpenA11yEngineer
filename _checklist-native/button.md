@@ -27,16 +27,16 @@ mobile:
     Focus moves to the element, expresses its state
   doubletap: |
     Activates the button
-
-media:
-  ios/button.mp4: |
-    iOS Voiceover Safari
-  android/button.mp4: |
-    Android Talkback Chrome
-  jaws/button.mp4: |
-    JAWS Chrome
-  nvda/button.mp4: |
-    Windows NVDA Firefox
+    
+screenreader: 
+  name:  |
+    Purpose is clear and matches visible label
+  role:  |
+    Identifies as a button in iOS and "double tap to activate" in Android
+  group: |
+    Visible label (if any) is read with the button
+  state: |
+    Expresses its state (disabled/dimmed)
 
 ---
 
