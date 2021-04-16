@@ -90,11 +90,9 @@ screenreader:
 ### Focus
 
 -   Only manage focus when needed. Primarily, let the device manage default focus.  
-    
 -   Consider how focus should be managed between child elements and their parent views.
 -   **iOS Options**
     -   accessibilityElementIsFocused  
-        
     -   isAccessibilityElement - Yes, if the element can respond to user input
     -   To move screen reader focus to newly revealed content: UIAccessibilityLayoutChangedNotification
     -   To NOT move focus, but announce new content: UIAccessibilityAnnouncementNotification
@@ -110,11 +108,4 @@ screenreader:
     -   To move screen reader focus to newly revealed content: Type_View_Focused
     -   To NOT move focus, but announce new content: accessibilityLiveRegion
     -   To hide controls: Important_For _Accessibility_NO
-
-### Actions
-
--   **iOS**
-    -   To activate: double tap
--   **Android**
-    -   To activate: double tap
 
