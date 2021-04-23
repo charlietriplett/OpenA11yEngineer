@@ -4,6 +4,9 @@
 //  }
 //}
 
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0); // Remove iOS highlight that interferes with ripple effect
+}
 
 @mixin break($min,$max:null) {
   @if $min and $max {
