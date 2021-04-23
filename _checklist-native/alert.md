@@ -9,7 +9,7 @@ keyboard:
     
 mobile:
   swipe: |
-      The screenreader reads the a and its level
+      The screenreader reads the alert
 
 screenreader:  
   name:  |
