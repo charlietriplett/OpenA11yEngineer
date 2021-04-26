@@ -13,9 +13,9 @@ keyboard:
 
 mobile:
   swipe: |
-    Focus moves within the toast and doesn't enter the rest of the page.
+    Focus moves in logical order to the toast
   doubletap: |
-    This typically activates most elements.
+    This typically activates most elements in the toast
 
 screenreader:
   name:  |
