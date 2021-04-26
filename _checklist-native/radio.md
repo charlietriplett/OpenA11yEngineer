@@ -15,17 +15,17 @@ mobile:
   swipe: |
       Focus moves to the element, expresses its state
   doubletap: |
-     Selects the radio button
+     Toggles the radio button state
 
 screenreader:
   name:  |
       Purpose is clear and matches any visible label
   role:  |
-      Identifies itself as a button is iOS and radio button in Android
+      Identifies itself as a button in iOS and radio button in Android
   group: |
       Visble label is grouped or associated with the radio button in a single swipe
   state: |
-      Expresses its state (disabled/dimmed, iOS: selected.  Android: checked/not checked)
+      Expresses its state (disabled/dimmed, iOS: checked/not checked.  Android: checked/not checked)
 ---
 
 
@@ -34,14 +34,13 @@ screenreader:
 
 -   Use a Radio Button when the user needs to choose between more than two states
     
--   You should use a native component when at all possible vs a custom element, as it will automatically and correctly announce the role without additional development effort
+-    You should use a native element rather than a custom element because it will announce the correct built-in screen reader announcements without additional development effort
     
 -   A Radio Button should never do anything but toggle between selected and unselected. It should never automatically navigate the user to another field or screen
     
 ### Name
 
 - Name describes purpose while focus is in/on the control
-- Best practice is to not include "button" in the name
 
 - **iOS Tips**
 	- Set a label in Interface Builder in the Identity Inspector
@@ -124,16 +123,3 @@ screenreader:
 	- To move screen reader focus to newly revealed content: `Type_View_Focused`
 	- To NOT move focus, but dynamically announce new content: `accessibilityLiveRegion`(set to polite or assertive)
 	- To hide controls: `Important_For_Accessibility_false`
-
-### Actions
-
-- For external Bluetooth keyboard and screen reader
-
-- **iOS Tips**
-	- Screen reader -to activate: double tap
-	- Keyboard - to focus: tab or arrow keys
-	- Keyboard - to activate: space bar
-- **Android Tips**
-	- Screen reader -to activate: double tap
-	- Keyboard - to focus: tab or arrow keys
-	- Keyboard - to activate: space bar or enter key
