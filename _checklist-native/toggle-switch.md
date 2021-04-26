@@ -14,7 +14,7 @@ mobile:
   swipe: |
     Focus moves to the element, expresses its state
   doubletap: |
-    Element toggles between states.
+    Element toggles between states
 
 screenreader:
   name:  |
@@ -79,20 +79,20 @@ screenreader:
 
 ### State
 
-- States can be selected, dimmed/disabled, checked/unchecked, expands/collapses, on/off
+- States can be selected, dimmed/disabled, on/off
 
 - **iOS Tips**  
 	- Active: `isEnabled property`
 	- Disabled: `UIAccessibilityTraitNotEnabled`
 	- disabled/dimmed
 	- on/off:  `isOn` or `setOn`   
-	- Announcement: dimmed, selected  
+	- Announcement: dimmed, on/off, "double tap to toggle setting" 
         
 - **Android Tips**
 	- Active: `android:enabled=true`
 	- Disabled: `android:enabled=false`
 	- on/off: `isChecked`, `setChecked`, toggle
-	- Announcement: disabled, on/off
+	- Announcement: disabled, on/off, "double tap to activate" or "double tap to toggle"
 
 ### Focus
 
@@ -119,16 +119,3 @@ screenreader:
 	- To move screen reader focus to newly revealed content: `Type_View_Focused`
 	- To NOT move focus, but dynamically announce new content: `accessibilityLiveRegion`(set to polite or assertive)
 	- To hide controls: `Important_For_Accessibility_false`
-
-### Actions
-
-- For external Bluetooth keyboard and screen reader
-
-- **iOS Tips**
-	- Screen reader -to activate: double tap
-	- Keyboard - to focus: tab or arrow keys
-	- Keyboard - to activate: space bar
-- **Android Tips**
-	- Screen reader -to activate: double tap
-	- Keyboard - to focus: tab or arrow keys
-	- Keyboard - to activate: space bar or enter key
