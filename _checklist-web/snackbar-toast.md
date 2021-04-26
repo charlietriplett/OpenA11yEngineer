@@ -9,7 +9,7 @@ keyboard:
   space: |
     Any buttons inside are activated
   enter: |
-    Any links inside are activated
+    Any links or buttons inside are activated
 
 mobile:
   swipe: |
