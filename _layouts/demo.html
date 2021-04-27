@@ -7,13 +7,23 @@ layout: default
 
     {{ content }}
 
-    <a class="button secondary" href="{{ site.baseurl }}/checklist-web/{{ page.name | replace: '.md', '' }}/">{{ page.title | escape }} success criteria</a>
-    <a class="button secondary" href="#content">Back to top of page</a>
-    <ul>
-      {% for page in site.demos %}
-      <li><a href="{{ site.baseurl }}{{ page.url }}"> {{ page.title}}</a> </li>
-      {% endfor %}
-    </ul>
+    <div>
+      <a class="button secondary" href="{{ site.baseurl }}/checklist-web/{{ page.slug }}/">{{ page.title | escape }} success criteria</a>
+      <a class="button secondary" href="#content">Back to top of page</a>
+    </div>
+
+
+    <details>
+      <summary>All demos</summary>
+      <ul>
+        {% for page in site.demos %}
+        <li>
+          <a href="{{ site.baseurl }}{{ page.id }}/"> {{ page.title}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+    </details>
 
   </div>
 

@@ -11,16 +11,18 @@
     margin: 0;
     border-radius: 2px;
     padding: 1.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1;
     position: relative;
     transition: .2s;
     text-align: left;
-    @include ripple($position-x: center);
+    @include ripple;
 
     &:before {
       content: '';
       display: block;
       position: absolute;
-      top: 1rem;
+      top: 1.125rem;
       right: 1rem;
       width: 2rem;
       height: 2rem;
@@ -33,7 +35,6 @@
       background-repeat: no-repeat;
       transform: rotate(0deg);
       transition: 0s;
-
     }
 
     &:hover,

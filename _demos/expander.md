@@ -5,7 +5,7 @@ title:  "Expander"
 
 
 ## Native expander
-On focus, the details element must identify its name, role and state.
+On focus, the details/summary element must identify its name, role and state.
 
 {::nomarkdown}
 {% include /examples/details-summary.html %}
@@ -13,7 +13,7 @@ On focus, the details element must identify its name, role and state.
 
 ## Custom expander
 
-On focus, the expander button must identify its name, role and state.
+On focus, the expander `<button>` must identify its name, role and state.
 
 {::nomarkdown}
 {% include /examples/expander.html %}
