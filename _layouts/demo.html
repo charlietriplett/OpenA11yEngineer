@@ -3,12 +3,20 @@ layout: default
 ---
 <article>
   <div class="container post-content narrow">
-    {% if page.url != '/about/' and page.url != '/code-of-conduct/' %}
-      <h1 class="h-alpha">{{ page.title | escape }}</h1>
-    {% endif %}
+    <h1 class="h-alpha">{{ page.title | escape }}</h1>
 
     {{ content }}
 
-    <a href="#content">Back to top of page</a>
+    <a class="button secondary" href="{{ site.baseurl }}/checklist-web/{{ page.name | replace: '.md', '' }}/">{{ page.title | escape }} success criteria</a>
+    <a class="button secondary" href="#content">Back to top of page</a>
+    <ul>
+      {% for page in site.demos %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}"> {{ page.title}}</a> </li>
+      {% endfor %}
+    </ul>
+
   </div>
+
+
 </article>
+

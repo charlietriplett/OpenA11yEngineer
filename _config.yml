@@ -32,12 +32,13 @@ theme: minima
 plugins:
   - jekyll-feed
 collections:
-  entries:
-    output: true
   checklist-web:
     output: true
     permalink: /:collection/:name/
   checklist-native:
+    output: true
+    permalink: /:collection/:name/
+  demos:
     output: true
     permalink: /:collection/:name/
 web-categories-order:

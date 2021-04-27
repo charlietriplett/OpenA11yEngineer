@@ -63,7 +63,8 @@ main {
       max-width: 280px;
       padding: 2rem 1rem;
       text-align: center;
-      font-size: calc(1rem + 2vw);
+      font-size: clamp(2rem, 3vw, 3rem);
+
       font-weight: bold;
       text-decoration: none;
       background: #fff;
