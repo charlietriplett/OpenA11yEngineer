@@ -21,20 +21,28 @@ screenreader:
   state: |
     n/a
 ---
-
 ## Code examples
 
-### Use semantic HTML
-This semantic HTML contains all accessibility features by default.
+### Adding a hint
 
 {% highlight html %}
-{% include /examples/hint-help-error.html %}
+{% include /examples/hint-help.html %}
 {% endhighlight %}
 
 {::nomarkdown}
-{% include /examples/hint-help-error.html %}
+{% include /examples/hint-help.html %}
 {:/}
 
+### Adding an error
+
+
+{% highlight html %}
+{% include /examples/hint-error.html %}
+{% endhighlight %}
+
+{::nomarkdown}
+{% include /examples/hint-error.html %}
+{:/}
 
 ## Developer notes
 

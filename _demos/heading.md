@@ -5,7 +5,7 @@ title:  "Heading: h1, h2, h3"
 
 ## About headings
 
-Headings should be logically ordered starting with a single `<h1>`.
+Headings should be logically ordered starting with a single `<h1>`. On this page, the title is the `<h1>`.
 
 Use `<h2>` as a heading for major sections.
 
@@ -19,7 +19,7 @@ Headings give the page structure and meaning to both the screen reader user and 
 
 ## How headings are used
 
-There are 3 ways screenreaders interact with headings:
+There are 3 ways screenreaders interact with headings.
 
 ### Shortcuts / quick keys
 
