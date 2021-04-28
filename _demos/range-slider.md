@@ -4,7 +4,7 @@ title: Range slider
 
 ---
 
-On focus, range inputs must identify its name, role and state.
+On focus, range inputs must identify its name, role and value.
 
 {::nomarkdown}
 {% include /examples/input-range.html %}
