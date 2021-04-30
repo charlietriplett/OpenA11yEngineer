@@ -69,13 +69,6 @@ When building maps, add a search or filtering feature for those who can't use a 
 </form>
 {% endhighlight %}
 
-### SVG bar chart
-
-{% highlight html %}
-<map-embed></map-embed>
-{% include /examples/figure-bar-chart.html %}
-{% endhighlight %}
-{% include /examples/figure-bar-chart.html %}
 
 
 ## Developer notes
