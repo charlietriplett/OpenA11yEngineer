@@ -9,9 +9,9 @@ keyboard:
   arrow-keys: |
     Increase / decrease value one step
   page-up: |
-    Increases slider value multiple steps
+    Increases slider value
   page-down: |
-    Decreases slider value multiple steps
+    Decreases slider value
   home: |
     Sets slider to its minimum value.
   end: |
