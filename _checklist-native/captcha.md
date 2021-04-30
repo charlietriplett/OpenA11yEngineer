@@ -27,7 +27,6 @@ screenreader:
     If in a table row, group with other elements (one interactive element per grouping)
   state: |
     Expresses its state (disabled/dimmed)
-
 ---
 
 ## Developer notes

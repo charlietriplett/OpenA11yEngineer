@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Menu"
-categories: navigation
+categories: controls
 
 keyboard:
   tab: |

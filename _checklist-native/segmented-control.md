@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Segmented Control / Tab"
-categories: navigation
+categories: controls
 
 keyboard:
   tab: |

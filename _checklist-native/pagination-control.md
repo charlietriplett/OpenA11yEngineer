@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Pagination control"
-categories: navigation
+categories: controls
 
 keyboard:
   tab: |
