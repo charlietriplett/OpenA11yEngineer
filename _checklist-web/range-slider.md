@@ -20,10 +20,10 @@ keyboard:
 mobile:
   swipe: |
     Focus moves to the input
-  iOs-swipe-up: |
-    Increase/decrease slider value one step
-  android-volume: |
-    Increase/decrease slider value one step
+  swipe up/down: |
+    Increase/decrease slider value one step on iOS
+  volume: |
+    Increase/decrease slider value one step on Android
 
 screenreader:
   name:  |
