@@ -78,5 +78,9 @@ When the alt attribute is empty, the screen reader ignores it. The `alt` attribu
 
 ## Developer notes
 
+### Animations (like gifs) can be accessible if:
+- they are set to stop after 5 seconds or 
+- if users are presented with a way to pause it
+
 ### Further reading
 - Exhaustive test driven blog post: https://www.scottohara.me/blog/2019/05/22/contextual-images-svgs-and-a11y.html
