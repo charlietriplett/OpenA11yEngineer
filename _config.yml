@@ -49,7 +49,7 @@ web-categories-order:
 - footer
 native-categories-order:
 - controls
-- notifications/modals
+- notifications
 - navigation
 video-demos:
 - title: iOS Voiceover Safari

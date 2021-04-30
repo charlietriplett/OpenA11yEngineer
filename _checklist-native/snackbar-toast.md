@@ -1,45 +1,31 @@
 ---
 layout: entry
-title:  "Toast Snackbar"
-categories: main form
+title:  "Toast snackbar banner"
+categories: notifications
 
 keyboard:
   tab: |
-    Focus visibly moves in logical order to the toast.
+    Focus visibly moves in logical order to the toast
   space: |
-    Any buttons inside are activated
+    Any elements inside are activated on iOS and Android
   enter: |
-    Any links inside are activated
+    Any elements inside are activated on Android
 
 mobile:
   swipe: |
-    Focus moves within the toast and doesn't enter the rest of the page.
+    Focus moves within the toast
   doubletap: |
-    This typically activates most elements.
+    Activates elements within the toast
 
 screenreader:
   name:  |
     The element announces its purpose or title
   role:  |
-    Identifies itself as an alert or status
+    Identifies itself as a button in iOS and "double tap to activate" in Android
   group: |
     When closed, focus returns to a logical place in the page
   state: |
     Toast remains open until closed by user
-        
+
 
 ---
-
-## Only use toast to reinforce updates
-
-Toast snackbars should only be used for non-critical messaging, and the status described should be discernable on the page.
-
-For example, upon changing state of a toggle to unsubscribe from a list, the toast can reinforce the change has been saved, but the user can also confirm this from the toggle itself.
-
-## Do not use toast for critical functionality
-
-Never use toast for critical tasks (Ex: undo/unsend or confirmation of choices).
-
-## Timing
-
-It is preferable to not let a toast snackbar time out. 

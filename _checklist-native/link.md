@@ -1,83 +1,34 @@
 ---
 layout: entry
 title:  "Link"
-categories: nav main
+categories: controls
 order: 1
 
 keyboard:
   tab: |
-    Focus visibly moves to the link.
+    Focus visibly moves to the link
+  spacebar: |
+    Activates the link on iOS and Android
   enter: |
-    Activates the link.
+    Activates the link on Android
           
 mobile:
   swipe: |
     Focus moves to the element
+  rotor: |
+    
   doubletap: |
     Activates the link
 
 screenreader:
   name:  |
-    Purpose is clear
+    Purpose and destination is clear
   role:  |
     Identifies itself as a link
   group: |
     n/a
   state: |
-    n/a
+    Expresses its state if applicable (disabled/dimmed)
 ---
 
-## Code examples
-
-### Use semantic HTML
-This semantic HTML contains all accessibility features by default. 
-
-{% highlight html %}
-<a href="/about/">
-  About
-</a>
-{% endhighlight %}
-
-{% raw %}
-<a href="/about/">
-  About
-</a>
-{% endraw %}
-
-If a link has no definable url, add `tabindex="0"` to make it focusable.
-
-{% highlight html %}
-<a tabindex="0">
-  About
-</a>
-{% endhighlight %}
-
-{% raw %}
-<a tabindex="0">
-  About
-</a>
-{% endraw %}
-
-### Avoid custom elements
-This custom button requires extra attributes and event listeners.
-
-{% highlight html %}
-<custom-element role="link" tabindex="0">
-  About
-</custom-element>
-{% endhighlight %}
-
-## Developer notes
-
-### Name
-- Inner text should describe the purpose of the link.
-- **Do not** repeat the name with `aria-label="Link purpose"` 
-
-### Role
-- Native button identifies as button by default
-- Use `role="link"` for custom elements
-
-### Focus
-- Focus must be visible
-- Custom elements need `tabindex="0"` to be focusable
 

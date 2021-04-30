@@ -22,7 +22,6 @@ screenreader:
     n/a
   state: |
     n/a
-
         
 mobile:
   swipe: |
@@ -31,10 +30,15 @@ mobile:
     Animation is disabled or reduced
     
 ---
+## Developer notes
+
+### Animations (like gifs) can be accessible if:
+- they are set to stop after 5 seconds or 
+- if users are presented with a way to pause it
 
 ## Code examples
 
-## Allow animations to be disabled with CSS
+### Allow animations to be disabled with CSS
 
 People with vestibular disorders can be made ill by sweeping animations on screen.
 
@@ -73,7 +77,9 @@ This can be accomplished via CSS media query.
 {% include /examples/animation.html %}
 {% endhighlight %}
 
-If your device is set to reduce motion, the animation will softly fade from one color to the next instead of bounce.
+
+### Bouncy box
+If your device is set to reduce motion, the animation will softly fade from one color to the next instead of bounce; otherwise it will bounce.
 
 {::nomarkdown}
 {% include /examples/animation.html %}

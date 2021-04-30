@@ -1,4 +1,3 @@
-
 ---
 layout: entry
 title:  "Toggle switch"
@@ -24,9 +23,9 @@ screenreader:
   group: |
     Visible label is grouped or associated with the switch in a single swipe
   state: |
-    Express its state:  disabled/dimmed, On/Off
-
+    Express its state: disabled/dimmed, On/Off
 ---
+
 ## Developer Notes
 
 - Switch or Toggle Button - A switch is a visual toggle between two mutually exclusive states — on and off

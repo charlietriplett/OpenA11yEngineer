@@ -28,15 +28,13 @@ screenreader:
       Expresses its state (disabled/dimmed, iOS: checked/not checked.  Android: checked/not checked)
 ---
 
-
-
 ### **Developer Notes**
 
--   Use a Radio Button when the user needs to choose between more than two states
-    
--    You should use a native element rather than a custom element because it will announce the correct built-in screen reader announcements without additional development effort
-    
--   A Radio Button should never do anything but toggle between selected and unselected. It should never automatically navigate the user to another field or screen
+- Use a Radio Button when the user needs to choose between more than two states
+  
+- You should use a native element rather than a custom element because it will announce the correct built-in screen reader announcements without additional development effort
+  
+- A Radio Button should never do anything but toggle between selected and unselected. It should never automatically navigate the user to another field or screen
     
 ### Name
 
