@@ -3,6 +3,7 @@ table {
   margin: 0 0 2rem 0;
   padding:0;
   background: none;
+  width: 100%;
   border: none;
   border-collapse: collapse;
   border-spacing: 0;
@@ -17,9 +18,8 @@ table {
     padding: .6rem 1rem .4rem 1px;
     text-align: left;
     vertical-align: top;
-    width: 6rem !important;
-    @include break($break-small) {
-      width: 6rem !important;
+    &:first-of-type {
+      width: 8rem !important;
     }
 
     &[scope='row'] {

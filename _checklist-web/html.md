@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "HTML page"
+title:  "Web page HTML"
 categories: html
 
 keyboard:
@@ -8,26 +8,34 @@ keyboard:
     Enters the page and focuses only interactive elements
   cntrl +/-: |
     Zooms in/out of the page
+
 mobile:
   swipe: |
     Focus moves within page
+  pinch: |
+    Page zooms in/out
 
 screenreader:
   name:  |
     The web page has a unique title
   role:  |
-    na/
+    n/a
   group: |
-    Contains discoverable header, nav, main and footer landmarks
+    Contains discoverable landmarks: header, nav, main and footer landmarks
   state: |
     n/a
 ---
+## Developer notes
+
+### Start simple: validate your code
+
+Use the [HTML validator](https://validator.w3.org/nu/) as the foundation for ensuring your page works for everyone.
 
 ## Code examples
 
 ### Declare a language
 
-This affects how the screenreader pronounces words
+This affects how the screenreader pronunciation..
 
 {% highlight html %}
 <html lang="en">
@@ -40,7 +48,7 @@ If the URL changes, your page needs a title unique to that page in the experienc
 
 {% highlight html %}
 <head>
-  <title>HTML web page | A11yEngineer</title>
+  <title>Page title - Site name</title>
 </head>
 {% endhighlight %}
 
