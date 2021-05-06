@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Navigation menu"
-categories: header nav footer
+categories: header nav footer html
 
 keyboard:
   skip-links: |

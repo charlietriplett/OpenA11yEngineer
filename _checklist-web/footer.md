@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Footer / contentinfo"
-categories: footer
+categories: html footer
 
 keyboard:
   skip-links: |

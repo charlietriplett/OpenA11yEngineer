@@ -1,7 +1,7 @@
 ---
 layout: entry
 title:  "Main content"
-categories: main
+categories: html main
 
 keyboard:
   skip-links: |

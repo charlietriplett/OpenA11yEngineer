@@ -43,6 +43,7 @@ collections:
     output: true
     permalink: /:collection/:name/
 web-categories-order:
+- html
 - header
 - nav
 - main
