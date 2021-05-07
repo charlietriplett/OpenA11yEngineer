@@ -1,7 +1,8 @@
 ---
 layout: entry
-title:  "Main content"
+title:  "Main landmark"
 categories: html main
+order: 3
 
 keyboard:
   skip-links: |

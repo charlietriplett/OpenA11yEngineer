@@ -1,7 +1,8 @@
 ---
 layout: entry
-title:  "Header / banner"
-categories: header
+title:  "Header / banner landmark"
+categories: header html
+order: 1
 
 keyboard:
   skip-links: |

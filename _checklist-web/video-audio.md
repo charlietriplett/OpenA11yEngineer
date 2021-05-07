@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Video/Audio Player"
+title:  "Video/audio player"
 categories: main
 
 keyboard:
@@ -48,8 +48,8 @@ screenreader:
 ## Developer notes
 
 ### Name
-- A heading (`<h1>` `<h2>` `<h3>`) above the media can serve as a name 
-- `aria-label="Media title"` on a wrapper element can also be used
+- A heading (`<h1>` `<h2>` `<h3>`) above the media can serve as a name. 
+- `aria-label="Media title"` on a wrapper element can also be used.
 
 ### Role
 - Controls should identify as buttons, switches, etc.

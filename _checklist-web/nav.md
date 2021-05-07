@@ -1,7 +1,8 @@
 ---
 layout: entry
-title:  "Navigation menu"
+title:  "Navigation landmark"
 categories: header nav footer html
+order: 2
 
 keyboard:
   skip-links: |

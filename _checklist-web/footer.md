@@ -1,7 +1,8 @@
 ---
 layout: entry
-title:  "Footer / contentinfo"
+title:  "Footer / contentinfo landmark"
 categories: html footer
+order: 9
 
 keyboard:
   skip-links: |
