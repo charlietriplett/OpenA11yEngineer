@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Navigation landmark"
+title:  "Navigation menu"
 categories: header nav footer html
 order: 2
 

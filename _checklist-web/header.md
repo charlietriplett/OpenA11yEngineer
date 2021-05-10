@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Header / banner landmark"
+title:  "Header / banner"
 categories: header html
 order: 1
 

@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Footer / contentinfo landmark"
+title:  "Footer / contentinfo"
 categories: html footer
 order: 9
 
