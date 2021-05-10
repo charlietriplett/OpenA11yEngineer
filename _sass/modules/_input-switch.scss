@@ -3,20 +3,20 @@ input[role="switch"] {
     padding-left: 6rem;
     &:before {
       content: 'off';
-      color: lighten($color-button-hover,60);
+      color: $color-gray-xtra-dark;
       text-align: right;
       font-size: 14px;
-      line-height: 1.25rem;
+      line-height: 2rem;
       font-weight: normal;
       display: block;
       width: 2.5rem;
-      padding: 0 .5rem 0 .5rem;
-      height: 1.25rem;
+      padding: 0 .75rem 0 .75rem;
+      height: 2rem;
       position: absolute;
-      left: 1.5rem;
-      top: 1.4rem;
-      background: darken($color-brand-primary,8);
-      border-radius: .5rem;
+      left: 1.25rem;
+      top: 1rem;
+      background: $color-gray-light;
+      border-radius: 1rem;
       transition: .4s;
       border: none;
       box-shadow: none;
@@ -31,25 +31,25 @@ input[role="switch"] {
       position: absolute;
       left: 1.25rem;
       top: 1rem;
-      background: darken($color-brand-primary,0);
+      background: #fff;
       transition: .4s;
-      box-shadow: 0 1px 5px 1px rgba(#000,.0);
+      box-shadow: 0 1px 5px 1px rgba(#000,.0), inset 0 0px 0px 2px $color-gray-light;
     }
   }
 
   &:checked + label {
     &:before {
-      background: $color-gray-light;
+      background: $color-green;
       content: 'on';
-      color: $color-gray-dark;
+      color: #fff;
       text-align: left;
-      text-shadow: 0 0 3px rgba(#fff,.4);
+      text-shadow: 0 0 3px rgba($color-green-dark,.4);
     }
     &:after {
       content: '';
       left: 3.25rem;
       background: #fff;
-      box-shadow: 0 1px 4px 1px rgba(#000,.4);
+      box-shadow: 0 0 0rem 0rem transparent, inset 0 0px 0px 2px  $color-green;
     }
   }
 
@@ -61,7 +61,7 @@ input[role="switch"] {
   }
   + label:hover:after,
   &:focus + label:after {
-    box-shadow: 0 0 0rem .5rem rgba($color-focus,.2);
+    box-shadow: 0 0 0rem .5rem rgba($color-focus,.2), inset 0 0px 0px 2px rgba($color-focus,.375);
   }
 
   &:active {
