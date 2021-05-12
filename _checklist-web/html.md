@@ -7,14 +7,14 @@ order: 0
 keyboard:
   tab: |
     Enters the page and focuses only interactive elements
-  cntrl +/-: |
-    Zooms in/out of the page
+  zoom: |
+    Content zooms up to 200%
 
 mobile:
   swipe: |
     Focus moves within page
   pinch: |
-    Page zooms in/out
+    Content zooms up to 200%
 
 screenreader:
   name:  |
