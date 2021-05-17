@@ -36,8 +36,12 @@ This semantic HTML contains all accessibility features by default.
 {% highlight html %}
 {% include /examples/input-checkbox.html %}
 {% endhighlight %}
+
 {::nomarkdown}
+<example>
 {% include /examples/input-checkbox.html %}
+</example>
+
 {:/}
 
 ### Avoid custom elements

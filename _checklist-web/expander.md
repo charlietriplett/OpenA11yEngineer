@@ -39,7 +39,9 @@ This semantic HTML contains all accessibility features by default with no script
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/details-summary.html %}
+</example>
 {:/}
 
 ### Use semantic HTML where possible
@@ -50,7 +52,9 @@ This custom expander uses a semantic button with `aria-expanded` with additional
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/expander.html %}
+</example>
 {:/}
 
 

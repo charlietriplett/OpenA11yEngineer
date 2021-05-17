@@ -5,17 +5,7 @@
 // Version 1.4.1
 // MIT License
 
-$track-color: transparent !default;
-$thumb-color:  $color-brand-primary !default;
-
-$thumb-radius: 24px !default;
-$thumb-height: 48px !default;
-$thumb-width: 48px !default;
-$thumb-shadow-size: 3px !default;
-$thumb-shadow-blur: 1px !default;
-$thumb-shadow-color: rgba(0, 0, 0, .2) !default;
-$thumb-border-width: 2px !default;
-$thumb-border-color: #fff !default;
+$track-color: rgba(#000,.05) !default;
 
 $track-width: 100% !default;
 $track-height: 24px !default;
@@ -28,10 +18,21 @@ $track-border-width: 1px !default;
 $track-border-color: transparent !default;
 
 $track-radius: 2rem !default;
+
+
+$thumb-color:  $color-brand-primary !default;
+$thumb-radius: 24px !default;
+$thumb-height: 48px !default;
+$thumb-width: 48px !default;
+$thumb-shadow-size: 3px !default;
+$thumb-shadow-blur: 1px !default;
+$thumb-shadow-color: rgba(0, 0, 0, .2) !default;
+$thumb-border-width: 2px !default;
+$thumb-border-color: #fff !default;
 $contrast: 5% !default;
 
 @mixin shadow($shadow-size, $shadow-blur, $shadow-color) {
-  box-shadow: 0 2px $shadow-size $shadow-blur $shadow-color;
+  box-shadow: 0 1px $shadow-size $shadow-blur $shadow-color, ;
 }
 
 @mixin track {
@@ -67,11 +68,11 @@ $color: #ccc;
   margin: 1rem 0 2rem 0;
   width: $track-width;
   border-radius: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   position: relative;
   outline: none !important;
   transition: .8s;
-  background-color: darken($color-gray-xtra-light, 8 );
+  background-color: $track-color;
   background-image:
           linear-gradient(90deg, darken($color,8) 4px, transparent 4px),
           linear-gradient(0deg, darken($color,5) 4px, transparent 4px);

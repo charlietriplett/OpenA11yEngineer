@@ -38,7 +38,9 @@ This semantic HTML contains all accessibility features by default, and only requ
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/input-switch.html %}
+</example>
 {:/}
 
 ### You can also use a button

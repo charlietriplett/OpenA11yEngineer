@@ -39,9 +39,11 @@ This semantic HTML contains all accessibility features by default.
 {% endhighlight %}
 
 {% raw %}
+<example>
 <a href="/about/">
   About
 </a>
+</example>
 {% endraw %}
 
 If a link has no definable url, add `tabindex="0"` to make it focusable.
@@ -53,9 +55,11 @@ If a link has no definable url, add `tabindex="0"` to make it focusable.
 {% endhighlight %}
 
 {% raw %}
+<example>
 <a tabindex="0">
   About
 </a>
+</example>
 {% endraw %}
 
 ### Avoid custom elements

@@ -34,7 +34,7 @@ screenreader:
 This semantic HTML contains all accessibility features by default.
 
 {% highlight html %}
-<header tabindex="-1" id="header">
+<header tabindex="-1" id="example-header">
   <a href="/">Website name</a>
 </header>
 {% endhighlight %}
@@ -43,7 +43,7 @@ This semantic HTML contains all accessibility features by default.
 This custom header requires extra attributes.
 
 {% highlight html %}
-<div role="banner" tabindex="-1" id="header">
+<div role="banner" tabindex="-1" id="example-header">
   <a href="/">Website name</a>
 </div>
 {% endhighlight %}

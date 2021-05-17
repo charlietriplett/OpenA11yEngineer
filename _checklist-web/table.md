@@ -33,7 +33,9 @@ Optional: The table is wrapped in a `<figure>` to indicate author and source.
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/figure.html %}
+</example>
 {:/}
 
 ### Avoid using custom elements

@@ -48,7 +48,9 @@ This native select contains all the accessibility criteria for free and is style
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/input-select.html %}
+</example>
 {:/}
 
 ### Custom elements

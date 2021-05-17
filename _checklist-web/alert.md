@@ -32,7 +32,9 @@ Use alerts sparingly. The alert will be read by the screen reader when it become
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/alert.html %}
+</example>
 {:/}
 
 

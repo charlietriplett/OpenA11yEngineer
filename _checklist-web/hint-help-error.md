@@ -26,11 +26,13 @@ screenreader:
 ### Adding a hint
 
 {% highlight html %}
-{% include /examples/hint-help.html %}
+{% include /examples/input-text.html %}
 {% endhighlight %}
 
 {::nomarkdown}
-{% include /examples/hint-help.html %}
+<example>
+{% include /examples/input-text.html %}
+</example>
 {:/}
 
 ### Adding an error
@@ -41,7 +43,9 @@ screenreader:
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/hint-error.html %}
+</example>
 {:/}
 
 ## Developer notes

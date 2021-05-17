@@ -30,18 +30,21 @@ screenreader:
 ### Use semantic HTML
 This semantic HTML contains all accessibility features by default.
 
+
 {% highlight html %}
-<main tabindex="-1" id="content"> 
-  <h1>About our company</h1>
-  <p>The main content of the page belongs here.</p>
-</main>
+{% include /examples/main.html %}
 {% endhighlight %}
+
+{::nomarkdown}
+{% include /examples/main.html %}
+{:/}
+
 
 ### Avoid custom elements
 This custom main element requires extra attributes.
 
 {% highlight html %}
-<div role="main" tabindex="-1" id="content"> 
+<div role="main" tabindex="-1" id="example-main"> 
   <h1>About our company</h1>
   <p>The main content of the page belongs here.</p>
 </div>

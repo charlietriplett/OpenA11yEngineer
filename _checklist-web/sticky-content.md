@@ -32,7 +32,9 @@ This semantic HTML appears in logical order in the page.
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/sticky-content.html %}
+</example>
 {:/}
 
 ## Developer notes

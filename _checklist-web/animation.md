@@ -82,7 +82,9 @@ This can be accomplished via CSS media query.
 If your device is set to reduce motion, the animation will softly fade from one color to the next instead of bounce; otherwise it will bounce.
 
 {::nomarkdown}
+<example>
 {% include /examples/animation.html %}
+</example>
 {:/}
 
 ### Detecting with JS

@@ -3,7 +3,6 @@
   box-shadow: 0 0 5px 1px rgba(#000, .1);
 
   .expander-toggle {
-    background: #fff;
     display: block;
     width: 100%;
     color: #222;
@@ -16,6 +15,7 @@
     position: relative;
     transition: .2s;
     text-align: left;
+    background-color: #fff;
     @include ripple;
 
     &:before {

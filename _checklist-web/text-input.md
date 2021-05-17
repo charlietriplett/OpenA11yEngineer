@@ -34,7 +34,9 @@ This semantic HTML contains all accessibility features by default.
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/input-text.html %}
+</example>
 {:/}
 
 ## Developer notes

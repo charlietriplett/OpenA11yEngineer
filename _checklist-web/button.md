@@ -51,7 +51,9 @@ This semantic HTML contains all accessibility features by default.
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/button.html %}
+</example>
 {:/}
 
 ## Focusable disabled button
@@ -63,7 +65,9 @@ The preferred method is to use `aria-disabled="true"` so screen reader users can
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/button-focusable-disabled.html %}
+</example>
 {:/}
 
 ## Fully disabled button
@@ -76,7 +80,9 @@ A button that uses the disabled attribute will not be focusable, but it is still
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/button-disabled.html %}
+</example>
 {:/}
 
 

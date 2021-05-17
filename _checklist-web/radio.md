@@ -40,7 +40,9 @@ This semantic HTML contains all accessibility features by default.
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/input-radio.html %}
+</example>
 {:/}
 
 ### Avoid custom elements

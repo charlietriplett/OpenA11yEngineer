@@ -36,7 +36,9 @@ The `type="number"` input is intended for integers and includes features we don'
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/input-number.html %}
+</example>
 {:/}
 
 ## Developer notes

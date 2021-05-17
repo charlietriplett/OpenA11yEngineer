@@ -50,7 +50,9 @@ This is one of the exceedingly rare instances where a custom element makes a lot
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/input-range.html %}
+</example>
 {:/}
 
 

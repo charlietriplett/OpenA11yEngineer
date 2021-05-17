@@ -41,7 +41,9 @@ Some browsers require additional scripting. This simple example [may not work co
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/modal-dialog.html %}
+</example>
 {:/}
 
 ## Developer notes

@@ -35,7 +35,9 @@ This semantic HTML contains all accessibility features by default.
 {% endhighlight %}
 
 {::nomarkdown}
+<example>
 {% include /examples/progress-bar.html %}
+</example>
 {:/}
 
 
