@@ -45,8 +45,9 @@ This semantic HTML contains all accessibility features by default.
 </example>
 {:/}
 
-### Avoid custom elements
-This custom button requires extra work for roving tabindex and event listeners.
+### When you can't use semantic HTML
+
+This custom button requires extra scripting work for roving tabindex and event listeners.
 
 {% highlight html %}
 <custom-label id="labelId">

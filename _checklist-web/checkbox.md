@@ -44,7 +44,8 @@ This semantic HTML contains all accessibility features by default.
 
 {:/}
 
-### Avoid custom elements
+### When you can't use semantic HTML
+
 This custom checkbox requires extra attributes and event listeners.
 
 {% highlight html %}

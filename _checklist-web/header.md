@@ -31,6 +31,7 @@ screenreader:
 ## Code examples
 
 ### Use semantic HTML
+
 This semantic HTML contains all accessibility features by default.
 
 {% highlight html %}
@@ -39,7 +40,8 @@ This semantic HTML contains all accessibility features by default.
 </header>
 {% endhighlight %}
 
-### Avoid custom elements
+### When you can't use semantic HTML
+
 This custom header requires extra attributes.
 
 {% highlight html %}

@@ -31,6 +31,7 @@ screenreader:
 ## Code examples
 
 ### Use as much semantic HTML as possible
+
 This semantic HTML contains all accessibility features by default, and only requires the addition of `role="switch"`. 
 
 {% highlight html %}
@@ -44,6 +45,7 @@ This semantic HTML contains all accessibility features by default, and only requ
 {:/}
 
 ### You can also use a button
+
 This `<button>` toggle has focus and keyboard criteria built in. It requires the addition of `role="switch"` and scripting to toggle `aria-checked="true/false"`.
 
 {% highlight html %}
@@ -54,7 +56,8 @@ This `<button>` toggle has focus and keyboard criteria built in. It requires the
 
 
 
-### Avoid custom elements
+### When you can't use semantic HTML
+
 This custom switch requires extra attributes and keyboard event listeners.
 
 {% highlight html %}

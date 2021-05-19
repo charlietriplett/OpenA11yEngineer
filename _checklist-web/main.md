@@ -28,6 +28,7 @@ screenreader:
 ## Code examples
 
 ### Use semantic HTML
+
 This semantic HTML contains all accessibility features by default.
 
 
@@ -40,7 +41,8 @@ This semantic HTML contains all accessibility features by default.
 {:/}
 
 
-### Avoid custom elements
+### When you can't use semantic HTML
+
 This custom main element requires extra attributes.
 
 {% highlight html %}

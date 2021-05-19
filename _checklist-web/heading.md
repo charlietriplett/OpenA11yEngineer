@@ -34,7 +34,8 @@ This semantic HTML contains all accessibility features by default.
 </h1>
 {% endhighlight %}
 
-### Avoid custom elements
+### When you can't use semantic HTML
+
 This custom header requires extra attributes.
 
 {% highlight html %}

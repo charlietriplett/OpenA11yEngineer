@@ -31,6 +31,7 @@ screenreader:
 ## Code examples
 
 ### Use semantic HTML
+
 This semantic HTML contains all accessibility features by default.
 
 {% highlight html %}
@@ -41,7 +42,8 @@ This semantic HTML contains all accessibility features by default.
 {% include /examples/footer.html %}
 {:/}
 
-### Avoid custom elements
+### When you can't use semantic HTML
+
 This custom footer requires extra attributes.
 
 {% highlight html %}

@@ -56,7 +56,7 @@ This semantic HTML contains all accessibility features by default.
 </example>
 {:/}
 
-## Focusable disabled button
+### Focusable disabled button
 
 The preferred method is to use `aria-disabled="true"` so screen reader users can find the button, click submit and be notified of errors in the form.
 
@@ -70,7 +70,7 @@ The preferred method is to use `aria-disabled="true"` so screen reader users can
 </example>
 {:/}
 
-## Fully disabled button
+### Fully disabled button
 
 A button that uses the disabled attribute will not be focusable, but it is still discoverable by the screen reader while browsing.
 
@@ -86,8 +86,9 @@ A button that uses the disabled attribute will not be focusable, but it is still
 {:/}
 
 
-### Avoid custom elements
-This custom button requires extra attributes and event listeners.
+### When you can't use semantic HTML
+
+This custom button requires extra attributes and JS event listeners. Adding `tabindex="0"` makes it focusable.
 
 {% highlight html %}
 <div role="button" tabindex="0">
@@ -95,11 +96,13 @@ This custom button requires extra attributes and event listeners.
 </div>
 {% endhighlight %}
 
+### When there is no inner text
+
 As a last resort, `aria-label` can be used.
 
 {% highlight html %}
 <div role="button" tabindex="0" aria-label="Continue">
-  <!-- icon or whatever -->
+  <!-- icon -->
 </div>
 {% endhighlight %}
 

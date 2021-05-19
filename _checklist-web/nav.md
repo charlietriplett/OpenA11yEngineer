@@ -30,6 +30,7 @@ screenreader:
 ## Code examples
 
 ### Use semantic HTML
+
 This semantic HTML contains all accessibility features by default.
 
 {% highlight html %}
@@ -41,6 +42,7 @@ This semantic HTML contains all accessibility features by default.
 {:/}
 
 ## Keep custom menus as simple as possible
+
 Use semantic elements where possible.
 
 {% highlight html %}
@@ -53,7 +55,8 @@ Use semantic elements where possible.
 
 
 
-### Avoid custom elements
+### When you can't use semantic HTML
+
 This custom navigation requires extra attributes.
 
 {% highlight html %}
