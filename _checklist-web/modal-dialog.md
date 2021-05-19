@@ -12,11 +12,13 @@ keyboard:
     Any buttons are activated
   enter: |
     Any buttons or links are activated
+
 mobile:
   swipe: |
     Focus moves within the dialog and doesn't enter the rest of the page.
   doubletap: |
     This typically activates most elements.
+
 screenreader:
   name:  |
     The dialog describes its purpose or title on launch

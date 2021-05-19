@@ -17,8 +17,6 @@ $("#show-alert").click(function() {
     $('[role="alert"]').toggleClass('visible')
 });
 
-
-
 $("#show-password").on('change', function() {
     if($(this).is(":checked")) {
         $('#password').attr('type', 'text')
@@ -26,7 +24,6 @@ $("#show-password").on('change', function() {
         $('#password').attr('type', 'password')
     }
 });
-
 
 // Dialog support
 var isDialogSupported = true;
@@ -40,7 +37,6 @@ showModal.onclick = () => {
         modal.showModal();
     } else {
         modal.setAttribute("open", "");
-        $('#pageContainer').css('display','none');
     }
     //   Focus first input when dialog opens
     modal.focus();
@@ -51,7 +47,6 @@ closeModal.onclick = () => {
         modal.close();
     } else {
         modal.removeAttribute("open", "");
-        $('#pageContainer').css('display','block');
     }
     setTimeout(function(){
         showModal.focus();
@@ -64,7 +59,6 @@ $(document).keydown(function (e) {
             modal.close();
         } else {
             modal.removeAttribute("open", "");
-            $('#pageContainer').css('display','block');
         }
         setTimeout(function(){
             showModal.focus();
