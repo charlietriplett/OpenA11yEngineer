@@ -2,7 +2,7 @@
 layout: entry
 title:  "Skip links"
 categories: html
-order: 3
+order: 1
 
 keyboard:
   skip-links: |

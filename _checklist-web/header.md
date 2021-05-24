@@ -2,7 +2,7 @@
 layout: entry
 title:  "Header / banner"
 categories: header html
-order: 1
+order: 2
 
 keyboard:
   skip-links: |
