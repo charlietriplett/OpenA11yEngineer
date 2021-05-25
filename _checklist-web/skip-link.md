@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Skip links"
+title:  "Skip link"
 categories: html
 order: 1
 
