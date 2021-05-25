@@ -90,23 +90,3 @@ This custom main element requires extra attributes.
   <p>The main content of the page belongs here.</p>
 </div>
 {% endhighlight %}
-
-#a11y - Web Accessibility Acceptance Criteria
-
-How to test a web page html
-
-Keyboard actions
-- Tab: Enters the page and focuses only interactive elements
-- Cntrl +/-: Zooms in/out of the page
-
-Mobile screenreader gestures
-- Swipe: Focus moves within page
-- Pinch: Page zooms in/out
-
-Screenreader output
-- Name: The web page has a unique title
-- Role: n/a
-- Group: Contains discoverable landmarks: header, nav, main and footer landmarks
-- State: n/a
-
-Full information: https://www.a11yengineer.com/checklist-web/html/
