@@ -29,16 +29,15 @@ screenreader:
 
 This website contains working skip links. Try them out.
 
-
 ## Developer notes
 
 ### Group
 
-- Should be the first elements in the page
+- Skip links should be the first elements in the page
 
 ### Focus
 
-- Landmarks san be targeted with a skip link, but isn't focusable with the tab key
+- Landmarks can be targeted with a skip link, but isn't focusable with the tab key
 - Use `tabindex="-1"` to make the main targetable with a skip link.
 
 
