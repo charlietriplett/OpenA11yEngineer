@@ -37,7 +37,7 @@ This website contains working skip links. Try them out.
 
 ### Focus
 
-- Landmarks can be targeted with a skip link, but isn't focusable with the tab key
+- Landmarks and other elements can be targeted with a skip link, but aren't individually focusable with the tab key
 - Use `tabindex="-1"` to make the main targetable with a skip link.
 
 
