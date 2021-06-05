@@ -9,7 +9,7 @@ keyboard:
     
 mobile:
   swipe: |
-      The screenreader reads the a and its level
+      Focus does not move to the alert when it appears, but it can be perceived by the screen reader
 
 screenreader:  
   name:  |
