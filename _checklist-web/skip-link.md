@@ -5,8 +5,10 @@ categories: html
 order: 1
 
 keyboard:
-  skip-links: |
-    Focus moves directly to the landmark
+  tab: |
+    Focus moves to the skip link
+  enter: |
+    Activates the link, focus/tabindex moves directly to the landmark
   tab: |
     Links and buttons within the landmark are focusable
       
