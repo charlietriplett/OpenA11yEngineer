@@ -16,32 +16,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/assets/scripts/index.js"></script>
     <script>
-      $("input").on('input',function(e){
-        var arr = [];
+      $("input[type='checkbox']").change(function() {
+          var arr = [];
           arr.push([ '#a11y - {{ page.url | replace: '/', '' | capitalize }} Accessibility Acceptance Criteria' ]);
-
-        $("input[type='text']").each(function(){
-            var $text = $(this).val;
-            // arr.push([ $this.data('title'), $this.data('success-criteria'), $this.data('keyboard-support'), ]);
-            arr.push([ $text ]);
-            console.log($text.val)
-        });
-
-        $("input[type='checkbox']:checked").each(function(){
+          $("input[type='checkbox']:checked").each(function(){
               var $this = $(this);
               // arr.push([ $this.data('title'), $this.data('success-criteria'), $this.data('keyboard-support'), ]);
-            // arr.push([ $this.data('success-criteria') ]);
-
-
+              arr.push([ $this.data('success-criteria') ]);
           });
-
           var textarea = document.getElementById("criteria-area");
-
-
           textarea.value = arr.join("\n");
           console.log(arr);
       });
-
 
 
       $("#copy").click(function(){
