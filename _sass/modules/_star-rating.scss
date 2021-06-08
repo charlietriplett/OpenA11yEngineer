@@ -52,7 +52,7 @@ input[type="radio"].star {
   + label {
     height: 4rem;
     padding: 0;
-    @include ripple(#fff, lighten($color-gold,20), center, center);
+    @include ripple(#fff, $color-gray-light, center, center);
     &:before {
       left: calc(50% - 1rem);
       border: none;
