@@ -6,7 +6,7 @@ categories: main form
 keyboard:
   keyboard: |
     Focus does not move to the alert when it appears
-    
+
 mobile:
   swipe: |
       Focus does not move to the alert when it appears, but it can be perceived by the screen reader

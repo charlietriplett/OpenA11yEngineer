@@ -28,9 +28,6 @@ screenreader:
       Expresses its state (selected, checked, disabled)
 ---
 
-## Developer notes
-
-
 ## Code examples
 
 ### As radio group
