@@ -8,14 +8,10 @@ keyboard:
   tab: |
     Focus moves to the skip link
   enter: |
-    Activates the link, focus/tabindex moves directly to the landmark
-  tab: |
-    Links and buttons within the landmark are focusable
-      
+    Activates the link, focus/tabindex moves directly to the landmark     
 mobile:
   swipe: |
     Focus moves within landmark
-
 screenreader:
   name:  |
     Describes which landmark it's targeting
