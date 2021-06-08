@@ -27,7 +27,17 @@ screenreader:
 
 ## Code examples
 
-This website contains working skip links. Try them out.
+{% highlight html %}
+{% include /examples/main.html %}
+{% endhighlight %}
+
+{::nomarkdown}
+<example>
+{% include /examples/main.html %}
+</example>
+{:/}
+
+
 
 ## Developer notes
 
