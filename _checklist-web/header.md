@@ -9,8 +9,7 @@ keyboard:
     Focus moves directly to the header
   tab: |
     Links and buttons within the header are focusable
-    
-     
+
 mobile:
   swipe: |
     Focus moves within the dialog and doesn't enter the rest of the page.
