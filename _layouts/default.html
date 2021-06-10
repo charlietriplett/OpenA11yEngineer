@@ -16,17 +16,46 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/assets/scripts/index.js"></script>
     <script>
-      $("input[type='checkbox']").change(function() {
-          var arr = [];
-          arr.push([ '#a11y - {{ page.url | replace: '/', '' | capitalize }} Accessibility Acceptance Criteria' ]);
-          $("input[type='checkbox']:checked").each(function(){
-              var $this = $(this);
-              // arr.push([ $this.data('title'), $this.data('success-criteria'), $this.data('keyboard-support'), ]);
-              arr.push([ $this.data('success-criteria') ]);
-          });
-          var textarea = document.getElementById("criteria-area");
-          textarea.value = arr.join("\n");
-          console.log(arr);
+      $("input, #wrong, #problem, #fix").on('input',function(e){
+        var arr = [];
+        arr.push([ '#a11y - {{ page.url | replace: '/', '' | capitalize }} Accessibility Acceptance Criteria' ]);
+
+        if($('#uri').val() != '') {
+            arr.push([ $('label[for="uri"]').html() ]);
+            arr.push([ $('#uri').val() ]);
+        }
+
+        if($('#screenshot').val() != '') {
+            arr.push([ $('label[for="screenshot"]').html() ]);
+            arr.push([ $('#screenshot').val() ]);
+        }
+
+        if($('#wrong').val() != '') {
+            arr.push([ $('label[for="wrong"]').html() ]);
+            arr.push([ $('#wrong').val() ]);
+            arr.push([ "TEST" ]);
+        }
+
+        if($('#problem').val() != '') {
+            arr.push([ $('label[for="problem"]').html() ]);
+            arr.push([ $('#problem').val() ]);
+        }
+
+        if($('#fix').val() != '') {
+            arr.push([ $('label[for="fix"]').html() ]);
+            arr.push([ $('#fix').val() ]);
+        }
+
+        $("input[type='checkbox']:checked").each(function(){
+            // arr.push([ $this.data('title'), $this.data('success-criteria'), $this.data('keyboard-support'), ]);
+            arr.push([ $(this).data('content') ]);
+        });
+
+        var textarea = document.getElementById("criteria-area");
+
+        textarea.value = arr.join("\n");
+
+        console.log(arr);
       });
 
 

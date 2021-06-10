@@ -22,8 +22,8 @@ layout: default
         <label for="screenshot">Screenshot</label>
         <input type="text" id="screenshot">
 
-        <label for="whats-wrong">What's wrong</label>
-        <textarea id="whats-wrong"></textarea>
+        <label for="wrong">What's wrong</label>
+        <textarea id="wrong"></textarea>
 
         <label for="problem">Why it's a problem</label>
         <textarea id="problem"></textarea>
@@ -38,41 +38,39 @@ layout: default
 
       <fieldset>
         <legend>Platform</legend>
-        <input type="checkbox" id="ios" name="screenreader">
+        <input type="checkbox" id="ios" data-group="platform" data-content="Reproduce with iOS">
         <label for="ios">iOS</label>
 
-        <input type="checkbox" id="android" name="screenreader">
+        <input type="checkbox" id="android" data-group="platform" data-content="Reproduce with Android">
         <label for="android">Android</label>
 
-        <input type="checkbox" id="windows" name="screenreader">
+        <input type="checkbox" id="windows" data-group="platform" data-content="Reproduce with Windows">
         <label for="windows">Windows</label>
 
-        <input type="checkbox" id="macos" name="screenreader">
+        <input type="checkbox" id="macos" data-group="platform" data-content="Reproduce with MacOS">
         <label for="macos">MacOS</label>
       </fieldset>
 
 
       <fieldset>
         <legend>Assisitve technology</legend>
-        <input type="checkbox" id="keyboard" name="screenreader">
+        <input type="checkbox" id="keyboard" data-group="technology" data-content="Reproduce with Keyboard">
         <label for="keyboard">Keyboard</label>
 
-
-        <input type="checkbox" id="voiceover" name="screenreader">
+        <input type="checkbox" id="voiceover" data-group="technology" data-content="Reproduce with Voiceover">
         <label for="voiceover">Voiceover</label>
 
-        <input type="checkbox" id="talkback" name="screenreader">
+        <input type="checkbox" id="talkback" data-group="technology"data-content="Reproduce with Talback">
         <label for="talkback">Talback</label>
 
-        <input type="checkbox" id="nvda" name="screenreader">
+        <input type="checkbox" id="nvda" data-group="technology" data-content="Reproduce with NVDA">
         <label for="nvda">NVDA</label>
 
-        <input type="checkbox" id="jaws" name="screenreader">
+        <input type="checkbox" id="jaws" data-group="technology" data-content="Reproduce with JAWS">
         <label for="jaws">JAWS</label>
       </fieldset>
 
       <h2 class="h-bravo">Validation test</h2>
-
 
       {% assign ordered_pages = site.checklist-web | sort: "title" | sort: "order" %}
       {% assign categories =  ordered_pages | map: 'categories' | join: ','  | split: ',' | uniq  %}
