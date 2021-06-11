@@ -8,7 +8,7 @@ keyboard:
   tab: |
     Focus moves to the skip link
   enter: |
-    Activates the link, focus/tabindex moves directly to the landmark     
+    Activates the link, focus/tabindex moves directly to the targeted element     
 mobile:
   swipe: |
     Focus moves within landmark
@@ -41,11 +41,11 @@ screenreader:
 
 ### Group
 
-- Skip links should be the first elements in the page
+- Skip links should be the first perceivable elements in the page
 
 ### Focus
 
 - Landmarks and other elements can be targeted with a skip link, but aren't individually focusable with the tab key
-- Use `tabindex="-1"` to make the main targetable with a skip link.
+- Use `tabindex="-1"` to make the target focusable with a skip link.
 
 
