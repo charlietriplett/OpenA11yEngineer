@@ -49,7 +49,7 @@ If the URL changes, your page needs a title unique to that page in the experienc
 
 {% highlight html %}
 <head>
-  <title>Page title - Site name</title>
+  <title>Page title</title>
 </head>
 {% endhighlight %}
 

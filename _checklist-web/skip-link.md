@@ -47,5 +47,3 @@ screenreader:
 
 - Landmarks and other elements can be targeted with a skip link, but aren't individually focusable with the tab key
 - Use `tabindex="-1"` to make the target focusable with a skip link.
-
-
