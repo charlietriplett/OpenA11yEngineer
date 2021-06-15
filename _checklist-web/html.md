@@ -6,7 +6,7 @@ order: 0
 
 keyboard:
   tab: |
-    Enters the page and focuses only interactive elements
+    Enters the page and visibly focuses only interactive elements
   zoom: |
     Content zooms up to 200%
 
