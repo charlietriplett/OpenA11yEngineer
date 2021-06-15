@@ -64,7 +64,15 @@ If the URL changes, your page needs a title unique to that page in the experienc
 {% endhighlight %}
 
 ### Structure your page with landmarks
-This semantic HTML contains all accessibility features by default.
+
+Landmarks give structure to the page for the screenreader user to be able to navigate the page by major sections.
+
+Each page should include:
+
+- [Header](/checklist-web/header/)
+- [Nav](/checklist-web/nav/)
+- [Main](/checklist-web/footer/)
+- [Footer](/checklist-web/footer/)
 
 {% highlight html %}
 <header>
