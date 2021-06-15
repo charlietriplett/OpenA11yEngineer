@@ -80,13 +80,3 @@ This semantic HTML contains all accessibility features by default.
   <!--  Site map and legal info -->
 </footer>
 {% endhighlight %}
-
-### Avoid custom elements
-This custom main element requires extra attributes.
-
-{% highlight html %}
-<div role="main"> 
-  <h1>About our company</h1>
-  <p>The main content of the page belongs here.</p>
-</div>
-{% endhighlight %}
