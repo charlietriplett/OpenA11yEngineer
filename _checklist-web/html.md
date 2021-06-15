@@ -1,6 +1,6 @@
 ---
 layout: entry
-title:  "Web page HTML"
+title:  "Basic web page"
 categories: html
 order: 0
 
