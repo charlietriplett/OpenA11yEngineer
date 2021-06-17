@@ -2,6 +2,11 @@
 document.addEventListener("touchstart", function(){}, true);
 
 
+$("#copy").click(function(){
+    $("#criteria-area").select();
+    document.execCommand('copy');
+});
+
 // Expander toggle
 $( ".expander-toggle" ).click(function() {
     if( $(this).attr('aria-expanded') == 'false' ) {
@@ -9,6 +14,9 @@ $( ".expander-toggle" ).click(function() {
     } else if( $(this).attr('aria-expanded') == 'true' ) {
         $(this).attr('aria-expanded', 'false').next(".expander-content" ).removeClass('visible').attr('aria-hidden', 'true');
     }
+});
+$('input[inputmode="numeric"]').on('input',function(e) {
+    this.value=this.value.replace(/[^\d]/,'');
 });
 
 
@@ -32,29 +40,18 @@ if (!window.HTMLDialogElement) {
     isDialogSupported = false;
 }
 
-showModal.onclick = () => {
-    if (isDialogSupported) {
-        modal.showModal();
-    } else {
-        modal.setAttribute("open", "");
-    }
-    //   Focus first input when dialog opens
-    modal.focus();
-};
+if ( $('dialog').length ) {
+    showModal.onclick = () => {
+        if (isDialogSupported) {
+            modal.showModal();
+        } else {
+            modal.setAttribute("open", "");
+        }
+        //   Focus first input when dialog opens
+        modal.focus();
+    };
 
-closeModal.onclick = () => {
-    if (isDialogSupported) {
-        modal.close();
-    } else {
-        modal.removeAttribute("open", "");
-    }
-    setTimeout(function(){
-        showModal.focus();
-    }, 25);
-};
-
-$(document).keydown(function (e) {
-    if (e.keyCode == 27) {
+    closeModal.onclick = () => {
         if (isDialogSupported) {
             modal.close();
         } else {
@@ -63,6 +60,18 @@ $(document).keydown(function (e) {
         setTimeout(function(){
             showModal.focus();
         }, 25);
-    }
-});
+    };
 
+    $(document).keydown(function (e) {
+        if (e.keyCode == 27) {
+            if (isDialogSupported) {
+                modal.close();
+            } else {
+                modal.removeAttribute("open", "");
+            }
+            setTimeout(function(){
+                showModal.focus();
+            }, 25);
+        }
+    });
+}

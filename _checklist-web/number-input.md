@@ -25,7 +25,8 @@ screenreader:
 ## Code examples
 
 ### Use `type="text"` 
-Use `type=text` with `inputmode="numeric"` with a input pattern.
+
+Use `type=text` with `inputmode="numeric"` with an input pattern and JS to filter out non-numeric characters.
 
 ### Don't use `type="number"` 
 
