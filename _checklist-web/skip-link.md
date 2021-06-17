@@ -11,7 +11,10 @@ keyboard:
     Activates the link, focus/tabindex moves directly to the targeted element     
 mobile:
   swipe: |
-    Focus moves within landmark
+    Focus moves to the skip link
+  doubletap:
+    Activates the link, focus/tabindex moves directly to the targeted element
+
 screenreader:
   name:  |
     Describes which landmark it's targeting
