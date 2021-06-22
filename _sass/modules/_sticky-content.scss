@@ -19,4 +19,10 @@
     margin: 0 1rem 0 0 !important;
     display: inline-block;
   }
+  &.top {
+    bottom: auto !important;
+    top: 0px !important;
+
+  }
+
 }
