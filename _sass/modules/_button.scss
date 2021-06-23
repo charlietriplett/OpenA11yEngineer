@@ -52,7 +52,7 @@ button {
   &.secondary {
     @extend .button;
     text-decoration: none;
-    background: transparent;
+    background-color: transparent;
     color: $color-text-color;
     border: 2px solid $color-gray-dark;
     &:before {
@@ -60,7 +60,7 @@ button {
     }
     &:hover,
     &:focus {
-      background: #fff;
+      background: $color-gray-light;
     }
   }
 }

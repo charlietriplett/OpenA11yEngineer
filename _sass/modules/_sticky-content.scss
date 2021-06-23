@@ -4,8 +4,11 @@
   border-radius: 2px;
   box-shadow: 0 0 3px 1px rgba(#000, .1);
   * {
-    margin: 0 1rem 0 0 !important;
+    margin: 0 !important;
     display: inline-block;
+  }
+  button {
+    margin-right: 1rem !important;
   }
   p {
     padding-bottom: 0;
