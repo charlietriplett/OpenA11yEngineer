@@ -33,8 +33,8 @@ mobile:
 ## Developer notes
 
 ### Animations (like gifs) can be accessible if:
-- they are set to stop after 5 seconds or 
-- if users are presented with a way to pause it
+- it stops after 5 seconds or 
+- if people can pause it
 
 ## Code examples
 
